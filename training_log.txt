@@ -220,3 +220,186 @@
 [2024-08-09 22:14:54] Epoch 42/50, Validation Loss: 0.2890, Validation Accuracy: 91.29%
 [2024-08-09 22:17:36] Epoch 43/50, Training Loss: 0.2779, Training Accuracy: 91.38%
 [2024-08-09 22:17:47] Training complete.
+[2024-08-10 09:35:05] New training session
+[2024-08-10 09:35:05] KeywordSpottingModel(
+  (proj): Linear(in_features=13, out_features=101, bias=True)
+  (mamba): Mamba(
+    (in_proj): Linear(in_features=101, out_features=404, bias=False)
+    (conv1d): Conv1d(202, 202, kernel_size=(4,), stride=(1,), padding=(3,), groups=202)
+    (act): SiLU()
+    (x_proj): Linear(in_features=202, out_features=39, bias=False)
+    (dt_proj): Linear(in_features=7, out_features=202, bias=True)
+    (out_proj): Linear(in_features=202, out_features=101, bias=False)
+  )
+  (mamba2): Mamba(
+    (in_proj): Linear(in_features=202, out_features=1616, bias=False)
+    (conv1d): Conv1d(808, 808, kernel_size=(8,), stride=(1,), padding=(7,), groups=808)
+    (act): SiLU()
+    (x_proj): Linear(in_features=808, out_features=77, bias=False)
+    (dt_proj): Linear(in_features=13, out_features=808, bias=True)
+    (out_proj): Linear(in_features=808, out_features=202, bias=False)
+  )
+  (fc): Linear(in_features=101, out_features=12, bias=True)
+  (dropout): Dropout(p=0.3, inplace=False)
+)
+[2024-08-10 09:35:51] New training session
+[2024-08-10 09:35:51] KeywordSpottingModel(
+  (proj): Linear(in_features=13, out_features=101, bias=True)
+  (mamba): Mamba(
+    (in_proj): Linear(in_features=101, out_features=404, bias=False)
+    (conv1d): Conv1d(202, 202, kernel_size=(4,), stride=(1,), padding=(3,), groups=202)
+    (act): SiLU()
+    (x_proj): Linear(in_features=202, out_features=39, bias=False)
+    (dt_proj): Linear(in_features=7, out_features=202, bias=True)
+    (out_proj): Linear(in_features=202, out_features=101, bias=False)
+  )
+  (mamba2): Mamba(
+    (in_proj): Linear(in_features=101, out_features=808, bias=False)
+    (conv1d): Conv1d(404, 404, kernel_size=(4,), stride=(1,), padding=(3,), groups=404)
+    (act): SiLU()
+    (x_proj): Linear(in_features=404, out_features=39, bias=False)
+    (dt_proj): Linear(in_features=7, out_features=404, bias=True)
+    (out_proj): Linear(in_features=404, out_features=101, bias=False)
+  )
+  (fc): Linear(in_features=101, out_features=12, bias=True)
+  (dropout): Dropout(p=0.3, inplace=False)
+)
+[2024-08-10 09:36:44] New training session
+[2024-08-10 09:36:44] KeywordSpottingModel(
+  (proj): Linear(in_features=13, out_features=101, bias=True)
+  (mamba): Mamba(
+    (in_proj): Linear(in_features=101, out_features=404, bias=False)
+    (conv1d): Conv1d(202, 202, kernel_size=(4,), stride=(1,), padding=(3,), groups=202)
+    (act): SiLU()
+    (x_proj): Linear(in_features=202, out_features=39, bias=False)
+    (dt_proj): Linear(in_features=7, out_features=202, bias=True)
+    (out_proj): Linear(in_features=202, out_features=101, bias=False)
+  )
+  (mamba2): Mamba(
+    (in_proj): Linear(in_features=101, out_features=808, bias=False)
+    (conv1d): Conv1d(404, 404, kernel_size=(4,), stride=(1,), padding=(3,), groups=404)
+    (act): SiLU()
+    (x_proj): Linear(in_features=404, out_features=39, bias=False)
+    (dt_proj): Linear(in_features=7, out_features=404, bias=True)
+    (out_proj): Linear(in_features=404, out_features=101, bias=False)
+  )
+  (fc): Linear(in_features=101, out_features=12, bias=True)
+  (dropout): Dropout(p=0.3, inplace=False)
+)
+[2024-08-10 09:39:57] Epoch 1/50, Training Loss: 7180141852624094077386752.0000, Training Accuracy: 6.05%
+[2024-08-10 09:40:14] Epoch 1/50, Validation Loss: 12718400617905103701016576.0000, Validation Accuracy: 6.37%
+[2024-08-10 09:43:27] Epoch 2/50, Training Loss: 6200177145810111302729728.0000, Training Accuracy: 6.02%
+[2024-08-10 09:48:15] New training session
+[2024-08-10 09:48:15] KeywordSpottingModel(
+  (proj): Linear(in_features=13, out_features=101, bias=True)
+  (mamba): Mamba(
+    (in_proj): Linear(in_features=101, out_features=404, bias=False)
+    (conv1d): Conv1d(202, 202, kernel_size=(4,), stride=(1,), padding=(3,), groups=202)
+    (act): SiLU()
+    (x_proj): Linear(in_features=202, out_features=39, bias=False)
+    (dt_proj): Linear(in_features=7, out_features=202, bias=True)
+    (out_proj): Linear(in_features=202, out_features=101, bias=False)
+  )
+  (mamba2): Mamba(
+    (in_proj): Linear(in_features=101, out_features=808, bias=False)
+    (conv1d): Conv1d(404, 404, kernel_size=(4,), stride=(1,), padding=(3,), groups=404)
+    (act): SiLU()
+    (x_proj): Linear(in_features=404, out_features=39, bias=False)
+    (dt_proj): Linear(in_features=7, out_features=404, bias=True)
+    (out_proj): Linear(in_features=404, out_features=101, bias=False)
+  )
+  (fc): Linear(in_features=101, out_features=12, bias=True)
+  (dropout): Dropout(p=0.3, inplace=False)
+)
+[2024-08-10 09:51:48] Epoch 1/50, Training Loss: 5.1019, Training Accuracy: 60.58%
+[2024-08-10 14:03:48] New training session
+[2024-08-10 14:03:48] KeywordSpottingModel(
+  (proj): Linear(in_features=13, out_features=101, bias=True)
+  (mamba): Mamba(
+    (in_proj): Linear(in_features=101, out_features=404, bias=False)
+    (conv1d): Conv1d(202, 202, kernel_size=(4,), stride=(1,), padding=(3,), groups=202)
+    (act): SiLU()
+    (x_proj): Linear(in_features=202, out_features=39, bias=False)
+    (dt_proj): Linear(in_features=7, out_features=202, bias=True)
+    (out_proj): Linear(in_features=202, out_features=101, bias=False)
+  )
+  (mamba2): Mamba(
+    (in_proj): Linear(in_features=101, out_features=808, bias=False)
+    (conv1d): Conv1d(404, 404, kernel_size=(4,), stride=(1,), padding=(3,), groups=404)
+    (act): SiLU()
+    (x_proj): Linear(in_features=404, out_features=39, bias=False)
+    (dt_proj): Linear(in_features=7, out_features=404, bias=True)
+    (out_proj): Linear(in_features=404, out_features=101, bias=False)
+  )
+  (fc): Linear(in_features=101, out_features=12, bias=True)
+  (dropout): Dropout(p=0.3, inplace=False)
+)
+[2024-08-10 14:05:38] New training session
+[2024-08-10 14:05:38] KeywordSpottingModel(
+  (proj): Linear(in_features=13, out_features=101, bias=True)
+  (mamba): Mamba(
+    (in_proj): Linear(in_features=101, out_features=404, bias=False)
+    (conv1d): Conv1d(202, 202, kernel_size=(4,), stride=(1,), padding=(3,), groups=202)
+    (act): SiLU()
+    (x_proj): Linear(in_features=202, out_features=39, bias=False)
+    (dt_proj): Linear(in_features=7, out_features=202, bias=True)
+    (out_proj): Linear(in_features=202, out_features=101, bias=False)
+  )
+  (fc): Linear(in_features=101, out_features=12, bias=True)
+  (dropout): Dropout(p=0.3, inplace=False)
+)
+[2024-08-10 14:06:14] New training session
+[2024-08-10 14:06:14] KeywordSpottingModel(
+  (proj): Linear(in_features=13, out_features=101, bias=True)
+  (mamba): Mamba(
+    (in_proj): Linear(in_features=101, out_features=404, bias=False)
+    (conv1d): Conv1d(202, 202, kernel_size=(4,), stride=(1,), padding=(3,), groups=202)
+    (act): SiLU()
+    (x_proj): Linear(in_features=202, out_features=39, bias=False)
+    (dt_proj): Linear(in_features=7, out_features=202, bias=True)
+    (out_proj): Linear(in_features=202, out_features=101, bias=False)
+  )
+  (fc): Linear(in_features=101, out_features=12, bias=True)
+  (dropout): Dropout(p=0.5, inplace=False)
+)
+[2024-08-10 14:09:42] Epoch 1/50, Training Loss: 10.9751, Training Accuracy: 55.65%
+[2024-08-10 17:51:09] 
+
+New training session
+
+
+[2024-08-10 17:51:09] KeywordSpottingModel(
+  (proj): Linear(in_features=13, out_features=101, bias=True)
+  (mamba): Mamba(
+    (in_proj): Linear(in_features=101, out_features=404, bias=False)
+    (conv1d): Conv1d(202, 202, kernel_size=(4,), stride=(1,), padding=(3,), groups=202)
+    (act): SiLU()
+    (x_proj): Linear(in_features=202, out_features=39, bias=False)
+    (dt_proj): Linear(in_features=7, out_features=202, bias=True)
+    (out_proj): Linear(in_features=202, out_features=101, bias=False)
+  )
+  (fc): Linear(in_features=101, out_features=12, bias=True)
+  (dropout): Dropout(p=0.5, inplace=False)
+)
+[2024-08-10 17:54:24] Epoch 1/50, Training Loss: 9.1967, Training Accuracy: 56.57%
+[2024-08-10 17:54:40] Epoch 1/50, Validation Loss: 1.3627, Validation Accuracy: 63.37%
+[2024-08-10 17:57:10] Epoch 2/50, Training Loss: 1.1304, Training Accuracy: 67.43%
+[2024-08-10 17:57:21] Epoch 2/50, Validation Loss: 0.8194, Validation Accuracy: 73.66%
+[2024-08-10 17:59:43] Epoch 3/50, Training Loss: 0.6974, Training Accuracy: 78.07%
+[2024-08-10 17:59:53] Epoch 3/50, Validation Loss: 0.5355, Validation Accuracy: 82.82%
+[2024-08-10 18:02:37] Epoch 4/50, Training Loss: 0.5461, Training Accuracy: 82.75%
+[2024-08-10 18:02:48] Epoch 4/50, Validation Loss: 0.4559, Validation Accuracy: 85.11%
+[2024-08-10 18:05:31] Epoch 5/50, Training Loss: 0.4789, Training Accuracy: 84.94%
+[2024-08-10 18:05:43] Epoch 5/50, Validation Loss: 0.4272, Validation Accuracy: 86.56%
+[2024-08-10 18:08:26] Epoch 6/50, Training Loss: 0.4293, Training Accuracy: 86.53%
+[2024-08-10 18:08:37] Epoch 6/50, Validation Loss: 0.5392, Validation Accuracy: 85.55%
+[2024-08-10 18:11:22] Epoch 7/50, Training Loss: 0.4013, Training Accuracy: 87.47%
+[2024-08-10 18:11:32] Epoch 7/50, Validation Loss: 0.3819, Validation Accuracy: 88.50%
+[2024-08-10 18:14:17] Epoch 8/50, Training Loss: 0.3764, Training Accuracy: 88.21%
+[2024-08-10 18:14:27] Epoch 8/50, Validation Loss: 0.3579, Validation Accuracy: 88.89%
+[2024-08-10 18:17:12] Epoch 9/50, Training Loss: 0.3604, Training Accuracy: 88.71%
+[2024-08-10 18:17:22] Epoch 9/50, Validation Loss: 0.3774, Validation Accuracy: 88.67%
+[2024-08-10 18:20:08] Epoch 10/50, Training Loss: 0.3437, Training Accuracy: 89.24%
+[2024-08-10 18:20:18] Epoch 10/50, Validation Loss: 0.3994, Validation Accuracy: 88.13%
+[2024-08-10 18:23:01] Epoch 11/50, Training Loss: 0.3359, Training Accuracy: 89.44%
+[2024-08-10 18:23:11] Epoch 11/50, Validation Loss: 0.3590, Validation Accuracy: 88.98%
