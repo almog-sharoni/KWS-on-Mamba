@@ -4,7 +4,7 @@ from tqdm import tqdm
 
 def trainig_loop(model, num_epochs, train_loader, val_loader, criterion, optimizer, scheduler):
     # Initialize the early stopping object
-    early_stopping = EarlyStopping(patience=5, min_delta=0.001)
+    early_stopping = EarlyStopping(patience=6, min_delta=0.001)
 
     # Training loop
     num_epochs = num_epochs

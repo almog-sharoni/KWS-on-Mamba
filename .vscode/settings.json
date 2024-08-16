@@ -2,4 +2,10 @@
     "python.analysis.typeCheckingMode": "off",
     "python.analysis.autoImportCompletions": false,
     "python.languageServer": "Pylance",
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.analysis.indexing": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    },
+    "files.autoSave": "onFocusChange"
 }
