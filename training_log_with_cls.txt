@@ -1,0 +1,87 @@
+[2024-08-23 15:42:03] 
+
+New training session
+
+
+[2024-08-23 15:42:03] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=13, out_features=102, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=102, out_features=408, bias=False)
+      (conv1d): Conv1d(204, 204, kernel_size=(32,), stride=(1,), padding=(31,), groups=204)
+      (act): SiLU()
+      (x_proj): Linear(in_features=204, out_features=39, bias=False)
+      (dt_proj): Linear(in_features=7, out_features=204, bias=True)
+      (out_proj): Linear(in_features=204, out_features=102, bias=False)
+    )
+  )
+  (batch_norms): ModuleList(
+    (0): BatchNorm1d(102, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (fc): Linear(in_features=102, out_features=12, bias=True)
+  (dropout): Dropout(p=0.5, inplace=False)
+)
+[2024-08-23 15:44:55] Epoch 1/100, Training Loss: 1.3468, Training Accuracy: 40.30%
+[2024-08-23 15:45:16] Epoch 1/100, Validation Loss: 1.5761, Validation Accuracy: 33.19%
+[2024-08-23 15:48:01] Epoch 2/100, Training Loss: 1.6751, Training Accuracy: 27.21%
+[2024-08-23 15:48:14] Epoch 2/100, Validation Loss: 2.1808, Validation Accuracy: 11.93%
+[2024-08-23 15:50:28] Epoch 3/100, Training Loss: 2.2196, Training Accuracy: 11.40%
+[2024-08-23 15:50:41] Epoch 3/100, Validation Loss: 2.5964, Validation Accuracy: 3.46%
+[2024-08-23 15:52:40] 
+
+New training session
+
+
+[2024-08-23 15:52:40] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=13, out_features=102, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=102, out_features=408, bias=False)
+      (conv1d): Conv1d(204, 204, kernel_size=(4,), stride=(1,), padding=(3,), groups=204)
+      (act): SiLU()
+      (x_proj): Linear(in_features=204, out_features=39, bias=False)
+      (dt_proj): Linear(in_features=7, out_features=204, bias=True)
+      (out_proj): Linear(in_features=204, out_features=102, bias=False)
+    )
+  )
+  (batch_norms): ModuleList(
+    (0): BatchNorm1d(102, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (fc): Linear(in_features=102, out_features=12, bias=True)
+  (dropout): Dropout(p=0.5, inplace=False)
+)
+[2024-08-23 15:52:57] 
+
+New training session
+
+
+[2024-08-23 15:52:57] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=13, out_features=102, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=102, out_features=408, bias=False)
+      (conv1d): Conv1d(204, 204, kernel_size=(4,), stride=(1,), padding=(3,), groups=204)
+      (act): SiLU()
+      (x_proj): Linear(in_features=204, out_features=39, bias=False)
+      (dt_proj): Linear(in_features=7, out_features=204, bias=True)
+      (out_proj): Linear(in_features=204, out_features=102, bias=False)
+    )
+  )
+  (batch_norms): ModuleList(
+    (0): BatchNorm1d(102, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (fc): Linear(in_features=102, out_features=12, bias=True)
+  (dropout): Dropout(p=0.5, inplace=False)
+)
+[2024-08-23 15:55:27] Epoch 1/100, Training Loss: 1.1696, Training Accuracy: 46.28%
+[2024-08-23 15:55:39] Epoch 1/100, Validation Loss: 1.7167, Validation Accuracy: 57.68%
+[2024-08-23 15:57:53] Epoch 2/100, Training Loss: 1.9092, Training Accuracy: 25.00%
+[2024-08-23 15:58:06] Epoch 2/100, Validation Loss: 2.5023, Validation Accuracy: 3.46%
+[2024-08-23 16:00:27] Epoch 3/100, Training Loss: 2.4569, Training Accuracy: 10.87%
+[2024-08-23 16:00:39] Epoch 3/100, Validation Loss: 2.4967, Validation Accuracy: 3.59%
+[2024-08-23 16:03:02] Epoch 4/100, Training Loss: 2.4782, Training Accuracy: 14.59%
+[2024-08-23 16:03:15] Epoch 4/100, Validation Loss: 2.4953, Validation Accuracy: 3.93%
+[2024-08-23 16:05:06] Epoch 5/100, Training Loss: 2.4846, Training Accuracy: 16.76%
+[2024-08-23 16:05:18] Epoch 5/100, Validation Loss: 2.4945, Validation Accuracy: 3.93%
+[2024-08-23 16:07:32] Epoch 6/100, Training Loss: 2.4840, Training Accuracy: 58.49%
+[2024-08-23 16:07:47] Training complete.

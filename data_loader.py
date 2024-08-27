@@ -31,6 +31,9 @@ class TFDatasetAdapter(Dataset):
         audio, label = self.data[idx]
         audio = audio.numpy()
 
+        #convert to float
+        audio = audio.astype(np.float32)
+
         # Ensure the audio tensor has the correct shape (1D array)
         if audio.ndim > 1:
             audio = np.squeeze(audio)

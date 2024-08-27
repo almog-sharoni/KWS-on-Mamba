@@ -1,5 +1,6 @@
 import numpy as np
-
+import librosa
+import random
 
 FREQUENCY = 16000
 DURATION = 16000
@@ -23,3 +24,43 @@ def add_time_shift_noise_and_align(audio, max_shift_in_ms=100):
 def add_noise(audio, noise_level=0.005):
     noise = np.random.randn(len(audio)) * noise_level
     return audio + noise
+
+def change_pitch(audio, sample_rate=FREQUENCY, pitch_factor=0.2):
+    # Change the pitch of the audio
+    return librosa.effects.pitch_shift(y=audio, sr=sample_rate, n_steps=pitch_factor)
+
+def change_speed(audio, speed_factor=1.1):
+    # Change the speed of the audio
+    audio = librosa.effects.time_stretch(audio, rate=speed_factor)
+    
+    # Ensure the audio tensor has the correct length
+    if len(audio) > DURATION:
+        return audio[:DURATION]
+    else:
+        return np.pad(audio, (0, DURATION - len(audio)), 'constant')
+
+def add_random_volume(audio, vol_range=(0.8, 1.2)):
+    # Randomly change the volume of the audio
+    volume_change = np.random.uniform(vol_range[0], vol_range[1])
+    return audio * volume_change
+
+def apply_augmentations(audio):
+    # Apply a random selection of augmentations
+    if random.random() < 0.5:
+        audio = add_time_shift_noise_and_align(audio)
+    
+    if random.random() < 0.5:
+        audio = add_noise(audio)
+    
+    # if random.random() < 0.5:
+    #     pitch_factor = np.random.uniform(-1.0, 1.0)
+    #     audio = change_pitch(audio, pitch_factor=pitch_factor)
+    
+    # if random.random() < 0.5:
+    #     speed_factor = np.random.uniform(0.9, 1.1)
+    #     audio = change_speed(audio, speed_factor=speed_factor)
+    
+    # if random.random() < 0.5:
+    #     audio = add_random_volume(audio)
+    
+    return audio

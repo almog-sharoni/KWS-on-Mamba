@@ -4,7 +4,8 @@ import thop
 from mamba_ssm import Mamba
 from datetime import datetime
 from matplotlib import pyplot as plt
-
+from collections import Counter
+import pandas as pd
 
 
 # Function to set the memory fraction for the current process
@@ -99,6 +100,7 @@ def print_model_size(model, input_size):
         print(f"Layer: {layer}")
         print(f"Total FLOPs: {info[0]}, Total Params: {info[1]}")
         print()
+    return macs, params
 
 
 # Custom logging function to write to a text file with a timestamp
@@ -152,3 +154,46 @@ def plot_learning_curves(train_accuracies, val_accuracies, train_losses, val_los
   plt.legend()
   plt.grid(True)
   plt.show()
+  
+# Function to plot the distribution of labels in a dataset  
+def compute_label_distribution(dataset,title="label_distribution", plot=False):
+    # Step 1: Extract labels from the dataset
+    labels = [element[1].numpy() for element in dataset]
+
+    # Step 2: Count the occurrences of each label
+    label_counts = Counter(labels)
+
+    # Get the labels and their counts
+    labels = list(label_counts.keys())
+    counts = list(label_counts.values())
+    
+    if plot:
+        # Step 3: Create a pie chart
+        plt.figure(figsize=(8, 8))
+        plt.pie(counts, labels=labels, autopct='%1.1f%%', startangle=90)
+        plt.title(title, size=20)
+        plt.show()
+
+    # return 
+    return dict(label_counts)
+
+
+def save_model_results():
+    macs, params = print_model_size(model,input_size=inputs)
+    accuracy = max(val_accuracies)
+    data = {'Model': ['KeywordSpottingModel'], 'GMACs': [macs], 'Params': [params], 'Accuracy': [accuracy]}
+    model_config = {'input_dim': input_dim, 'd_model': d_model, 'd_state': d_state, 'd_conv': d_conv, 'expand': expand}
+    data.update(model_config)
+    df = pd.DataFrame(data, index=[0])
+    df.to_csv('results.csv', mode='a', header=True)
+
+def compute_inference_GPU_mem(model, input):
+    torch.cuda.empty_cache()
+    torch.cuda.reset_peak_memory_stats()
+    m0 = torch.cuda.max_memory_allocated()
+    model(input)
+    m1 = torch.cuda.max_memory_allocated()
+    # Compute total memory used
+    total_memory = (m1 - m0) / 1e6  # Convert to MB
+    
+    return total_memory

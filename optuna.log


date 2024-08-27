@@ -1,0 +1,306 @@
+[2024-08-22 09:28:27] 
+
+Starting training with hyperparameters: {'d_state': 112, 'd_conv': 16, 'expand': 4, 'batch_size': 79, 'dropout_rate': 0.4347868943851707, 'lr': 0.0007152003563173783}
+[2024-08-22 09:47:58] 
+
+Starting training with hyperparameters: {'d_state': 40, 'd_conv': 53, 'expand': 2, 'batch_size': 48, 'dropout_rate': 0.2529059726038451, 'lr': 1.4899311004552399e-05}
+[2024-08-22 09:55:01] 
+
+Starting training with hyperparameters: {'d_state': 122, 'd_conv': 32, 'expand': 3, 'batch_size': 16, 'dropout_rate': 0.3378992532129828, 'lr': 0.0008129583640898323}
+[2024-08-22 10:48:13] 
+
+Starting training with hyperparameters: {'d_state': 95, 'd_conv': 24, 'expand': 2, 'batch_size': 120, 'dropout_rate': 0.48988045167237204, 'lr': 0.0008316620148307194}
+[2024-08-22 14:04:26] 
+
+Starting training with hyperparameters: {'d_state': 40, 'd_conv': 30, 'expand': 3, 'batch_size': 75, 'dropout_rate': 0.3655141331045078, 'lr': 4.145873210720598e-05}
+[2024-08-22 18:11:40] 
+
+Starting training with hyperparameters: {'d_state': 46, 'd_conv': 56, 'expand': 2, 'batch_size': 102, 'dropout_rate': 0.42898601264306907, 'lr': 0.00022391169385503647}
+[2024-08-22 20:52:55] 
+
+Starting training with hyperparameters: {'d_state': 118, 'd_conv': 55, 'expand': 3, 'batch_size': 108, 'dropout_rate': 0.4533902957261218, 'lr': 0.0005306950481478611}
+[2024-08-22 23:23:28] 
+
+Starting training with hyperparameters: {'d_state': 2, 'd_conv': 48, 'expand': 4, 'batch_size': 101, 'dropout_rate': 0.4344552987080325, 'lr': 0.00033209411063429015}
+[2024-08-22 23:28:20] 
+
+Starting training with hyperparameters: {'d_state': 46, 'd_conv': 22, 'expand': 3, 'batch_size': 117, 'dropout_rate': 0.27635842881371425, 'lr': 0.000581127712124017}
+[2024-08-23 01:32:05] 
+
+Starting training with hyperparameters: {'d_state': 63, 'd_conv': 32, 'expand': 3, 'batch_size': 50, 'dropout_rate': 0.37239727382839194, 'lr': 0.0002695126363356113}
+[2024-08-23 01:43:08] 
+
+Starting training with hyperparameters: {'d_state': 70, 'd_conv': 22, 'expand': 3, 'batch_size': 69, 'dropout_rate': 0.3454173482044756, 'lr': 0.0018388713320205033}
+[2024-08-23 02:42:09] 
+
+Starting training with hyperparameters: {'d_state': 114, 'd_conv': 20, 'expand': 4, 'batch_size': 94, 'dropout_rate': 0.28789053991340885, 'lr': 0.00017446153735035626}
+[2024-08-23 02:45:53] 
+
+Starting training with hyperparameters: {'d_state': 8, 'd_conv': 43, 'expand': 2, 'batch_size': 121, 'dropout_rate': 0.20018099705896047, 'lr': 0.0060768345843064}
+[2024-08-23 03:04:04] 
+
+Starting training with hyperparameters: {'d_state': 76, 'd_conv': 64, 'expand': 3, 'batch_size': 127, 'dropout_rate': 0.25424652135558046, 'lr': 3.7535270825741775e-05}
+[2024-08-23 03:07:35] 
+
+Starting training with hyperparameters: {'d_state': 28, 'd_conv': 53, 'expand': 4, 'batch_size': 86, 'dropout_rate': 0.28469441837073245, 'lr': 0.003355008964662355}
+[2024-08-23 03:39:58] 
+
+Starting training with hyperparameters: {'d_state': 99, 'd_conv': 39, 'expand': 3, 'batch_size': 112, 'dropout_rate': 0.45774276432515715, 'lr': 1.098206564624501e-05}
+[2024-08-23 03:43:31] 
+
+Starting training with hyperparameters: {'d_state': 86, 'd_conv': 60, 'expand': 4, 'batch_size': 56, 'dropout_rate': 0.23153594300548402, 'lr': 0.0007012477186499422}
+[2024-08-23 06:13:48] 
+
+Starting training with hyperparameters: {'d_state': 89, 'd_conv': 64, 'expand': 4, 'batch_size': 52, 'dropout_rate': 0.20170300303229288, 'lr': 0.001801439653685708}
+[2024-08-23 06:54:27] 
+
+Starting training with hyperparameters: {'d_state': 54, 'd_conv': 16, 'expand': 4, 'batch_size': 37, 'dropout_rate': 0.2423499366454442, 'lr': 8.833346885860894e-05}
+[2024-08-23 06:58:12] 
+
+Starting training with hyperparameters: {'d_state': 30, 'd_conv': 41, 'expand': 4, 'batch_size': 64, 'dropout_rate': 0.30090843473125706, 'lr': 0.007935471548136947}
+[2024-08-23 07:01:52] 
+
+Starting training with hyperparameters: {'d_state': 80, 'd_conv': 37, 'expand': 2, 'batch_size': 31, 'dropout_rate': 0.24181026044175064, 'lr': 0.0016710363139716487}
+[2024-08-23 07:44:04] 
+
+Starting training with hyperparameters: {'d_state': 58, 'd_conv': 47, 'expand': 3, 'batch_size': 83, 'dropout_rate': 0.31910805435937606, 'lr': 0.0007368362690537144}
+[2024-08-23 07:47:45] 
+
+Starting training with hyperparameters: {'d_state': 20, 'd_conv': 27, 'expand': 4, 'batch_size': 57, 'dropout_rate': 0.25600102119088514, 'lr': 0.00010604962594603486}
+[2024-08-23 07:51:42] 
+
+Starting training with hyperparameters: {'d_state': 106, 'd_conv': 58, 'expand': 3, 'batch_size': 107, 'dropout_rate': 0.3847328418336691, 'lr': 0.0005214249451432447}
+[2024-08-23 07:55:46] 
+
+Starting training with hyperparameters: {'d_state': 126, 'd_conv': 59, 'expand': 3, 'batch_size': 91, 'dropout_rate': 0.3987908410359801, 'lr': 0.00042205214127667825}
+[2024-08-23 07:59:26] 
+
+Starting training with hyperparameters: {'d_state': 85, 'd_conv': 51, 'expand': 3, 'batch_size': 114, 'dropout_rate': 0.4936318890080409, 'lr': 0.001285752100572878}
+[2024-08-23 08:03:01] 
+
+Starting training with hyperparameters: {'d_state': 110, 'd_conv': 60, 'expand': 3, 'batch_size': 127, 'dropout_rate': 0.21698727446150542, 'lr': 0.003413824731161863}
+[2024-08-23 08:46:26] 
+
+Starting training with hyperparameters: {'d_state': 48, 'd_conv': 53, 'expand': 2, 'batch_size': 78, 'dropout_rate': 0.26854241130330364, 'lr': 0.0001117426264858192}
+[2024-08-23 08:50:05] 
+
+Starting training with hyperparameters: {'d_state': 70, 'd_conv': 50, 'expand': 4, 'batch_size': 42, 'dropout_rate': 0.3183754627871489, 'lr': 0.0005077158087582864}
+[2024-08-23 08:54:52] 
+
+Starting training with hyperparameters: {'d_state': 103, 'd_conv': 45, 'expand': 3, 'batch_size': 97, 'dropout_rate': 0.23016224394751505, 'lr': 0.003220348371552719}
+[2024-08-23 09:03:58] 
+
+Starting training with hyperparameters: {'d_state': 116, 'd_conv': 35, 'expand': 3, 'batch_size': 64, 'dropout_rate': 0.4121890210317006, 'lr': 0.001057134928415087}
+[2024-08-23 09:07:38] 
+
+Starting training with hyperparameters: {'d_state': 128, 'd_conv': 55, 'expand': 3, 'batch_size': 26, 'dropout_rate': 0.3291867083897302, 'lr': 0.000638587790564666}
+[2024-08-23 09:11:27] 
+
+Starting training with hyperparameters: {'d_state': 89, 'd_conv': 61, 'expand': 4, 'batch_size': 17, 'dropout_rate': 0.2726988244841988, 'lr': 0.0002928427569651569}
+[2024-08-23 09:15:21] 
+
+Starting training with hyperparameters: {'d_state': 96, 'd_conv': 25, 'expand': 2, 'batch_size': 116, 'dropout_rate': 0.4831990901623369, 'lr': 0.000955674898963087}
+[2024-08-23 09:19:01] 
+
+Starting training with hyperparameters: {'d_state': 96, 'd_conv': 16, 'expand': 2, 'batch_size': 120, 'dropout_rate': 0.47318639952859415, 'lr': 0.0008334747935483329}
+[2024-08-23 09:22:33] 
+
+Starting training with hyperparameters: {'d_state': 119, 'd_conv': 27, 'expand': 2, 'batch_size': 107, 'dropout_rate': 0.45793188327663265, 'lr': 0.00017147199037359195}
+[2024-08-23 09:26:06] 
+
+Starting training with hyperparameters: {'d_state': 81, 'd_conv': 20, 'expand': 2, 'batch_size': 105, 'dropout_rate': 0.4354453462330044, 'lr': 0.00034356673729251676}
+[2024-08-23 09:29:46] 
+
+Starting training with hyperparameters: {'d_state': 43, 'd_conv': 33, 'expand': 3, 'batch_size': 121, 'dropout_rate': 0.45437452845630677, 'lr': 0.0012407706369983403}
+[2024-08-23 09:33:22] 
+
+Starting training with hyperparameters: {'d_state': 65, 'd_conv': 31, 'expand': 2, 'batch_size': 128, 'dropout_rate': 0.4970108865986554, 'lr': 0.0023069663100459756}
+[2024-08-23 09:37:05] 
+
+Starting training with hyperparameters: {'d_state': 37, 'd_conv': 21, 'expand': 3, 'batch_size': 111, 'dropout_rate': 0.41866186566848906, 'lr': 0.00022365527620054037}
+[2024-08-23 09:40:41] 
+
+Starting training with hyperparameters: {'d_state': 72, 'd_conv': 24, 'expand': 2, 'batch_size': 97, 'dropout_rate': 0.365726196479957, 'lr': 0.0003991961788153118}
+[2024-08-23 09:44:15] 
+
+Starting training with hyperparameters: {'d_state': 109, 'd_conv': 29, 'expand': 3, 'batch_size': 72, 'dropout_rate': 0.3531327030941458, 'lr': 0.0005821734657006175}
+[2024-08-23 09:47:56] 
+
+Starting training with hyperparameters: {'d_state': 91, 'd_conv': 56, 'expand': 4, 'batch_size': 46, 'dropout_rate': 0.4737481706924729, 'lr': 5.9141874396045866e-05}
+[2024-08-23 09:51:36] 
+
+Starting training with hyperparameters: {'d_state': 51, 'd_conv': 63, 'expand': 2, 'batch_size': 102, 'dropout_rate': 0.43640411028442766, 'lr': 0.00018104104679130274}
+[2024-08-23 09:55:13] 
+
+Starting training with hyperparameters: {'d_state': 62, 'd_conv': 57, 'expand': 2, 'batch_size': 119, 'dropout_rate': 0.47059859328143067, 'lr': 0.00025651318356096703}
+[2024-08-23 09:58:51] 
+
+Starting training with hyperparameters: {'d_state': 36, 'd_conv': 54, 'expand': 2, 'batch_size': 88, 'dropout_rate': 0.45257852954810895, 'lr': 0.0006952507097780397}
+[2024-08-23 10:02:50] 
+
+Starting training with hyperparameters: {'d_state': 44, 'd_conv': 51, 'expand': 2, 'batch_size': 111, 'dropout_rate': 0.4208571643315375, 'lr': 0.00013693284809963564}
+[2024-08-23 10:06:43] 
+
+Starting training with hyperparameters: {'d_state': 56, 'd_conv': 62, 'expand': 3, 'batch_size': 100, 'dropout_rate': 0.29644549890472416, 'lr': 0.00039041049950876914}
+[2024-08-23 10:10:27] 
+
+Starting training with hyperparameters: {'d_state': 24, 'd_conv': 18, 'expand': 4, 'batch_size': 123, 'dropout_rate': 0.38555837593686754, 'lr': 2.376070055157641e-05}
+[2024-08-23 10:14:14] 
+
+Starting training with hyperparameters: {'d_state': 15, 'd_conv': 47, 'expand': 2, 'batch_size': 80, 'dropout_rate': 0.44452366447277397, 'lr': 0.0023341863169161915}
+[2024-08-23 10:17:45] 
+
+Starting training with hyperparameters: {'d_state': 31, 'd_conv': 44, 'expand': 3, 'batch_size': 66, 'dropout_rate': 0.23152197666334498, 'lr': 0.001290903983039451}
+[2024-08-23 10:25:43] 
+
+Starting training with hyperparameters: {'d_state': 101, 'd_conv': 42, 'expand': 4, 'batch_size': 57, 'dropout_rate': 0.2145743081613631, 'lr': 0.00022404155260639775}
+[2024-08-23 10:30:38] 
+
+Starting training with hyperparameters: {'d_state': 121, 'd_conv': 23, 'expand': 3, 'batch_size': 109, 'dropout_rate': 0.485173304115114, 'lr': 7.234796446931663e-05}
+[2024-08-23 10:34:20] 
+
+Starting training with hyperparameters: {'d_state': 38, 'd_conv': 26, 'expand': 3, 'batch_size': 56, 'dropout_rate': 0.4051414570602891, 'lr': 1.1553089982949104e-05}
+[2024-08-23 10:37:54] 
+
+Starting training with hyperparameters: {'d_state': 45, 'd_conv': 38, 'expand': 3, 'batch_size': 115, 'dropout_rate': 0.34817639487742325, 'lr': 4.858671405529045e-05}
+[2024-08-23 10:41:33] 
+
+Starting training with hyperparameters: {'d_state': 63, 'd_conv': 30, 'expand': 3, 'batch_size': 91, 'dropout_rate': 0.25804415511497014, 'lr': 3.4373124381575546e-05}
+[2024-08-23 10:45:07] 
+
+Starting training with hyperparameters: {'d_state': 79, 'd_conv': 19, 'expand': 3, 'batch_size': 72, 'dropout_rate': 0.3896616787785207, 'lr': 2.2305825709511565e-05}
+[2024-08-23 10:48:39] 
+
+Starting training with hyperparameters: {'d_state': 53, 'd_conv': 28, 'expand': 3, 'batch_size': 124, 'dropout_rate': 0.27823016265607436, 'lr': 0.0004896512885812381}
+[2024-08-23 10:52:16] 
+
+Starting training with hyperparameters: {'d_state': 4, 'd_conv': 33, 'expand': 4, 'batch_size': 103, 'dropout_rate': 0.3067502603876287, 'lr': 0.000825285454419646}
+[2024-08-23 10:55:49] 
+
+Starting training with hyperparameters: {'d_state': 74, 'd_conv': 59, 'expand': 2, 'batch_size': 50, 'dropout_rate': 0.3703453323951226, 'lr': 0.0010533762006062822}
+[2024-08-23 10:59:30] 
+
+Starting training with hyperparameters: {'d_state': 59, 'd_conv': 22, 'expand': 3, 'batch_size': 116, 'dropout_rate': 0.33333953126385424, 'lr': 0.001757845923449173}
+[2024-08-23 11:03:09] 
+
+Starting training with hyperparameters: {'d_state': 66, 'd_conv': 49, 'expand': 3, 'batch_size': 38, 'dropout_rate': 0.4662350881414966, 'lr': 0.0003133624377770545}
+[2024-08-23 11:06:55] 
+
+Starting training with hyperparameters: {'d_state': 115, 'd_conv': 52, 'expand': 2, 'batch_size': 96, 'dropout_rate': 0.42348494556411653, 'lr': 0.0004795901744441984}
+[2024-08-23 11:10:28] 
+
+Starting training with hyperparameters: {'d_state': 87, 'd_conv': 64, 'expand': 4, 'batch_size': 60, 'dropout_rate': 0.2032776491433298, 'lr': 0.004622530012351975}
+[2024-08-23 11:14:01] 
+
+Starting training with hyperparameters: {'d_state': 94, 'd_conv': 62, 'expand': 4, 'batch_size': 46, 'dropout_rate': 0.23831646191616068, 'lr': 0.001404893406393544}
+[2024-08-23 12:05:31] 
+
+Starting training with hyperparameters: {'d_state': 94, 'd_conv': 60, 'expand': 4, 'batch_size': 47, 'dropout_rate': 0.24185446813333678, 'lr': 0.0013094667084518397}
+[2024-08-23 13:09:46] 
+
+Starting training with hyperparameters: {'d_state': 107, 'd_conv': 58, 'expand': 4, 'batch_size': 36, 'dropout_rate': 0.2628100445602697, 'lr': 0.0006327652953708345}
+[2024-08-23 13:13:24] 
+
+Starting training with hyperparameters: {'d_state': 82, 'd_conv': 61, 'expand': 4, 'batch_size': 77, 'dropout_rate': 0.24969922849665835, 'lr': 0.0022348887978399326}
+[2024-08-23 13:53:59] 
+
+Starting training with hyperparameters: {'d_state': 103, 'd_conv': 55, 'expand': 4, 'batch_size': 28, 'dropout_rate': 0.23053432980933894, 'lr': 0.000796278256815292}
+[2024-08-23 13:57:48] 
+
+Starting training with hyperparameters: {'d_state': 112, 'd_conv': 35, 'expand': 3, 'batch_size': 42, 'dropout_rate': 0.2226009795021065, 'lr': 0.0014398264411779585}
+[2024-08-23 14:01:36] 
+
+Starting training with hyperparameters: {'d_state': 49, 'd_conv': 57, 'expand': 3, 'batch_size': 119, 'dropout_rate': 0.35700423560633165, 'lr': 0.000959547969128894}
+[2024-08-23 14:05:15] 
+
+Starting training with hyperparameters: {'d_state': 98, 'd_conv': 25, 'expand': 4, 'batch_size': 53, 'dropout_rate': 0.28843420556076177, 'lr': 0.0030148858024809126}
+[2024-08-23 14:20:09] 
+
+Starting training with hyperparameters: {'d_state': 92, 'd_conv': 62, 'expand': 2, 'batch_size': 107, 'dropout_rate': 0.4848025854036352, 'lr': 0.0005847289971299247}
+[2024-08-23 14:23:43] 
+
+Starting training with hyperparameters: {'d_state': 81, 'd_conv': 60, 'expand': 4, 'batch_size': 80, 'dropout_rate': 0.2423731762138671, 'lr': 0.0021155152669722443}
+[2024-08-23 15:13:07] 
+
+Starting training with hyperparameters: {'d_state': 86, 'd_conv': 62, 'expand': 4, 'batch_size': 69, 'dropout_rate': 0.2418134266022423, 'lr': 0.001733380956929085}
+[2024-08-23 16:20:46] 
+
+Starting training with hyperparameters: {'d_state': 69, 'd_conv': 63, 'expand': 4, 'batch_size': 67, 'dropout_rate': 0.2203891902760978, 'lr': 0.009835175571996148}
+[2024-08-23 16:24:29] 
+
+Starting training with hyperparameters: {'d_state': 76, 'd_conv': 59, 'expand': 4, 'batch_size': 86, 'dropout_rate': 0.24974904425196998, 'lr': 0.0014675126790031985}
+[2024-08-23 16:28:08] 
+
+Starting training with hyperparameters: {'d_state': 87, 'd_conv': 18, 'expand': 4, 'batch_size': 125, 'dropout_rate': 0.20609118539334348, 'lr': 0.004133422405179519}
+[2024-08-23 16:31:49] 
+
+Starting training with hyperparameters: {'d_state': 84, 'd_conv': 57, 'expand': 4, 'batch_size': 63, 'dropout_rate': 0.2682479655428064, 'lr': 0.001114886727331425}
+[2024-08-23 16:35:33] 
+
+Starting training with hyperparameters: {'d_state': 41, 'd_conv': 62, 'expand': 3, 'batch_size': 71, 'dropout_rate': 0.4460445688666933, 'lr': 0.0003794988174560021}
+[2024-08-23 16:39:09] 
+
+Starting training with hyperparameters: {'d_state': 33, 'd_conv': 54, 'expand': 4, 'batch_size': 75, 'dropout_rate': 0.3187735658353816, 'lr': 0.0008972989108413751}
+[2024-08-23 16:42:42] 
+
+Starting training with hyperparameters: {'d_state': 25, 'd_conv': 64, 'expand': 2, 'batch_size': 112, 'dropout_rate': 0.46499538291419756, 'lr': 0.0016869846754557368}
+[2024-08-23 16:46:18] 
+
+Starting training with hyperparameters: {'d_state': 103, 'd_conv': 23, 'expand': 3, 'batch_size': 61, 'dropout_rate': 0.279889965902325, 'lr': 0.0006982923045394405}
+[2024-08-23 16:50:01] 
+
+Starting training with hyperparameters: {'d_state': 83, 'd_conv': 59, 'expand': 4, 'batch_size': 75, 'dropout_rate': 0.2533346349499171, 'lr': 0.002074521612527877}
+[2024-08-23 17:38:19] 
+
+Starting training with hyperparameters: {'d_state': 76, 'd_conv': 61, 'expand': 4, 'batch_size': 82, 'dropout_rate': 0.2368690370882341, 'lr': 0.0011345963006776396}
+[2024-08-23 17:42:04] 
+
+Starting training with hyperparameters: {'d_state': 125, 'd_conv': 61, 'expand': 4, 'batch_size': 76, 'dropout_rate': 0.2126366344326123, 'lr': 0.0026393251421488175}
+[2024-08-23 18:00:22] 
+
+Starting training with hyperparameters: {'d_state': 89, 'd_conv': 56, 'expand': 4, 'batch_size': 44, 'dropout_rate': 0.24522701243462391, 'lr': 0.0004790330882502534}
+[2024-08-23 18:04:02] 
+
+Starting training with hyperparameters: {'d_state': 98, 'd_conv': 63, 'expand': 4, 'batch_size': 100, 'dropout_rate': 0.226660081597224, 'lr': 0.003768533080114881}
+[2024-08-23 18:11:26] 
+
+Starting training with hyperparameters: {'d_state': 92, 'd_conv': 58, 'expand': 3, 'batch_size': 68, 'dropout_rate': 0.4990454181158559, 'lr': 0.00497834663314336}
+[2024-08-23 18:18:55] 
+
+Starting training with hyperparameters: {'d_state': 95, 'd_conv': 21, 'expand': 4, 'batch_size': 117, 'dropout_rate': 0.2635523233693433, 'lr': 0.002916209646733132}
+[2024-08-23 19:03:14] 
+
+Starting training with hyperparameters: {'d_state': 47, 'd_conv': 56, 'expand': 2, 'batch_size': 93, 'dropout_rate': 0.3418814579926979, 'lr': 0.001562855688468734}
+[2024-08-23 19:06:55] 
+
+Starting training with hyperparameters: {'d_state': 58, 'd_conv': 60, 'expand': 4, 'batch_size': 55, 'dropout_rate': 0.2348637029289386, 'lr': 0.0001444161115112677}
+[2024-08-23 19:10:35] 
+
+Starting training with hyperparameters: {'d_state': 34, 'd_conv': 53, 'expand': 3, 'batch_size': 49, 'dropout_rate': 0.3932588252160022, 'lr': 1.3889416695128049e-05}
+[2024-08-23 19:14:17] 
+
+Starting training with hyperparameters: {'d_state': 79, 'd_conv': 61, 'expand': 4, 'batch_size': 54, 'dropout_rate': 0.2085221886039183, 'lr': 0.0018056485852499097}
+[2024-08-23 19:29:02] 
+
+Starting training with hyperparameters: {'d_state': 90, 'd_conv': 63, 'expand': 4, 'batch_size': 39, 'dropout_rate': 0.24887401148959531, 'lr': 0.0007496598054188703}
+[2024-08-23 19:32:43] 
+
+Starting training with hyperparameters: {'d_state': 86, 'd_conv': 40, 'expand': 4, 'batch_size': 59, 'dropout_rate': 0.2206038475332682, 'lr': 0.0020216969747921167}
+[2024-08-23 20:16:24] 
+
+Starting training with hyperparameters: {'d_state': 42, 'd_conv': 64, 'expand': 4, 'batch_size': 52, 'dropout_rate': 0.20041242940897072, 'lr': 0.0025192358292203763}
+[2024-08-23 20:31:04] 
+
+Starting training with hyperparameters: {'d_state': 39, 'd_conv': 58, 'expand': 2, 'batch_size': 122, 'dropout_rate': 0.47822922931496414, 'lr': 0.00024742728287637986}
+[2024-08-23 20:34:38] 
+
+Starting training with hyperparameters: {'d_state': 106, 'd_conv': 62, 'expand': 4, 'batch_size': 113, 'dropout_rate': 0.4081658751319102, 'lr': 0.0009259009044179985}
+[2024-08-23 20:38:15] 
+
+Starting training with hyperparameters: {'d_state': 83, 'd_conv': 28, 'expand': 3, 'batch_size': 109, 'dropout_rate': 0.490017641418497, 'lr': 0.0005566370537823257}
+[2024-08-23 20:41:56] 
+
+Starting training with hyperparameters: {'d_state': 100, 'd_conv': 60, 'expand': 4, 'batch_size': 70, 'dropout_rate': 0.30992616582963767, 'lr': 0.0012622359361349502}
+[2024-08-23 20:54:09] 
+
+Starting training with hyperparameters: {'d_state': 94, 'd_conv': 46, 'expand': 3, 'batch_size': 126, 'dropout_rate': 0.3793330466374393, 'lr': 0.0006567416882476834}
