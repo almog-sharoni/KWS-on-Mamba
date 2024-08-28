@@ -89,17 +89,18 @@ def calculate_MAMBA_flops(layer, x, y):
     # Add to the model's total_params
     layer.total_params += torch.DoubleTensor([params])
 
-def print_model_size(model, input_size):
+def print_model_size(model, input_size, verbose=False):
     macs, params, ret_layer_info = thop.profile(model, inputs=(input_size,)
-    ,custom_ops={Mamba: calculate_MAMBA_flops},report_missing=True, ret_layer_info=True)
+    ,custom_ops={Mamba: calculate_MAMBA_flops},report_missing=True and verbose, ret_layer_info=True)
     print()
     print(f"MACs: {macs} Which are {macs/1e9} Giga-MACs, Params: {params}")
     print()
-    print("Layer-wise information:")
-    for layer, info in ret_layer_info.items():
-        print(f"Layer: {layer}")
-        print(f"Total FLOPs: {info[0]}, Total Params: {info[1]}")
-        print()
+    if verbose:
+        print("Layer-wise information:")
+        for layer, info in ret_layer_info.items():
+            print(f"Layer: {layer}")
+            print(f"Total FLOPs: {info[0]}, Total Params: {info[1]}")
+            print()
     return macs, params
 
 
@@ -174,8 +175,8 @@ def compute_label_distribution(dataset,title="label_distribution", plot=False):
         plt.title(title, size=20)
         plt.show()
 
-    # return 
-    return dict(label_counts)
+    # return sorted dictionary
+    return dict(sorted(label_counts.items()))
 
 
 def save_model_results():

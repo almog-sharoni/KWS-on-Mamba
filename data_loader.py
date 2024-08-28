@@ -10,6 +10,12 @@ def load_speech_commands_dataset(version=3):
     train_ds = ds['train']
     val_ds = ds['validation']
     test_ds = ds['test']
+
+    # Filter out the 'unknown' and 'silence' labels
+    # If label = 10,11 drop
+    train_ds = train_ds.filter(lambda x, y: y != 10 and y != 11)
+    val_ds = val_ds.filter(lambda x, y: y != 10 and y != 11)
+    test_ds = test_ds.filter(lambda x, y: y != 10 and y != 11)
     return train_ds, val_ds, test_ds, info
 
 # Define the dataset adapter:
