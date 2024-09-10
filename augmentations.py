@@ -4,7 +4,7 @@ import random
 
 FREQUENCY = 16000
 DURATION = 16000
-def add_time_shift_noise_and_align(audio, max_shift_in_ms=100):
+def add_time_shift_and_align(audio, max_shift_in_ms=100):
     # randomly shift the audio by at most max_shift_in_ms
     max_shift = (max_shift_in_ms * FREQUENCY) // 1000
     time_shift = np.random.randint(0, max_shift)
@@ -44,13 +44,19 @@ def add_random_volume(audio, vol_range=(0.8, 1.2)):
     volume_change = np.random.uniform(vol_range[0], vol_range[1])
     return audio * volume_change
 
-def apply_augmentations(audio):
+def add_silence(audio, silence):
+    return audio + silence
+
+
+def apply_augmentations(audio,silence_ds):
     # Apply a random selection of augmentations
     if random.random() < 0.5:
-        audio = add_time_shift_noise_and_align(audio)
+        audio = add_time_shift_and_align(audio)
+
+    audio = add_noise(audio,silence_ds)
     
-    if random.random() < 0.5:
-        audio = add_noise(audio)
+    # if random.random() < 0.5:
+    #     audio = add_noise(audio)
     
     # if random.random() < 0.5:
     #     pitch_factor = np.random.uniform(-1.0, 1.0)
