@@ -35,7 +35,7 @@ class KeywordSpottingModel(nn.Module):
     
     # Define model architecture
 class KeywordSpottingModel_with_cls(nn.Module):
-    def __init__(self, input_dim, d_model, d_state, d_conv, expand, label_names, num_mamba_layers=1):
+    def __init__(self, input_dim, d_model, d_state, d_conv, expand, label_names, num_mamba_layers=1,dropout_rate=0.2):
         super(KeywordSpottingModel_with_cls, self).__init__()
         self.proj = nn.Linear(input_dim, d_model)  # Initial projection layer
         
@@ -51,7 +51,7 @@ class KeywordSpottingModel_with_cls(nn.Module):
             self.layer_norms.append(nn.modules.normalization.RMSNorm(d_model))
 
         self.fc = nn.Linear(d_model, len(label_names))  # Output layer
-        self.dropout = nn.Dropout(0.2)  # Dropout layer with a dropout rate of 0.5
+        self.dropout = nn.Dropout(dropout_rate)
 
     def forward(self, x):
         x = x.permute(0, 2, 1)  # Reshape to [batch_size, num_frames, num_mfcc]

@@ -6,7 +6,7 @@ from datetime import datetime
 from matplotlib import pyplot as plt
 from collections import Counter
 import pandas as pd
-
+from datetime import datetime
 
 # Function to set the memory fraction for the current process
 def set_memory_GB(GB=1):
@@ -136,7 +136,7 @@ class EarlyStopping:
         return False
     
 # Function for plotting learning curves
-def plot_learning_curves(train_accuracies, val_accuracies, train_losses, val_losses):
+def plot_learning_curves(train_accuracies, val_accuracies, train_losses, val_losses, save_to_file=False):
   epochs = range(1,len(train_accuracies)+1)
   yticks = np.arange(0, 101, 5)
   
@@ -154,6 +154,9 @@ def plot_learning_curves(train_accuracies, val_accuracies, train_losses, val_los
   plt.title('Training and validation loss')
   plt.legend()
   plt.grid(True)
+  if save_to_file:
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    plt.savefig(f'plots/learning_curves_{timestamp}.png')
   plt.show()
   
 # Function to plot the distribution of labels in a dataset  

@@ -18580,3 +18580,1950 @@ New training session
 [2024-09-10 09:33:00] Epoch 9/100, Training Loss: 0.5876, Training Accuracy: 80.17%
 [2024-09-10 09:33:05] Epoch 9/100, Validation Loss: 0.3546, Validation Accuracy: 88.14%
 [2024-09-10 09:33:05] Learning rate after epoch 9: [0.0024]
+[2024-09-10 09:33:35] Epoch 10/100, Training Loss: 0.5691, Training Accuracy: 80.94%
+[2024-09-10 09:33:40] Epoch 10/100, Validation Loss: 0.3660, Validation Accuracy: 87.69%
+[2024-09-10 09:33:40] Learning rate after epoch 10: [0.0024]
+[2024-09-10 09:34:08] Epoch 11/100, Training Loss: 0.5587, Training Accuracy: 81.03%
+[2024-09-10 09:34:12] Epoch 11/100, Validation Loss: 0.3592, Validation Accuracy: 88.68%
+[2024-09-10 09:34:12] Learning rate after epoch 11: [0.0024]
+[2024-09-10 09:34:43] Epoch 12/100, Training Loss: 0.5427, Training Accuracy: 81.47%
+[2024-09-10 09:34:48] Epoch 12/100, Validation Loss: 0.3290, Validation Accuracy: 89.31%
+[2024-09-10 09:34:48] Learning rate after epoch 12: [0.0024]
+[2024-09-10 09:35:15] Epoch 13/100, Training Loss: 0.5339, Training Accuracy: 81.99%
+[2024-09-10 09:35:19] Epoch 13/100, Validation Loss: 0.3327, Validation Accuracy: 88.79%
+[2024-09-10 09:35:19] Learning rate after epoch 13: [0.0024]
+[2024-09-10 09:35:48] Epoch 14/100, Training Loss: 0.5243, Training Accuracy: 82.11%
+[2024-09-10 09:35:52] Epoch 14/100, Validation Loss: 0.3207, Validation Accuracy: 89.41%
+[2024-09-10 09:35:52] Learning rate after epoch 14: [0.0024]
+[2024-09-10 09:36:19] Epoch 15/100, Training Loss: 0.5100, Training Accuracy: 82.61%
+[2024-09-10 09:36:24] Epoch 15/100, Validation Loss: 0.3301, Validation Accuracy: 89.06%
+[2024-09-10 09:36:24] Learning rate after epoch 15: [0.0024]
+[2024-09-10 09:36:53] Epoch 16/100, Training Loss: 0.5073, Training Accuracy: 82.68%
+[2024-09-10 09:36:57] Epoch 16/100, Validation Loss: 0.3186, Validation Accuracy: 89.63%
+[2024-09-10 09:36:57] Learning rate after epoch 16: [0.0024]
+[2024-09-10 09:37:27] Epoch 17/100, Training Loss: 0.5007, Training Accuracy: 82.94%
+[2024-09-10 09:37:32] Epoch 17/100, Validation Loss: 0.3092, Validation Accuracy: 89.63%
+[2024-09-10 09:37:32] Learning rate after epoch 17: [0.0024]
+[2024-09-10 09:37:58] Epoch 18/100, Training Loss: 0.4963, Training Accuracy: 83.08%
+[2024-09-10 09:38:02] Epoch 18/100, Validation Loss: 0.3004, Validation Accuracy: 90.01%
+[2024-09-10 09:38:02] Learning rate after epoch 18: [0.0024]
+[2024-09-10 09:38:30] Epoch 19/100, Training Loss: 0.4935, Training Accuracy: 83.30%
+[2024-09-10 09:38:34] Epoch 19/100, Validation Loss: 0.2914, Validation Accuracy: 90.60%
+[2024-09-10 09:38:34] Learning rate after epoch 19: [0.0024]
+[2024-09-10 09:39:01] Epoch 20/100, Training Loss: 0.4895, Training Accuracy: 83.36%
+[2024-09-10 09:39:06] Epoch 20/100, Validation Loss: 0.2967, Validation Accuracy: 90.36%
+[2024-09-10 09:39:06] Learning rate after epoch 20: [0.0024]
+[2024-09-10 09:39:35] Epoch 21/100, Training Loss: 0.4818, Training Accuracy: 83.61%
+[2024-09-10 09:39:40] Epoch 21/100, Validation Loss: 0.3073, Validation Accuracy: 90.12%
+[2024-09-10 09:39:40] Learning rate after epoch 21: [0.0024]
+[2024-09-10 09:40:07] Epoch 22/100, Training Loss: 0.4884, Training Accuracy: 83.45%
+[2024-09-10 09:40:12] Epoch 22/100, Validation Loss: 0.2918, Validation Accuracy: 90.49%
+[2024-09-10 09:40:12] Learning rate after epoch 22: [0.0024]
+[2024-09-10 09:40:38] Epoch 23/100, Training Loss: 0.4816, Training Accuracy: 83.53%
+[2024-09-10 09:40:42] Epoch 23/100, Validation Loss: 0.2774, Validation Accuracy: 90.87%
+[2024-09-10 09:40:42] Learning rate after epoch 23: [0.0024]
+[2024-09-10 09:41:11] Epoch 24/100, Training Loss: 0.4770, Training Accuracy: 83.66%
+[2024-09-10 09:41:15] Epoch 24/100, Validation Loss: 0.2861, Validation Accuracy: 90.52%
+[2024-09-10 09:41:15] Learning rate after epoch 24: [0.0024]
+[2024-09-10 09:41:44] Epoch 25/100, Training Loss: 0.4752, Training Accuracy: 83.62%
+[2024-09-10 09:41:48] Epoch 25/100, Validation Loss: 0.2780, Validation Accuracy: 90.95%
+[2024-09-10 09:41:48] Learning rate after epoch 25: [0.0024]
+[2024-09-10 09:42:16] Epoch 26/100, Training Loss: 0.4659, Training Accuracy: 84.08%
+[2024-09-10 09:42:21] Epoch 26/100, Validation Loss: 0.2684, Validation Accuracy: 91.09%
+[2024-09-10 09:42:21] Learning rate after epoch 26: [0.0024]
+[2024-09-10 09:42:47] Epoch 27/100, Training Loss: 0.4631, Training Accuracy: 84.37%
+[2024-09-10 09:42:52] Epoch 27/100, Validation Loss: 0.2749, Validation Accuracy: 90.87%
+[2024-09-10 09:42:52] Learning rate after epoch 27: [0.0024]
+[2024-09-10 09:43:19] Epoch 28/100, Training Loss: 0.4555, Training Accuracy: 84.52%
+[2024-09-10 09:43:23] Epoch 28/100, Validation Loss: 0.2701, Validation Accuracy: 91.20%
+[2024-09-10 09:43:23] Learning rate after epoch 28: [0.0024]
+[2024-09-10 09:43:51] Epoch 29/100, Training Loss: 0.4521, Training Accuracy: 84.35%
+[2024-09-10 09:43:56] Epoch 29/100, Validation Loss: 0.2603, Validation Accuracy: 91.36%
+[2024-09-10 09:43:56] Learning rate after epoch 29: [0.0024]
+[2024-09-10 09:44:23] Epoch 30/100, Training Loss: 0.4521, Training Accuracy: 84.44%
+[2024-09-10 09:44:27] Epoch 30/100, Validation Loss: 0.2762, Validation Accuracy: 90.95%
+[2024-09-10 09:44:27] Learning rate after epoch 30: [0.0024]
+[2024-09-10 09:44:55] Epoch 31/100, Training Loss: 0.4583, Training Accuracy: 84.30%
+[2024-09-10 09:44:59] Epoch 31/100, Validation Loss: 0.2549, Validation Accuracy: 91.71%
+[2024-09-10 09:44:59] Learning rate after epoch 31: [0.0024]
+[2024-09-10 09:45:33] 
+
+New training session
+
+
+[2024-09-10 09:45:33] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(64,), stride=(1,), padding=(63,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=260, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=12, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+[2024-09-10 09:46:09] Epoch 1/100, Training Loss: 1.8190, Training Accuracy: 34.22%
+[2024-09-10 09:46:14] Epoch 1/100, Validation Loss: 1.0656, Validation Accuracy: 64.33%
+[2024-09-10 09:46:14] Learning rate after epoch 1: [0.0024]
+[2024-09-10 09:46:46] Epoch 2/100, Training Loss: 1.2410, Training Accuracy: 56.45%
+[2024-09-10 09:46:51] Epoch 2/100, Validation Loss: 0.7300, Validation Accuracy: 75.61%
+[2024-09-10 09:46:51] Learning rate after epoch 2: [0.0024]
+[2024-09-10 09:47:23] Epoch 3/100, Training Loss: 1.0474, Training Accuracy: 64.13%
+[2024-09-10 09:47:29] Epoch 3/100, Validation Loss: 0.5769, Validation Accuracy: 81.42%
+[2024-09-10 09:47:29] Learning rate after epoch 3: [0.0024]
+[2024-09-10 09:47:59] Epoch 4/100, Training Loss: 0.9467, Training Accuracy: 67.46%
+[2024-09-10 09:48:04] Epoch 4/100, Validation Loss: 0.5258, Validation Accuracy: 82.37%
+[2024-09-10 09:48:04] Learning rate after epoch 4: [0.0024]
+[2024-09-10 09:48:36] Epoch 5/100, Training Loss: 0.8686, Training Accuracy: 70.24%
+[2024-09-10 09:48:41] Epoch 5/100, Validation Loss: 0.4651, Validation Accuracy: 85.23%
+[2024-09-10 09:48:41] Learning rate after epoch 5: [0.0024]
+[2024-09-10 09:49:13] Epoch 6/100, Training Loss: 0.8122, Training Accuracy: 71.90%
+[2024-09-10 09:49:18] Epoch 6/100, Validation Loss: 0.4438, Validation Accuracy: 85.36%
+[2024-09-10 09:49:18] Learning rate after epoch 6: [0.0024]
+[2024-09-10 09:49:50] Epoch 7/100, Training Loss: 0.7779, Training Accuracy: 73.33%
+[2024-09-10 09:49:55] Epoch 7/100, Validation Loss: 0.4002, Validation Accuracy: 86.55%
+[2024-09-10 09:49:55] Learning rate after epoch 7: [0.0024]
+[2024-09-10 09:50:25] Epoch 8/100, Training Loss: 0.7593, Training Accuracy: 73.86%
+[2024-09-10 09:50:30] Epoch 8/100, Validation Loss: 0.3792, Validation Accuracy: 87.52%
+[2024-09-10 09:50:30] Learning rate after epoch 8: [0.0024]
+[2024-09-10 09:51:00] Epoch 9/100, Training Loss: 0.7196, Training Accuracy: 75.37%
+[2024-09-10 09:51:06] Epoch 9/100, Validation Loss: 0.3761, Validation Accuracy: 88.06%
+[2024-09-10 09:51:06] Learning rate after epoch 9: [0.0024]
+[2024-09-10 09:51:35] Epoch 10/100, Training Loss: 0.7095, Training Accuracy: 75.77%
+[2024-09-10 09:51:41] Epoch 10/100, Validation Loss: 0.3848, Validation Accuracy: 87.96%
+[2024-09-10 09:51:41] Learning rate after epoch 10: [0.0024]
+[2024-09-10 09:52:09] Epoch 11/100, Training Loss: 0.6904, Training Accuracy: 76.37%
+[2024-09-10 09:52:14] Epoch 11/100, Validation Loss: 0.3687, Validation Accuracy: 88.06%
+[2024-09-10 09:52:14] Learning rate after epoch 11: [0.0024]
+[2024-09-10 09:52:44] Epoch 12/100, Training Loss: 0.6756, Training Accuracy: 76.69%
+[2024-09-10 09:52:49] Epoch 12/100, Validation Loss: 0.3650, Validation Accuracy: 87.31%
+[2024-09-10 09:52:49] Learning rate after epoch 12: [0.0024]
+[2024-09-10 09:53:18] Epoch 13/100, Training Loss: 0.6526, Training Accuracy: 77.34%
+[2024-09-10 09:53:23] Epoch 13/100, Validation Loss: 0.3395, Validation Accuracy: 88.68%
+[2024-09-10 09:53:23] Learning rate after epoch 13: [0.0024]
+[2024-09-10 09:53:53] Epoch 14/100, Training Loss: 0.6556, Training Accuracy: 77.57%
+[2024-09-10 09:53:58] Epoch 14/100, Validation Loss: 0.3298, Validation Accuracy: 89.06%
+[2024-09-10 09:53:58] Learning rate after epoch 14: [0.0024]
+[2024-09-10 09:54:29] Epoch 15/100, Training Loss: 0.6468, Training Accuracy: 77.70%
+[2024-09-10 09:54:34] Epoch 15/100, Validation Loss: 0.3433, Validation Accuracy: 88.55%
+[2024-09-10 09:54:34] Learning rate after epoch 15: [0.0024]
+[2024-09-10 09:55:05] Epoch 16/100, Training Loss: 0.6292, Training Accuracy: 78.48%
+[2024-09-10 09:55:10] Epoch 16/100, Validation Loss: 0.3331, Validation Accuracy: 89.55%
+[2024-09-10 09:55:10] Learning rate after epoch 16: [0.0024]
+[2024-09-10 09:55:40] Epoch 17/100, Training Loss: 0.6248, Training Accuracy: 78.46%
+[2024-09-10 09:55:46] Epoch 17/100, Validation Loss: 0.3233, Validation Accuracy: 90.06%
+[2024-09-10 09:55:46] Learning rate after epoch 17: [0.0024]
+[2024-09-10 09:56:16] Epoch 18/100, Training Loss: 0.6301, Training Accuracy: 78.40%
+[2024-09-10 09:56:21] Epoch 18/100, Validation Loss: 0.3035, Validation Accuracy: 89.85%
+[2024-09-10 09:56:21] Learning rate after epoch 18: [0.0024]
+[2024-09-10 09:56:51] Epoch 19/100, Training Loss: 0.6188, Training Accuracy: 78.96%
+[2024-09-10 09:56:56] Epoch 19/100, Validation Loss: 0.3030, Validation Accuracy: 90.01%
+[2024-09-10 09:56:56] Learning rate after epoch 19: [0.0024]
+[2024-09-10 09:57:27] Epoch 20/100, Training Loss: 0.6124, Training Accuracy: 79.03%
+[2024-09-10 09:57:33] Epoch 20/100, Validation Loss: 0.3083, Validation Accuracy: 89.63%
+[2024-09-10 09:57:33] Learning rate after epoch 20: [0.0024]
+[2024-09-10 09:58:02] Epoch 21/100, Training Loss: 0.6018, Training Accuracy: 79.13%
+[2024-09-10 09:58:07] Epoch 21/100, Validation Loss: 0.2949, Validation Accuracy: 90.52%
+[2024-09-10 09:58:07] Learning rate after epoch 21: [0.0024]
+[2024-09-10 09:58:36] Epoch 22/100, Training Loss: 0.6020, Training Accuracy: 79.16%
+[2024-09-10 09:58:42] Epoch 22/100, Validation Loss: 0.2881, Validation Accuracy: 90.63%
+[2024-09-10 09:58:42] Learning rate after epoch 22: [0.0024]
+[2024-09-10 09:59:11] Epoch 23/100, Training Loss: 0.5914, Training Accuracy: 79.70%
+[2024-09-10 09:59:17] Epoch 23/100, Validation Loss: 0.3066, Validation Accuracy: 90.25%
+[2024-09-10 09:59:17] Learning rate after epoch 23: [0.0024]
+[2024-09-10 09:59:42] Epoch 24/100, Training Loss: 0.5943, Training Accuracy: 79.45%
+[2024-09-10 09:59:47] Epoch 24/100, Validation Loss: 0.2843, Validation Accuracy: 91.03%
+[2024-09-10 09:59:47] Learning rate after epoch 24: [0.0024]
+[2024-09-10 10:00:15] Epoch 25/100, Training Loss: 0.5888, Training Accuracy: 79.81%
+[2024-09-10 10:00:19] Epoch 25/100, Validation Loss: 0.3060, Validation Accuracy: 89.98%
+[2024-09-10 10:00:19] Learning rate after epoch 25: [0.0024]
+[2024-09-10 10:00:48] Epoch 26/100, Training Loss: 0.5822, Training Accuracy: 80.27%
+[2024-09-10 10:00:52] Epoch 26/100, Validation Loss: 0.3180, Validation Accuracy: 89.58%
+[2024-09-10 10:00:52] Learning rate after epoch 26: [0.0024]
+[2024-09-10 10:01:22] Epoch 27/100, Training Loss: 0.5822, Training Accuracy: 80.47%
+[2024-09-10 10:01:27] Epoch 27/100, Validation Loss: 0.3008, Validation Accuracy: 90.41%
+[2024-09-10 10:01:27] Learning rate after epoch 27: [0.0024]
+[2024-09-10 10:01:56] Epoch 28/100, Training Loss: 0.5813, Training Accuracy: 79.98%
+[2024-09-10 10:02:02] Epoch 28/100, Validation Loss: 0.2943, Validation Accuracy: 90.01%
+[2024-09-10 10:02:02] Learning rate after epoch 28: [0.00023999999999999998]
+[2024-09-10 10:02:28] Epoch 29/100, Training Loss: 0.5396, Training Accuracy: 81.51%
+[2024-09-10 10:02:33] Epoch 29/100, Validation Loss: 0.2627, Validation Accuracy: 91.47%
+[2024-09-10 10:02:33] Learning rate after epoch 29: [0.00023999999999999998]
+[2024-09-10 10:03:02] Epoch 30/100, Training Loss: 0.5270, Training Accuracy: 81.95%
+[2024-09-10 10:03:07] Epoch 30/100, Validation Loss: 0.2608, Validation Accuracy: 91.68%
+[2024-09-10 10:03:07] Learning rate after epoch 30: [0.00023999999999999998]
+[2024-09-10 10:03:37] Epoch 31/100, Training Loss: 0.5230, Training Accuracy: 81.82%
+[2024-09-10 10:03:42] Epoch 31/100, Validation Loss: 0.2535, Validation Accuracy: 91.95%
+[2024-09-10 10:03:42] Learning rate after epoch 31: [0.00023999999999999998]
+[2024-09-10 10:04:08] Epoch 32/100, Training Loss: 0.5193, Training Accuracy: 82.32%
+[2024-09-10 10:04:13] Epoch 32/100, Validation Loss: 0.2547, Validation Accuracy: 91.68%
+[2024-09-10 10:04:13] Learning rate after epoch 32: [0.00023999999999999998]
+[2024-09-10 10:04:39] Epoch 33/100, Training Loss: 0.5087, Training Accuracy: 82.51%
+[2024-09-10 10:04:44] Epoch 33/100, Validation Loss: 0.2510, Validation Accuracy: 91.82%
+[2024-09-10 10:04:44] Learning rate after epoch 33: [0.00023999999999999998]
+[2024-09-10 10:05:13] Epoch 34/100, Training Loss: 0.5136, Training Accuracy: 82.27%
+[2024-09-10 10:05:18] Epoch 34/100, Validation Loss: 0.2521, Validation Accuracy: 91.82%
+[2024-09-10 10:05:18] Learning rate after epoch 34: [0.00023999999999999998]
+[2024-09-10 10:05:47] Epoch 35/100, Training Loss: 0.5104, Training Accuracy: 82.49%
+[2024-09-10 10:05:52] Epoch 35/100, Validation Loss: 0.2497, Validation Accuracy: 92.11%
+[2024-09-10 10:05:52] Learning rate after epoch 35: [0.00023999999999999998]
+[2024-09-10 10:06:19] Epoch 36/100, Training Loss: 0.5067, Training Accuracy: 82.54%
+[2024-09-10 10:06:24] Epoch 36/100, Validation Loss: 0.2472, Validation Accuracy: 92.06%
+[2024-09-10 10:06:24] Learning rate after epoch 36: [0.00023999999999999998]
+[2024-09-10 10:06:52] Epoch 37/100, Training Loss: 0.5040, Training Accuracy: 82.69%
+[2024-09-10 10:06:56] Epoch 37/100, Validation Loss: 0.2448, Validation Accuracy: 92.09%
+[2024-09-10 10:06:56] Learning rate after epoch 37: [0.00023999999999999998]
+[2024-09-10 10:07:25] Epoch 38/100, Training Loss: 0.5035, Training Accuracy: 82.53%
+[2024-09-10 10:07:29] Epoch 38/100, Validation Loss: 0.2430, Validation Accuracy: 92.33%
+[2024-09-10 10:07:29] Learning rate after epoch 38: [0.00023999999999999998]
+[2024-09-10 10:07:56] Epoch 39/100, Training Loss: 0.5015, Training Accuracy: 82.84%
+[2024-09-10 10:08:01] Epoch 39/100, Validation Loss: 0.2433, Validation Accuracy: 92.03%
+[2024-09-10 10:08:01] Learning rate after epoch 39: [0.00023999999999999998]
+[2024-09-10 10:08:28] Epoch 40/100, Training Loss: 0.5035, Training Accuracy: 82.54%
+[2024-09-10 10:08:33] Epoch 40/100, Validation Loss: 0.2418, Validation Accuracy: 91.93%
+[2024-09-10 10:08:33] Learning rate after epoch 40: [0.00023999999999999998]
+[2024-09-10 10:08:59] Epoch 41/100, Training Loss: 0.5023, Training Accuracy: 82.53%
+[2024-09-10 10:09:04] Epoch 41/100, Validation Loss: 0.2455, Validation Accuracy: 91.93%
+[2024-09-10 10:09:04] Learning rate after epoch 41: [0.00023999999999999998]
+[2024-09-10 10:09:31] Epoch 42/100, Training Loss: 0.5014, Training Accuracy: 82.68%
+[2024-09-10 10:09:36] Epoch 42/100, Validation Loss: 0.2479, Validation Accuracy: 91.84%
+[2024-09-10 10:09:36] Learning rate after epoch 42: [0.00023999999999999998]
+[2024-09-10 10:10:20] 
+
+New training session
+
+
+[2024-09-10 10:10:20] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(64,), stride=(1,), padding=(63,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=260, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=12, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+[2024-09-10 10:10:55] Epoch 1/100, Training Loss: 1.5490, Training Accuracy: 45.03%
+[2024-09-10 10:11:00] Epoch 1/100, Validation Loss: 0.7651, Validation Accuracy: 75.13%
+[2024-09-10 10:11:00] Learning rate after epoch 1: [0.0024]
+[2024-09-10 10:11:33] Epoch 2/100, Training Loss: 0.9155, Training Accuracy: 68.62%
+[2024-09-10 10:11:39] Epoch 2/100, Validation Loss: 0.5613, Validation Accuracy: 82.23%
+[2024-09-10 10:11:39] Learning rate after epoch 2: [0.0024]
+[2024-09-10 10:12:10] Epoch 3/100, Training Loss: 0.7559, Training Accuracy: 73.81%
+[2024-09-10 10:12:15] Epoch 3/100, Validation Loss: 0.4759, Validation Accuracy: 84.34%
+[2024-09-10 10:12:15] Learning rate after epoch 3: [0.0024]
+[2024-09-10 10:12:48] Epoch 4/100, Training Loss: 0.6796, Training Accuracy: 76.73%
+[2024-09-10 10:12:53] Epoch 4/100, Validation Loss: 0.4664, Validation Accuracy: 85.17%
+[2024-09-10 10:12:53] Learning rate after epoch 4: [0.0024]
+[2024-09-10 10:13:25] Epoch 5/100, Training Loss: 0.6385, Training Accuracy: 78.17%
+[2024-09-10 10:13:30] Epoch 5/100, Validation Loss: 0.4232, Validation Accuracy: 86.58%
+[2024-09-10 10:13:30] Learning rate after epoch 5: [0.0024]
+[2024-09-10 10:14:01] Epoch 6/100, Training Loss: 0.6121, Training Accuracy: 79.17%
+[2024-09-10 10:14:07] Epoch 6/100, Validation Loss: 0.4113, Validation Accuracy: 86.66%
+[2024-09-10 10:14:07] Learning rate after epoch 6: [0.0024]
+[2024-09-10 10:14:38] Epoch 7/100, Training Loss: 0.5933, Training Accuracy: 80.02%
+[2024-09-10 10:14:43] Epoch 7/100, Validation Loss: 0.3893, Validation Accuracy: 86.69%
+[2024-09-10 10:14:43] Learning rate after epoch 7: [0.0024]
+[2024-09-10 10:15:14] Epoch 8/100, Training Loss: 0.5814, Training Accuracy: 80.10%
+[2024-09-10 10:15:19] Epoch 8/100, Validation Loss: 0.3695, Validation Accuracy: 87.36%
+[2024-09-10 10:15:19] Learning rate after epoch 8: [0.0024]
+[2024-09-10 10:15:50] Epoch 9/100, Training Loss: 0.5586, Training Accuracy: 81.02%
+[2024-09-10 10:15:55] Epoch 9/100, Validation Loss: 0.3476, Validation Accuracy: 89.17%
+[2024-09-10 10:15:55] Learning rate after epoch 9: [0.0024]
+[2024-09-10 10:16:24] Epoch 10/100, Training Loss: 0.5415, Training Accuracy: 81.50%
+[2024-09-10 10:16:29] Epoch 10/100, Validation Loss: 0.3493, Validation Accuracy: 87.79%
+[2024-09-10 10:16:29] Learning rate after epoch 10: [0.0024]
+[2024-09-10 10:16:57] Epoch 11/100, Training Loss: 0.5341, Training Accuracy: 81.85%
+[2024-09-10 10:17:03] Epoch 11/100, Validation Loss: 0.3358, Validation Accuracy: 88.20%
+[2024-09-10 10:17:03] Learning rate after epoch 11: [0.0024]
+[2024-09-10 10:17:31] Epoch 12/100, Training Loss: 0.5310, Training Accuracy: 81.80%
+[2024-09-10 10:17:37] Epoch 12/100, Validation Loss: 0.3392, Validation Accuracy: 88.63%
+[2024-09-10 10:17:37] Learning rate after epoch 12: [0.0024]
+[2024-09-10 10:18:07] Epoch 13/100, Training Loss: 0.5133, Training Accuracy: 82.49%
+[2024-09-10 10:18:12] Epoch 13/100, Validation Loss: 0.3354, Validation Accuracy: 89.31%
+[2024-09-10 10:18:12] Learning rate after epoch 13: [0.0024]
+[2024-09-10 10:18:42] Epoch 14/100, Training Loss: 0.5136, Training Accuracy: 82.40%
+[2024-09-10 10:18:47] Epoch 14/100, Validation Loss: 0.3385, Validation Accuracy: 88.63%
+[2024-09-10 10:18:47] Learning rate after epoch 14: [0.0024]
+[2024-09-10 10:19:17] Epoch 15/100, Training Loss: 0.5083, Training Accuracy: 82.37%
+[2024-09-10 10:19:22] Epoch 15/100, Validation Loss: 0.3506, Validation Accuracy: 88.25%
+[2024-09-10 10:19:22] Learning rate after epoch 15: [0.0024]
+[2024-09-10 10:19:52] Epoch 16/100, Training Loss: 0.5038, Training Accuracy: 82.57%
+[2024-09-10 10:19:57] Epoch 16/100, Validation Loss: 0.3275, Validation Accuracy: 88.90%
+[2024-09-10 10:19:57] Learning rate after epoch 16: [0.0024]
+[2024-09-10 10:20:28] Epoch 17/100, Training Loss: 0.4959, Training Accuracy: 83.01%
+[2024-09-10 10:20:33] Epoch 17/100, Validation Loss: 0.3019, Validation Accuracy: 89.85%
+[2024-09-10 10:20:33] Learning rate after epoch 17: [0.0024]
+[2024-09-10 10:21:03] Epoch 18/100, Training Loss: 0.4995, Training Accuracy: 83.02%
+[2024-09-10 10:21:07] Epoch 18/100, Validation Loss: 0.3307, Validation Accuracy: 89.01%
+[2024-09-10 10:21:07] Learning rate after epoch 18: [0.0024]
+[2024-09-10 10:21:36] Epoch 19/100, Training Loss: 0.4896, Training Accuracy: 83.35%
+[2024-09-10 10:21:40] Epoch 19/100, Validation Loss: 0.3229, Validation Accuracy: 89.58%
+[2024-09-10 10:21:40] Learning rate after epoch 19: [0.0024]
+[2024-09-10 10:22:09] Epoch 20/100, Training Loss: 0.4908, Training Accuracy: 83.13%
+[2024-09-10 10:22:14] Epoch 20/100, Validation Loss: 0.3334, Validation Accuracy: 88.68%
+[2024-09-10 10:22:14] Learning rate after epoch 20: [0.0024]
+[2024-09-10 10:22:43] Epoch 21/100, Training Loss: 0.4778, Training Accuracy: 83.31%
+[2024-09-10 10:22:48] Epoch 21/100, Validation Loss: 0.2868, Validation Accuracy: 89.87%
+[2024-09-10 10:22:48] Learning rate after epoch 21: [0.0024]
+[2024-09-10 10:23:16] Epoch 22/100, Training Loss: 0.4783, Training Accuracy: 83.44%
+[2024-09-10 10:23:21] Epoch 22/100, Validation Loss: 0.3216, Validation Accuracy: 89.50%
+[2024-09-10 10:23:21] Learning rate after epoch 22: [0.0024]
+[2024-09-10 10:23:49] Epoch 23/100, Training Loss: 0.4779, Training Accuracy: 83.44%
+[2024-09-10 10:23:54] Epoch 23/100, Validation Loss: 0.2844, Validation Accuracy: 90.58%
+[2024-09-10 10:23:54] Learning rate after epoch 23: [0.0024]
+[2024-09-10 10:24:22] Epoch 24/100, Training Loss: 0.4743, Training Accuracy: 83.78%
+[2024-09-10 10:24:27] Epoch 24/100, Validation Loss: 0.3058, Validation Accuracy: 89.68%
+[2024-09-10 10:24:27] Learning rate after epoch 24: [0.0024]
+[2024-09-10 10:24:54] Epoch 25/100, Training Loss: 0.4726, Training Accuracy: 83.65%
+[2024-09-10 10:24:59] Epoch 25/100, Validation Loss: 0.2949, Validation Accuracy: 90.31%
+[2024-09-10 10:24:59] Learning rate after epoch 25: [0.0024]
+[2024-09-10 10:25:27] Epoch 26/100, Training Loss: 0.4679, Training Accuracy: 83.84%
+[2024-09-10 10:25:31] Epoch 26/100, Validation Loss: 0.3006, Validation Accuracy: 89.98%
+[2024-09-10 10:25:31] Learning rate after epoch 26: [0.0024]
+[2024-09-10 10:25:58] Epoch 27/100, Training Loss: 0.4671, Training Accuracy: 83.96%
+[2024-09-10 10:26:03] Epoch 27/100, Validation Loss: 0.2972, Validation Accuracy: 90.01%
+[2024-09-10 10:26:03] Learning rate after epoch 27: [0.00023999999999999998]
+[2024-09-10 10:26:30] Epoch 28/100, Training Loss: 0.4196, Training Accuracy: 85.37%
+[2024-09-10 10:26:35] Epoch 28/100, Validation Loss: 0.2592, Validation Accuracy: 90.95%
+[2024-09-10 10:26:35] Learning rate after epoch 28: [0.00023999999999999998]
+[2024-09-10 10:27:02] Epoch 29/100, Training Loss: 0.4078, Training Accuracy: 85.99%
+[2024-09-10 10:27:06] Epoch 29/100, Validation Loss: 0.2516, Validation Accuracy: 91.30%
+[2024-09-10 10:27:06] Learning rate after epoch 29: [0.00023999999999999998]
+[2024-09-10 10:27:33] Epoch 30/100, Training Loss: 0.4083, Training Accuracy: 86.19%
+[2024-09-10 10:27:37] Epoch 30/100, Validation Loss: 0.2472, Validation Accuracy: 91.30%
+[2024-09-10 10:27:37] Learning rate after epoch 30: [0.00023999999999999998]
+[2024-09-10 10:28:05] Epoch 31/100, Training Loss: 0.4002, Training Accuracy: 86.14%
+[2024-09-10 10:28:09] Epoch 31/100, Validation Loss: 0.2453, Validation Accuracy: 91.57%
+[2024-09-10 10:28:09] Learning rate after epoch 31: [0.00023999999999999998]
+[2024-09-10 10:28:37] Epoch 32/100, Training Loss: 0.3968, Training Accuracy: 86.40%
+[2024-09-10 10:28:41] Epoch 32/100, Validation Loss: 0.2450, Validation Accuracy: 91.55%
+[2024-09-10 10:28:41] Learning rate after epoch 32: [0.00023999999999999998]
+[2024-09-10 10:29:09] Epoch 33/100, Training Loss: 0.3982, Training Accuracy: 86.32%
+[2024-09-10 10:29:13] Epoch 33/100, Validation Loss: 0.2431, Validation Accuracy: 91.47%
+[2024-09-10 10:29:13] Learning rate after epoch 33: [0.00023999999999999998]
+[2024-09-10 10:29:39] Epoch 34/100, Training Loss: 0.3996, Training Accuracy: 86.31%
+[2024-09-10 10:29:44] Epoch 34/100, Validation Loss: 0.2464, Validation Accuracy: 91.41%
+[2024-09-10 10:29:44] Learning rate after epoch 34: [0.00023999999999999998]
+[2024-09-10 10:30:11] Epoch 35/100, Training Loss: 0.3923, Training Accuracy: 86.54%
+[2024-09-10 10:30:16] Epoch 35/100, Validation Loss: 0.2452, Validation Accuracy: 91.17%
+[2024-09-10 10:30:16] Learning rate after epoch 35: [0.00023999999999999998]
+[2024-09-10 10:30:42] Epoch 36/100, Training Loss: 0.3962, Training Accuracy: 86.49%
+[2024-09-10 10:30:47] Epoch 36/100, Validation Loss: 0.2458, Validation Accuracy: 91.49%
+[2024-09-10 10:30:47] Learning rate after epoch 36: [0.00023999999999999998]
+[2024-09-10 10:31:15] Epoch 37/100, Training Loss: 0.3891, Training Accuracy: 86.49%
+[2024-09-10 10:31:20] Epoch 37/100, Validation Loss: 0.2466, Validation Accuracy: 91.49%
+[2024-09-10 10:31:20] Learning rate after epoch 37: [2.4e-05]
+[2024-09-10 10:31:47] Epoch 38/100, Training Loss: 0.3842, Training Accuracy: 86.54%
+[2024-09-10 10:31:52] Epoch 38/100, Validation Loss: 0.2426, Validation Accuracy: 91.57%
+[2024-09-10 10:31:52] Learning rate after epoch 38: [2.4e-05]
+[2024-09-10 10:31:52] Training complete.
+[2024-09-10 10:34:44] 
+
+New training session
+
+
+[2024-09-10 10:34:44] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=12, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+[2024-09-10 10:35:20] Epoch 1/100, Training Loss: 1.3844, Training Accuracy: 50.70%
+[2024-09-10 10:35:26] Epoch 1/100, Validation Loss: 0.6980, Validation Accuracy: 76.32%
+[2024-09-10 10:35:26] Learning rate after epoch 1: [0.0024]
+[2024-09-10 10:35:59] Epoch 2/100, Training Loss: 0.7983, Training Accuracy: 73.10%
+[2024-09-10 10:36:05] Epoch 2/100, Validation Loss: 0.5835, Validation Accuracy: 80.72%
+[2024-09-10 10:36:05] Learning rate after epoch 2: [0.0024]
+[2024-09-10 10:36:37] Epoch 3/100, Training Loss: 0.6649, Training Accuracy: 77.50%
+[2024-09-10 10:36:42] Epoch 3/100, Validation Loss: 0.4975, Validation Accuracy: 83.31%
+[2024-09-10 10:36:42] Learning rate after epoch 3: [0.0024]
+[2024-09-10 10:37:17] Epoch 4/100, Training Loss: 0.5976, Training Accuracy: 79.70%
+[2024-09-10 10:37:22] Epoch 4/100, Validation Loss: 0.4611, Validation Accuracy: 84.74%
+[2024-09-10 10:37:22] Learning rate after epoch 4: [0.0024]
+[2024-09-10 10:37:56] Epoch 5/100, Training Loss: 0.5489, Training Accuracy: 81.27%
+[2024-09-10 10:38:02] Epoch 5/100, Validation Loss: 0.4530, Validation Accuracy: 85.23%
+[2024-09-10 10:38:02] Learning rate after epoch 5: [0.0024]
+[2024-09-10 10:38:34] Epoch 6/100, Training Loss: 0.5216, Training Accuracy: 82.21%
+[2024-09-10 10:38:39] Epoch 6/100, Validation Loss: 0.3983, Validation Accuracy: 87.44%
+[2024-09-10 10:38:39] Learning rate after epoch 6: [0.0024]
+[2024-09-10 10:39:14] Epoch 7/100, Training Loss: 0.4870, Training Accuracy: 83.94%
+[2024-09-10 10:39:20] Epoch 7/100, Validation Loss: 0.3728, Validation Accuracy: 87.36%
+[2024-09-10 10:39:20] Learning rate after epoch 7: [0.0024]
+[2024-09-10 10:39:52] Epoch 8/100, Training Loss: 0.4663, Training Accuracy: 84.10%
+[2024-09-10 10:39:58] Epoch 8/100, Validation Loss: 0.3649, Validation Accuracy: 87.87%
+[2024-09-10 10:39:58] Learning rate after epoch 8: [0.0024]
+[2024-09-10 10:40:30] Epoch 9/100, Training Loss: 0.4500, Training Accuracy: 84.88%
+[2024-09-10 10:40:35] Epoch 9/100, Validation Loss: 0.3506, Validation Accuracy: 87.44%
+[2024-09-10 10:40:35] Learning rate after epoch 9: [0.0024]
+[2024-09-10 10:41:07] Epoch 10/100, Training Loss: 0.4260, Training Accuracy: 85.64%
+[2024-09-10 10:41:12] Epoch 10/100, Validation Loss: 0.3586, Validation Accuracy: 87.96%
+[2024-09-10 10:41:12] Learning rate after epoch 10: [0.0024]
+[2024-09-10 10:41:44] Epoch 11/100, Training Loss: 0.4162, Training Accuracy: 85.89%
+[2024-09-10 10:41:49] Epoch 11/100, Validation Loss: 0.3269, Validation Accuracy: 89.06%
+[2024-09-10 10:41:49] Learning rate after epoch 11: [0.0024]
+[2024-09-10 10:42:20] Epoch 12/100, Training Loss: 0.4075, Training Accuracy: 86.22%
+[2024-09-10 10:42:25] Epoch 12/100, Validation Loss: 0.3168, Validation Accuracy: 89.82%
+[2024-09-10 10:42:25] Learning rate after epoch 12: [0.0024]
+[2024-09-10 10:42:55] Epoch 13/100, Training Loss: 0.3963, Training Accuracy: 86.61%
+[2024-09-10 10:43:01] Epoch 13/100, Validation Loss: 0.3097, Validation Accuracy: 89.31%
+[2024-09-10 10:43:01] Learning rate after epoch 13: [0.0024]
+[2024-09-10 10:43:30] Epoch 14/100, Training Loss: 0.3853, Training Accuracy: 86.90%
+[2024-09-10 10:43:35] Epoch 14/100, Validation Loss: 0.3183, Validation Accuracy: 88.98%
+[2024-09-10 10:43:35] Learning rate after epoch 14: [0.0024]
+[2024-09-10 10:44:07] Epoch 15/100, Training Loss: 0.3818, Training Accuracy: 87.05%
+[2024-09-10 10:44:13] Epoch 15/100, Validation Loss: 0.3162, Validation Accuracy: 89.31%
+[2024-09-10 10:44:13] Learning rate after epoch 15: [0.0024]
+[2024-09-10 10:44:42] Epoch 16/100, Training Loss: 0.3780, Training Accuracy: 87.08%
+[2024-09-10 10:44:48] Epoch 16/100, Validation Loss: 0.2892, Validation Accuracy: 89.63%
+[2024-09-10 10:44:48] Learning rate after epoch 16: [0.0024]
+[2024-09-10 10:45:18] Epoch 17/100, Training Loss: 0.3698, Training Accuracy: 87.45%
+[2024-09-10 10:45:23] Epoch 17/100, Validation Loss: 0.3003, Validation Accuracy: 89.79%
+[2024-09-10 10:45:23] Learning rate after epoch 17: [0.0024]
+[2024-09-10 10:45:53] Epoch 18/100, Training Loss: 0.3678, Training Accuracy: 87.63%
+[2024-09-10 10:45:59] Epoch 18/100, Validation Loss: 0.2900, Validation Accuracy: 90.28%
+[2024-09-10 10:45:59] Learning rate after epoch 18: [0.0024]
+[2024-09-10 10:46:47] Epoch 19/100, Training Loss: 0.3612, Training Accuracy: 87.79%
+[2024-09-10 10:46:55] Epoch 19/100, Validation Loss: 0.2885, Validation Accuracy: 90.33%
+[2024-09-10 10:46:55] Learning rate after epoch 19: [0.0024]
+[2024-09-10 10:47:48] Epoch 20/100, Training Loss: 0.3586, Training Accuracy: 87.75%
+[2024-09-10 10:47:53] Epoch 20/100, Validation Loss: 0.2881, Validation Accuracy: 90.06%
+[2024-09-10 10:47:53] Learning rate after epoch 20: [0.0024]
+[2024-09-10 10:48:33] Epoch 21/100, Training Loss: 0.3506, Training Accuracy: 88.13%
+[2024-09-10 10:48:40] Epoch 21/100, Validation Loss: 0.2687, Validation Accuracy: 91.25%
+[2024-09-10 10:48:40] Learning rate after epoch 21: [0.0024]
+[2024-09-10 10:49:22] Epoch 22/100, Training Loss: 0.3440, Training Accuracy: 88.23%
+[2024-09-10 10:49:29] Epoch 22/100, Validation Loss: 0.2776, Validation Accuracy: 90.25%
+[2024-09-10 10:49:29] Learning rate after epoch 22: [0.0024]
+[2024-09-10 10:50:01] Epoch 23/100, Training Loss: 0.3415, Training Accuracy: 88.26%
+[2024-09-10 10:50:06] Epoch 23/100, Validation Loss: 0.2749, Validation Accuracy: 90.39%
+[2024-09-10 10:50:06] Learning rate after epoch 23: [0.0024]
+[2024-09-10 10:50:38] Epoch 24/100, Training Loss: 0.3422, Training Accuracy: 88.20%
+[2024-09-10 10:50:43] Epoch 24/100, Validation Loss: 0.2969, Validation Accuracy: 90.33%
+[2024-09-10 10:50:43] Learning rate after epoch 24: [0.0024]
+[2024-09-10 10:51:11] Epoch 25/100, Training Loss: 0.3448, Training Accuracy: 88.14%
+[2024-09-10 10:51:17] Epoch 25/100, Validation Loss: 0.2855, Validation Accuracy: 90.33%
+[2024-09-10 10:51:17] Learning rate after epoch 25: [0.00023999999999999998]
+[2024-09-10 10:51:45] Epoch 26/100, Training Loss: 0.3039, Training Accuracy: 89.52%
+[2024-09-10 10:51:50] Epoch 26/100, Validation Loss: 0.2471, Validation Accuracy: 91.47%
+[2024-09-10 10:51:50] Learning rate after epoch 26: [0.00023999999999999998]
+[2024-09-10 10:52:17] Epoch 27/100, Training Loss: 0.2928, Training Accuracy: 90.01%
+[2024-09-10 10:52:22] Epoch 27/100, Validation Loss: 0.2424, Validation Accuracy: 91.63%
+[2024-09-10 10:52:22] Learning rate after epoch 27: [0.00023999999999999998]
+[2024-09-10 10:52:52] Epoch 28/100, Training Loss: 0.2924, Training Accuracy: 90.03%
+[2024-09-10 10:52:57] Epoch 28/100, Validation Loss: 0.2401, Validation Accuracy: 91.71%
+[2024-09-10 10:52:57] Learning rate after epoch 28: [0.00023999999999999998]
+[2024-09-10 10:53:25] Epoch 29/100, Training Loss: 0.2876, Training Accuracy: 90.14%
+[2024-09-10 10:53:30] Epoch 29/100, Validation Loss: 0.2387, Validation Accuracy: 91.90%
+[2024-09-10 10:53:30] Learning rate after epoch 29: [0.00023999999999999998]
+[2024-09-10 10:53:57] Epoch 30/100, Training Loss: 0.2810, Training Accuracy: 90.26%
+[2024-09-10 10:54:02] Epoch 30/100, Validation Loss: 0.2411, Validation Accuracy: 91.71%
+[2024-09-10 10:54:02] Learning rate after epoch 30: [0.00023999999999999998]
+[2024-09-10 10:54:29] Epoch 31/100, Training Loss: 0.2805, Training Accuracy: 90.33%
+[2024-09-10 10:54:34] Epoch 31/100, Validation Loss: 0.2358, Validation Accuracy: 92.01%
+[2024-09-10 10:54:34] Learning rate after epoch 31: [0.00023999999999999998]
+[2024-09-10 10:55:01] Epoch 32/100, Training Loss: 0.2876, Training Accuracy: 90.14%
+[2024-09-10 10:55:06] Epoch 32/100, Validation Loss: 0.2312, Validation Accuracy: 91.93%
+[2024-09-10 10:55:06] Learning rate after epoch 32: [0.00023999999999999998]
+[2024-09-10 10:55:35] Epoch 33/100, Training Loss: 0.2814, Training Accuracy: 90.39%
+[2024-09-10 10:55:40] Epoch 33/100, Validation Loss: 0.2363, Validation Accuracy: 91.93%
+[2024-09-10 10:55:40] Learning rate after epoch 33: [0.00023999999999999998]
+[2024-09-10 10:56:08] Epoch 34/100, Training Loss: 0.2820, Training Accuracy: 90.40%
+[2024-09-10 10:56:12] Epoch 34/100, Validation Loss: 0.2325, Validation Accuracy: 91.98%
+[2024-09-10 10:56:12] Learning rate after epoch 34: [0.00023999999999999998]
+[2024-09-10 10:56:39] Epoch 35/100, Training Loss: 0.2806, Training Accuracy: 90.58%
+[2024-09-10 10:56:44] Epoch 35/100, Validation Loss: 0.2320, Validation Accuracy: 92.17%
+[2024-09-10 10:56:44] Learning rate after epoch 35: [0.00023999999999999998]
+[2024-09-10 10:57:11] Epoch 36/100, Training Loss: 0.2842, Training Accuracy: 90.19%
+[2024-09-10 10:57:16] Epoch 36/100, Validation Loss: 0.2323, Validation Accuracy: 92.09%
+[2024-09-10 10:57:16] Learning rate after epoch 36: [2.4e-05]
+[2024-09-10 10:57:44] Epoch 37/100, Training Loss: 0.2733, Training Accuracy: 90.69%
+[2024-09-10 10:57:49] Epoch 37/100, Validation Loss: 0.2301, Validation Accuracy: 92.17%
+[2024-09-10 10:57:49] Learning rate after epoch 37: [2.4e-05]
+[2024-09-10 10:58:15] Epoch 38/100, Training Loss: 0.2713, Training Accuracy: 90.63%
+[2024-09-10 10:58:20] Epoch 38/100, Validation Loss: 0.2300, Validation Accuracy: 92.30%
+[2024-09-10 10:58:20] Learning rate after epoch 38: [2.4e-05]
+[2024-09-10 10:58:47] Epoch 39/100, Training Loss: 0.2748, Training Accuracy: 90.48%
+[2024-09-10 10:58:52] Epoch 39/100, Validation Loss: 0.2294, Validation Accuracy: 92.14%
+[2024-09-10 10:58:52] Learning rate after epoch 39: [2.4e-05]
+[2024-09-10 10:59:19] Epoch 40/100, Training Loss: 0.2732, Training Accuracy: 90.63%
+[2024-09-10 10:59:24] Epoch 40/100, Validation Loss: 0.2297, Validation Accuracy: 92.09%
+[2024-09-10 10:59:24] Learning rate after epoch 40: [2.4e-05]
+[2024-09-10 10:59:51] Epoch 41/100, Training Loss: 0.2768, Training Accuracy: 90.43%
+[2024-09-10 10:59:56] Epoch 41/100, Validation Loss: 0.2292, Validation Accuracy: 92.14%
+[2024-09-10 10:59:56] Learning rate after epoch 41: [2.4e-05]
+[2024-09-10 11:00:23] Epoch 42/100, Training Loss: 0.2702, Training Accuracy: 90.65%
+[2024-09-10 11:00:28] Epoch 42/100, Validation Loss: 0.2291, Validation Accuracy: 92.25%
+[2024-09-10 11:00:28] Learning rate after epoch 42: [2.4e-05]
+[2024-09-10 11:00:55] Epoch 43/100, Training Loss: 0.2756, Training Accuracy: 90.50%
+[2024-09-10 11:01:00] Epoch 43/100, Validation Loss: 0.2297, Validation Accuracy: 92.22%
+[2024-09-10 11:01:00] Learning rate after epoch 43: [2.4e-05]
+[2024-09-10 11:01:28] Epoch 44/100, Training Loss: 0.2735, Training Accuracy: 90.52%
+[2024-09-10 11:01:33] Epoch 44/100, Validation Loss: 0.2294, Validation Accuracy: 92.22%
+[2024-09-10 11:01:33] Learning rate after epoch 44: [2.4e-05]
+[2024-09-10 11:02:02] Epoch 45/100, Training Loss: 0.2686, Training Accuracy: 90.76%
+[2024-09-10 11:02:06] Epoch 45/100, Validation Loss: 0.2302, Validation Accuracy: 92.09%
+[2024-09-10 11:02:06] Learning rate after epoch 45: [2.4e-05]
+[2024-09-10 11:02:34] Epoch 46/100, Training Loss: 0.2755, Training Accuracy: 90.47%
+[2024-09-10 11:02:39] Epoch 46/100, Validation Loss: 0.2302, Validation Accuracy: 92.09%
+[2024-09-10 11:02:39] Learning rate after epoch 46: [2.4000000000000003e-06]
+[2024-09-10 11:03:07] Epoch 47/100, Training Loss: 0.2703, Training Accuracy: 90.74%
+[2024-09-10 11:03:12] Epoch 47/100, Validation Loss: 0.2302, Validation Accuracy: 92.11%
+[2024-09-10 11:03:12] Learning rate after epoch 47: [2.4000000000000003e-06]
+[2024-09-10 11:03:12] Training complete.
+[2024-09-10 11:08:40] 
+
+New training session
+
+
+[2024-09-10 11:08:40] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=12, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+[2024-09-10 11:09:16] Epoch 1/100, Training Loss: 1.1234, Training Accuracy: 60.92%
+[2024-09-10 11:09:23] Epoch 1/100, Validation Loss: 0.5964, Validation Accuracy: 79.99%
+[2024-09-10 11:09:23] Learning rate after epoch 1: [0.0024]
+[2024-09-10 11:09:57] Epoch 2/100, Training Loss: 0.6650, Training Accuracy: 77.85%
+[2024-09-10 11:10:03] Epoch 2/100, Validation Loss: 0.5439, Validation Accuracy: 81.72%
+[2024-09-10 11:10:03] Learning rate after epoch 2: [0.0024]
+[2024-09-10 11:10:36] Epoch 3/100, Training Loss: 0.5690, Training Accuracy: 80.74%
+[2024-09-10 11:10:42] Epoch 3/100, Validation Loss: 0.4333, Validation Accuracy: 85.34%
+[2024-09-10 11:10:42] Learning rate after epoch 3: [0.0024]
+[2024-09-10 11:11:14] Epoch 4/100, Training Loss: 0.5093, Training Accuracy: 82.83%
+[2024-09-10 11:11:20] Epoch 4/100, Validation Loss: 0.4019, Validation Accuracy: 86.88%
+[2024-09-10 11:11:20] Learning rate after epoch 4: [0.0024]
+[2024-09-10 11:11:52] Epoch 5/100, Training Loss: 0.4767, Training Accuracy: 83.77%
+[2024-09-10 11:11:58] Epoch 5/100, Validation Loss: 0.4072, Validation Accuracy: 85.98%
+[2024-09-10 11:11:58] Learning rate after epoch 5: [0.0024]
+[2024-09-10 11:12:29] Epoch 6/100, Training Loss: 0.4494, Training Accuracy: 84.78%
+[2024-09-10 11:12:35] Epoch 6/100, Validation Loss: 0.3744, Validation Accuracy: 87.23%
+[2024-09-10 11:12:35] Learning rate after epoch 6: [0.0024]
+[2024-09-10 11:13:09] Epoch 7/100, Training Loss: 0.4321, Training Accuracy: 85.40%
+[2024-09-10 11:13:15] Epoch 7/100, Validation Loss: 0.3567, Validation Accuracy: 87.39%
+[2024-09-10 11:13:15] Learning rate after epoch 7: [0.0024]
+[2024-09-10 11:13:47] Epoch 8/100, Training Loss: 0.4052, Training Accuracy: 85.96%
+[2024-09-10 11:13:53] Epoch 8/100, Validation Loss: 0.3215, Validation Accuracy: 88.39%
+[2024-09-10 11:13:53] Learning rate after epoch 8: [0.0024]
+[2024-09-10 11:14:27] Epoch 9/100, Training Loss: 0.3930, Training Accuracy: 86.63%
+[2024-09-10 11:14:33] Epoch 9/100, Validation Loss: 0.3204, Validation Accuracy: 88.66%
+[2024-09-10 11:14:33] Learning rate after epoch 9: [0.0024]
+[2024-09-10 11:15:07] Epoch 10/100, Training Loss: 0.3767, Training Accuracy: 87.30%
+[2024-09-10 11:15:13] Epoch 10/100, Validation Loss: 0.3330, Validation Accuracy: 88.63%
+[2024-09-10 11:15:13] Learning rate after epoch 10: [0.0024]
+[2024-09-10 11:15:45] Epoch 11/100, Training Loss: 0.3585, Training Accuracy: 87.79%
+[2024-09-10 11:15:50] Epoch 11/100, Validation Loss: 0.2905, Validation Accuracy: 90.41%
+[2024-09-10 11:15:50] Learning rate after epoch 11: [0.0024]
+[2024-09-10 11:16:21] Epoch 12/100, Training Loss: 0.3483, Training Accuracy: 88.09%
+[2024-09-10 11:16:27] Epoch 12/100, Validation Loss: 0.2701, Validation Accuracy: 90.68%
+[2024-09-10 11:16:27] Learning rate after epoch 12: [0.0024]
+[2024-09-10 11:17:01] Epoch 13/100, Training Loss: 0.3373, Training Accuracy: 88.41%
+[2024-09-10 11:17:07] Epoch 13/100, Validation Loss: 0.2714, Validation Accuracy: 90.82%
+[2024-09-10 11:17:07] Learning rate after epoch 13: [0.0024]
+[2024-09-10 11:17:39] Epoch 14/100, Training Loss: 0.3303, Training Accuracy: 88.94%
+[2024-09-10 11:17:45] Epoch 14/100, Validation Loss: 0.2644, Validation Accuracy: 91.22%
+[2024-09-10 11:17:45] Learning rate after epoch 14: [0.0024]
+[2024-09-10 11:18:16] Epoch 15/100, Training Loss: 0.3244, Training Accuracy: 88.89%
+[2024-09-10 11:18:22] Epoch 15/100, Validation Loss: 0.2681, Validation Accuracy: 90.98%
+[2024-09-10 11:18:22] Learning rate after epoch 15: [0.0024]
+[2024-09-10 11:18:53] Epoch 16/100, Training Loss: 0.3151, Training Accuracy: 89.29%
+[2024-09-10 11:18:59] Epoch 16/100, Validation Loss: 0.2785, Validation Accuracy: 90.22%
+[2024-09-10 11:18:59] Learning rate after epoch 16: [0.0024]
+[2024-09-10 11:19:29] Epoch 17/100, Training Loss: 0.3128, Training Accuracy: 89.30%
+[2024-09-10 11:19:35] Epoch 17/100, Validation Loss: 0.2485, Validation Accuracy: 92.01%
+[2024-09-10 11:19:35] Learning rate after epoch 17: [0.0024]
+[2024-09-10 11:20:07] Epoch 18/100, Training Loss: 0.2977, Training Accuracy: 89.77%
+[2024-09-10 11:20:13] Epoch 18/100, Validation Loss: 0.2589, Validation Accuracy: 90.36%
+[2024-09-10 11:20:13] Learning rate after epoch 18: [0.0024]
+[2024-09-10 11:20:42] Epoch 19/100, Training Loss: 0.3004, Training Accuracy: 89.81%
+[2024-09-10 11:20:47] Epoch 19/100, Validation Loss: 0.2467, Validation Accuracy: 91.49%
+[2024-09-10 11:20:47] Learning rate after epoch 19: [0.0024]
+[2024-09-10 11:21:15] Epoch 20/100, Training Loss: 0.2967, Training Accuracy: 89.96%
+[2024-09-10 11:21:19] Epoch 20/100, Validation Loss: 0.2428, Validation Accuracy: 91.55%
+[2024-09-10 11:21:19] Learning rate after epoch 20: [0.0024]
+[2024-09-10 11:21:48] Epoch 21/100, Training Loss: 0.2869, Training Accuracy: 90.21%
+[2024-09-10 11:21:53] Epoch 21/100, Validation Loss: 0.2400, Validation Accuracy: 91.36%
+[2024-09-10 11:21:53] Learning rate after epoch 21: [0.0024]
+[2024-09-10 11:22:20] Epoch 22/100, Training Loss: 0.2849, Training Accuracy: 90.27%
+[2024-09-10 11:22:25] Epoch 22/100, Validation Loss: 0.2518, Validation Accuracy: 91.57%
+[2024-09-10 11:22:25] Learning rate after epoch 22: [0.0024]
+[2024-09-10 11:22:52] Epoch 23/100, Training Loss: 0.2847, Training Accuracy: 90.33%
+[2024-09-10 11:22:57] Epoch 23/100, Validation Loss: 0.2230, Validation Accuracy: 92.11%
+[2024-09-10 11:22:57] Learning rate after epoch 23: [0.0024]
+[2024-09-10 11:23:24] Epoch 24/100, Training Loss: 0.2759, Training Accuracy: 90.44%
+[2024-09-10 11:23:30] Epoch 24/100, Validation Loss: 0.2268, Validation Accuracy: 92.06%
+[2024-09-10 11:23:30] Learning rate after epoch 24: [0.0024]
+[2024-09-10 11:23:58] Epoch 25/100, Training Loss: 0.2721, Training Accuracy: 90.61%
+[2024-09-10 11:24:03] Epoch 25/100, Validation Loss: 0.2506, Validation Accuracy: 91.49%
+[2024-09-10 11:24:03] Learning rate after epoch 25: [0.0024]
+[2024-09-10 11:24:30] Epoch 26/100, Training Loss: 0.2677, Training Accuracy: 90.74%
+[2024-09-10 11:24:35] Epoch 26/100, Validation Loss: 0.2302, Validation Accuracy: 92.25%
+[2024-09-10 11:24:35] Learning rate after epoch 26: [0.0024]
+[2024-09-10 11:25:02] Epoch 27/100, Training Loss: 0.2676, Training Accuracy: 90.85%
+[2024-09-10 11:25:07] Epoch 27/100, Validation Loss: 0.2348, Validation Accuracy: 92.09%
+[2024-09-10 11:25:07] Learning rate after epoch 27: [0.00023999999999999998]
+[2024-09-10 11:25:35] Epoch 28/100, Training Loss: 0.2378, Training Accuracy: 91.86%
+[2024-09-10 11:25:40] Epoch 28/100, Validation Loss: 0.2082, Validation Accuracy: 93.01%
+[2024-09-10 11:25:40] Learning rate after epoch 28: [0.00023999999999999998]
+[2024-09-10 11:26:09] Epoch 29/100, Training Loss: 0.2279, Training Accuracy: 92.24%
+[2024-09-10 11:26:15] Epoch 29/100, Validation Loss: 0.2115, Validation Accuracy: 92.84%
+[2024-09-10 11:26:15] Learning rate after epoch 29: [0.00023999999999999998]
+[2024-09-10 11:26:42] Epoch 30/100, Training Loss: 0.2246, Training Accuracy: 92.27%
+[2024-09-10 11:26:47] Epoch 30/100, Validation Loss: 0.2036, Validation Accuracy: 93.01%
+[2024-09-10 11:26:47] Learning rate after epoch 30: [0.00023999999999999998]
+[2024-09-10 11:27:16] Epoch 31/100, Training Loss: 0.2188, Training Accuracy: 92.26%
+[2024-09-10 11:27:21] Epoch 31/100, Validation Loss: 0.2079, Validation Accuracy: 92.74%
+[2024-09-10 11:27:21] Learning rate after epoch 31: [0.00023999999999999998]
+[2024-09-10 11:27:48] Epoch 32/100, Training Loss: 0.2145, Training Accuracy: 92.65%
+[2024-09-10 11:27:54] Epoch 32/100, Validation Loss: 0.2074, Validation Accuracy: 92.68%
+[2024-09-10 11:27:54] Learning rate after epoch 32: [0.00023999999999999998]
+[2024-09-10 11:28:23] Epoch 33/100, Training Loss: 0.2165, Training Accuracy: 92.48%
+[2024-09-10 11:28:28] Epoch 33/100, Validation Loss: 0.2067, Validation Accuracy: 92.90%
+[2024-09-10 11:28:28] Learning rate after epoch 33: [0.00023999999999999998]
+[2024-09-10 11:28:55] Epoch 34/100, Training Loss: 0.2129, Training Accuracy: 92.68%
+[2024-09-10 11:29:00] Epoch 34/100, Validation Loss: 0.2063, Validation Accuracy: 92.87%
+[2024-09-10 11:29:00] Learning rate after epoch 34: [2.4e-05]
+[2024-09-10 11:29:28] Epoch 35/100, Training Loss: 0.2109, Training Accuracy: 92.62%
+[2024-09-10 11:29:33] Epoch 35/100, Validation Loss: 0.2056, Validation Accuracy: 92.95%
+[2024-09-10 11:29:33] Learning rate after epoch 35: [2.4e-05]
+[2024-09-10 11:29:33] Training complete.
+[2024-09-10 11:32:21] 
+
+New training session
+
+
+[2024-09-10 11:32:21] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=12, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+[2024-09-10 11:32:57] Epoch 1/100, Training Loss: 1.2758, Training Accuracy: 55.21%
+[2024-09-10 11:33:03] Epoch 1/100, Validation Loss: 0.7309, Validation Accuracy: 75.94%
+[2024-09-10 11:33:03] Learning rate after epoch 1: [0.0024]
+[2024-09-10 11:33:36] Epoch 2/100, Training Loss: 0.7464, Training Accuracy: 74.73%
+[2024-09-10 11:33:42] Epoch 2/100, Validation Loss: 0.5714, Validation Accuracy: 80.83%
+[2024-09-10 11:33:42] Learning rate after epoch 2: [0.0024]
+[2024-09-10 11:34:14] Epoch 3/100, Training Loss: 0.6409, Training Accuracy: 78.35%
+[2024-09-10 11:34:20] Epoch 3/100, Validation Loss: 0.4741, Validation Accuracy: 84.90%
+[2024-09-10 11:34:20] Learning rate after epoch 3: [0.0024]
+[2024-09-10 11:34:51] Epoch 4/100, Training Loss: 0.5722, Training Accuracy: 80.66%
+[2024-09-10 11:34:57] Epoch 4/100, Validation Loss: 0.4600, Validation Accuracy: 84.58%
+[2024-09-10 11:34:57] Learning rate after epoch 4: [0.0024]
+[2024-09-10 11:35:28] Epoch 5/100, Training Loss: 0.5388, Training Accuracy: 81.82%
+[2024-09-10 11:35:34] Epoch 5/100, Validation Loss: 0.4501, Validation Accuracy: 85.23%
+[2024-09-10 11:35:34] Learning rate after epoch 5: [0.0024]
+[2024-09-10 11:36:05] Epoch 6/100, Training Loss: 0.5015, Training Accuracy: 82.97%
+[2024-09-10 11:36:11] Epoch 6/100, Validation Loss: 0.3990, Validation Accuracy: 87.04%
+[2024-09-10 11:36:11] Learning rate after epoch 6: [0.0024]
+[2024-09-10 11:36:45] Epoch 7/100, Training Loss: 0.4815, Training Accuracy: 83.63%
+[2024-09-10 11:36:50] Epoch 7/100, Validation Loss: 0.3848, Validation Accuracy: 86.50%
+[2024-09-10 11:36:50] Learning rate after epoch 7: [0.0024]
+[2024-09-10 11:37:25] Epoch 8/100, Training Loss: 0.4584, Training Accuracy: 84.61%
+[2024-09-10 11:37:31] Epoch 8/100, Validation Loss: 0.3834, Validation Accuracy: 87.04%
+[2024-09-10 11:37:31] Learning rate after epoch 8: [0.0024]
+[2024-09-10 11:38:02] Epoch 9/100, Training Loss: 0.4398, Training Accuracy: 84.98%
+[2024-09-10 11:38:08] Epoch 9/100, Validation Loss: 0.3414, Validation Accuracy: 88.87%
+[2024-09-10 11:38:08] Learning rate after epoch 9: [0.0024]
+[2024-09-10 11:38:38] Epoch 10/100, Training Loss: 0.4273, Training Accuracy: 85.51%
+[2024-09-10 11:38:45] Epoch 10/100, Validation Loss: 0.3421, Validation Accuracy: 88.28%
+[2024-09-10 11:38:45] Learning rate after epoch 10: [0.0024]
+[2024-09-10 11:39:15] Epoch 11/100, Training Loss: 0.4111, Training Accuracy: 86.15%
+[2024-09-10 11:39:21] Epoch 11/100, Validation Loss: 0.3502, Validation Accuracy: 88.52%
+[2024-09-10 11:39:21] Learning rate after epoch 11: [0.0024]
+[2024-09-10 11:39:53] Epoch 12/100, Training Loss: 0.4077, Training Accuracy: 86.21%
+[2024-09-10 11:39:58] Epoch 12/100, Validation Loss: 0.3409, Validation Accuracy: 88.74%
+[2024-09-10 11:39:58] Learning rate after epoch 12: [0.0024]
+[2024-09-10 11:40:31] Epoch 13/100, Training Loss: 0.3938, Training Accuracy: 86.58%
+[2024-09-10 11:40:37] Epoch 13/100, Validation Loss: 0.3064, Validation Accuracy: 90.12%
+[2024-09-10 11:40:37] Learning rate after epoch 13: [0.0024]
+[2024-09-10 11:41:10] Epoch 14/100, Training Loss: 0.3821, Training Accuracy: 87.22%
+[2024-09-10 11:41:15] Epoch 14/100, Validation Loss: 0.3074, Validation Accuracy: 89.90%
+[2024-09-10 11:41:15] Learning rate after epoch 14: [0.0024]
+[2024-09-10 11:41:45] Epoch 15/100, Training Loss: 0.3814, Training Accuracy: 87.06%
+[2024-09-10 11:41:50] Epoch 15/100, Validation Loss: 0.2954, Validation Accuracy: 90.01%
+[2024-09-10 11:41:50] Learning rate after epoch 15: [0.0024]
+[2024-09-10 11:42:19] Epoch 16/100, Training Loss: 0.3693, Training Accuracy: 87.55%
+[2024-09-10 11:42:24] Epoch 16/100, Validation Loss: 0.3033, Validation Accuracy: 90.31%
+[2024-09-10 11:42:24] Learning rate after epoch 16: [0.0024]
+[2024-09-10 11:42:53] Epoch 17/100, Training Loss: 0.3649, Training Accuracy: 87.86%
+[2024-09-10 11:42:58] Epoch 17/100, Validation Loss: 0.3096, Validation Accuracy: 89.77%
+[2024-09-10 11:42:58] Learning rate after epoch 17: [0.0024]
+[2024-09-10 11:43:32] Epoch 18/100, Training Loss: 0.3529, Training Accuracy: 88.00%
+[2024-09-10 11:43:37] Epoch 18/100, Validation Loss: 0.2870, Validation Accuracy: 90.52%
+[2024-09-10 11:43:37] Learning rate after epoch 18: [0.0024]
+[2024-09-10 11:44:10] Epoch 19/100, Training Loss: 0.3540, Training Accuracy: 88.19%
+[2024-09-10 11:44:15] Epoch 19/100, Validation Loss: 0.2887, Validation Accuracy: 90.63%
+[2024-09-10 11:44:15] Learning rate after epoch 19: [0.0024]
+[2024-09-10 11:44:43] Epoch 20/100, Training Loss: 0.3464, Training Accuracy: 88.20%
+[2024-09-10 11:44:49] Epoch 20/100, Validation Loss: 0.2826, Validation Accuracy: 91.06%
+[2024-09-10 11:44:49] Learning rate after epoch 20: [0.0024]
+[2024-09-10 11:45:19] Epoch 21/100, Training Loss: 0.3401, Training Accuracy: 88.70%
+[2024-09-10 11:45:24] Epoch 21/100, Validation Loss: 0.2844, Validation Accuracy: 90.28%
+[2024-09-10 11:45:24] Learning rate after epoch 21: [0.0024]
+[2024-09-10 11:45:55] Epoch 22/100, Training Loss: 0.3359, Training Accuracy: 88.58%
+[2024-09-10 11:46:00] Epoch 22/100, Validation Loss: 0.2661, Validation Accuracy: 91.41%
+[2024-09-10 11:46:00] Learning rate after epoch 22: [0.0024]
+[2024-09-10 11:46:28] Epoch 23/100, Training Loss: 0.3282, Training Accuracy: 89.04%
+[2024-09-10 11:46:33] Epoch 23/100, Validation Loss: 0.2823, Validation Accuracy: 90.76%
+[2024-09-10 11:46:33] Learning rate after epoch 23: [0.0024]
+[2024-09-10 11:47:04] Epoch 24/100, Training Loss: 0.3252, Training Accuracy: 88.99%
+[2024-09-10 11:47:09] Epoch 24/100, Validation Loss: 0.2736, Validation Accuracy: 90.76%
+[2024-09-10 11:47:09] Learning rate after epoch 24: [0.0024]
+[2024-09-10 11:47:37] Epoch 25/100, Training Loss: 0.3258, Training Accuracy: 89.19%
+[2024-09-10 11:47:43] Epoch 25/100, Validation Loss: 0.2746, Validation Accuracy: 91.12%
+[2024-09-10 11:47:43] Learning rate after epoch 25: [0.0024]
+[2024-09-10 11:48:13] Epoch 26/100, Training Loss: 0.3238, Training Accuracy: 89.06%
+[2024-09-10 11:48:18] Epoch 26/100, Validation Loss: 0.2685, Validation Accuracy: 91.17%
+[2024-09-10 11:48:18] Learning rate after epoch 26: [0.00023999999999999998]
+[2024-09-10 11:48:49] Epoch 27/100, Training Loss: 0.2840, Training Accuracy: 90.31%
+[2024-09-10 11:48:54] Epoch 27/100, Validation Loss: 0.2423, Validation Accuracy: 91.95%
+[2024-09-10 11:48:54] Learning rate after epoch 27: [0.00023999999999999998]
+[2024-09-10 11:49:23] Epoch 28/100, Training Loss: 0.2755, Training Accuracy: 90.80%
+[2024-09-10 11:49:28] Epoch 28/100, Validation Loss: 0.2390, Validation Accuracy: 92.25%
+[2024-09-10 11:49:28] Learning rate after epoch 28: [0.00023999999999999998]
+[2024-09-10 11:49:57] Epoch 29/100, Training Loss: 0.2674, Training Accuracy: 90.93%
+[2024-09-10 11:50:02] Epoch 29/100, Validation Loss: 0.2334, Validation Accuracy: 92.38%
+[2024-09-10 11:50:02] Learning rate after epoch 29: [0.00023999999999999998]
+[2024-09-10 11:50:31] Epoch 30/100, Training Loss: 0.2647, Training Accuracy: 91.12%
+[2024-09-10 11:50:37] Epoch 30/100, Validation Loss: 0.2328, Validation Accuracy: 92.47%
+[2024-09-10 11:50:37] Learning rate after epoch 30: [0.00023999999999999998]
+[2024-09-10 11:51:04] Epoch 31/100, Training Loss: 0.2638, Training Accuracy: 91.15%
+[2024-09-10 11:51:10] Epoch 31/100, Validation Loss: 0.2319, Validation Accuracy: 92.57%
+[2024-09-10 11:51:10] Learning rate after epoch 31: [0.00023999999999999998]
+[2024-09-10 11:51:42] Epoch 32/100, Training Loss: 0.2615, Training Accuracy: 91.07%
+[2024-09-10 11:51:47] Epoch 32/100, Validation Loss: 0.2319, Validation Accuracy: 92.55%
+[2024-09-10 11:51:47] Learning rate after epoch 32: [0.00023999999999999998]
+[2024-09-10 11:52:20] Epoch 33/100, Training Loss: 0.2627, Training Accuracy: 91.20%
+[2024-09-10 11:52:25] Epoch 33/100, Validation Loss: 0.2313, Validation Accuracy: 92.47%
+[2024-09-10 11:52:25] Learning rate after epoch 33: [0.00023999999999999998]
+[2024-09-10 11:52:55] Epoch 34/100, Training Loss: 0.2607, Training Accuracy: 91.07%
+[2024-09-10 11:53:00] Epoch 34/100, Validation Loss: 0.2312, Validation Accuracy: 92.55%
+[2024-09-10 11:53:00] Learning rate after epoch 34: [0.00023999999999999998]
+[2024-09-10 11:53:31] Epoch 35/100, Training Loss: 0.2578, Training Accuracy: 91.19%
+[2024-09-10 11:53:36] Epoch 35/100, Validation Loss: 0.2276, Validation Accuracy: 92.55%
+[2024-09-10 11:53:36] Learning rate after epoch 35: [0.00023999999999999998]
+[2024-09-10 11:54:05] Epoch 36/100, Training Loss: 0.2577, Training Accuracy: 91.18%
+[2024-09-10 11:54:10] Epoch 36/100, Validation Loss: 0.2295, Validation Accuracy: 92.60%
+[2024-09-10 11:54:10] Learning rate after epoch 36: [0.00023999999999999998]
+[2024-09-10 11:54:38] Epoch 37/100, Training Loss: 0.2591, Training Accuracy: 91.22%
+[2024-09-10 11:54:43] Epoch 37/100, Validation Loss: 0.2270, Validation Accuracy: 92.49%
+[2024-09-10 11:54:43] Learning rate after epoch 37: [0.00023999999999999998]
+[2024-09-10 11:55:12] Epoch 38/100, Training Loss: 0.2585, Training Accuracy: 91.11%
+[2024-09-10 11:55:18] Epoch 38/100, Validation Loss: 0.2276, Validation Accuracy: 92.28%
+[2024-09-10 11:55:18] Learning rate after epoch 38: [0.00023999999999999998]
+[2024-09-10 11:55:49] Epoch 39/100, Training Loss: 0.2567, Training Accuracy: 91.10%
+[2024-09-10 11:55:55] Epoch 39/100, Validation Loss: 0.2243, Validation Accuracy: 92.52%
+[2024-09-10 11:55:55] Learning rate after epoch 39: [0.00023999999999999998]
+[2024-09-10 11:56:24] Epoch 40/100, Training Loss: 0.2524, Training Accuracy: 91.42%
+[2024-09-10 11:56:29] Epoch 40/100, Validation Loss: 0.2255, Validation Accuracy: 92.63%
+[2024-09-10 11:56:29] Learning rate after epoch 40: [0.00023999999999999998]
+[2024-09-10 11:56:58] Epoch 41/100, Training Loss: 0.2572, Training Accuracy: 91.20%
+[2024-09-10 11:57:03] Epoch 41/100, Validation Loss: 0.2284, Validation Accuracy: 92.36%
+[2024-09-10 11:57:03] Learning rate after epoch 41: [0.00023999999999999998]
+[2024-09-10 11:57:33] Epoch 42/100, Training Loss: 0.2531, Training Accuracy: 91.41%
+[2024-09-10 11:57:38] Epoch 42/100, Validation Loss: 0.2227, Validation Accuracy: 92.68%
+[2024-09-10 11:57:38] Learning rate after epoch 42: [0.00023999999999999998]
+[2024-09-10 11:58:08] Epoch 43/100, Training Loss: 0.2503, Training Accuracy: 91.40%
+[2024-09-10 11:58:13] Epoch 43/100, Validation Loss: 0.2237, Validation Accuracy: 92.49%
+[2024-09-10 11:58:13] Learning rate after epoch 43: [0.00023999999999999998]
+[2024-09-10 11:58:42] Epoch 44/100, Training Loss: 0.2535, Training Accuracy: 91.35%
+[2024-09-10 11:58:47] Epoch 44/100, Validation Loss: 0.2240, Validation Accuracy: 92.65%
+[2024-09-10 11:58:47] Learning rate after epoch 44: [0.00023999999999999998]
+[2024-09-10 11:59:15] Epoch 45/100, Training Loss: 0.2525, Training Accuracy: 91.33%
+[2024-09-10 11:59:20] Epoch 45/100, Validation Loss: 0.2245, Validation Accuracy: 92.44%
+[2024-09-10 11:59:20] Learning rate after epoch 45: [0.00023999999999999998]
+[2024-09-10 11:59:49] Epoch 46/100, Training Loss: 0.2493, Training Accuracy: 91.61%
+[2024-09-10 11:59:55] Epoch 46/100, Validation Loss: 0.2222, Validation Accuracy: 92.68%
+[2024-09-10 11:59:55] Learning rate after epoch 46: [0.00023999999999999998]
+[2024-09-10 12:00:24] Epoch 47/100, Training Loss: 0.2527, Training Accuracy: 91.54%
+[2024-09-10 12:00:30] Epoch 47/100, Validation Loss: 0.2231, Validation Accuracy: 92.79%
+[2024-09-10 12:00:30] Learning rate after epoch 47: [0.00023999999999999998]
+[2024-09-10 12:00:30] Training complete.
+[2024-09-11 06:30:13] 
+
+New training session
+
+
+[2024-09-11 06:30:13] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=12, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+[2024-09-11 06:30:51] Epoch 1/100, Training Loss: 1.2303, Training Accuracy: 56.19%
+[2024-09-11 06:30:58] Epoch 1/100, Validation Loss: 0.6594, Validation Accuracy: 77.61%
+[2024-09-11 06:30:58] Learning rate after epoch 1: [0.0024]
+[2024-09-11 06:31:32] Epoch 2/100, Training Loss: 0.6923, Training Accuracy: 76.76%
+[2024-09-11 06:31:38] Epoch 2/100, Validation Loss: 0.5173, Validation Accuracy: 82.12%
+[2024-09-11 06:31:38] Learning rate after epoch 2: [0.0024]
+[2024-09-11 06:32:12] Epoch 3/100, Training Loss: 0.5852, Training Accuracy: 80.58%
+[2024-09-11 06:32:18] Epoch 3/100, Validation Loss: 0.4554, Validation Accuracy: 84.96%
+[2024-09-11 06:32:18] Learning rate after epoch 3: [0.0024]
+[2024-09-11 06:32:50] Epoch 4/100, Training Loss: 0.5282, Training Accuracy: 82.26%
+[2024-09-11 06:32:57] Epoch 4/100, Validation Loss: 0.4319, Validation Accuracy: 85.55%
+[2024-09-11 06:32:57] Learning rate after epoch 4: [0.0024]
+[2024-09-11 06:33:28] Epoch 5/100, Training Loss: 0.4928, Training Accuracy: 83.36%
+[2024-09-11 06:33:34] Epoch 5/100, Validation Loss: 0.4133, Validation Accuracy: 86.55%
+[2024-09-11 06:33:34] Learning rate after epoch 5: [0.0024]
+[2024-09-11 06:34:10] Epoch 6/100, Training Loss: 0.4627, Training Accuracy: 84.25%
+[2024-09-11 06:34:15] Epoch 6/100, Validation Loss: 0.3691, Validation Accuracy: 87.85%
+[2024-09-11 06:34:15] Learning rate after epoch 6: [0.0024]
+[2024-09-11 06:34:46] Epoch 7/100, Training Loss: 0.4333, Training Accuracy: 85.45%
+[2024-09-11 06:34:52] Epoch 7/100, Validation Loss: 0.3468, Validation Accuracy: 88.90%
+[2024-09-11 06:34:52] Learning rate after epoch 7: [0.0024]
+[2024-09-11 06:35:19] Epoch 8/100, Training Loss: 0.4162, Training Accuracy: 85.75%
+[2024-09-11 06:35:25] Epoch 8/100, Validation Loss: 0.3602, Validation Accuracy: 88.58%
+[2024-09-11 06:35:25] Learning rate after epoch 8: [0.0024]
+[2024-09-11 06:35:54] Epoch 9/100, Training Loss: 0.4015, Training Accuracy: 86.45%
+[2024-09-11 06:36:00] Epoch 9/100, Validation Loss: 0.3181, Validation Accuracy: 89.09%
+[2024-09-11 06:36:00] Learning rate after epoch 9: [0.0024]
+[2024-09-11 06:36:32] Epoch 10/100, Training Loss: 0.3901, Training Accuracy: 86.79%
+[2024-09-11 06:36:38] Epoch 10/100, Validation Loss: 0.3263, Validation Accuracy: 89.33%
+[2024-09-11 06:36:38] Learning rate after epoch 10: [0.0024]
+[2024-09-11 06:37:07] Epoch 11/100, Training Loss: 0.3728, Training Accuracy: 87.31%
+[2024-09-11 06:37:12] Epoch 11/100, Validation Loss: 0.3039, Validation Accuracy: 89.47%
+[2024-09-11 06:37:12] Learning rate after epoch 11: [0.0024]
+[2024-09-11 06:37:40] Epoch 12/100, Training Loss: 0.3621, Training Accuracy: 87.75%
+[2024-09-11 06:37:45] Epoch 12/100, Validation Loss: 0.2998, Validation Accuracy: 89.79%
+[2024-09-11 06:37:45] Learning rate after epoch 12: [0.0024]
+[2024-09-11 06:38:16] Epoch 13/100, Training Loss: 0.3664, Training Accuracy: 87.58%
+[2024-09-11 06:38:22] Epoch 13/100, Validation Loss: 0.2926, Validation Accuracy: 89.68%
+[2024-09-11 06:38:22] Learning rate after epoch 13: [0.0024]
+[2024-09-11 06:38:49] Epoch 14/100, Training Loss: 0.3477, Training Accuracy: 88.24%
+[2024-09-11 06:38:55] Epoch 14/100, Validation Loss: 0.2947, Validation Accuracy: 90.09%
+[2024-09-11 06:38:55] Learning rate after epoch 14: [0.0024]
+[2024-09-11 06:39:22] Epoch 15/100, Training Loss: 0.3403, Training Accuracy: 88.42%
+[2024-09-11 06:39:27] Epoch 15/100, Validation Loss: 0.2869, Validation Accuracy: 90.47%
+[2024-09-11 06:39:27] Learning rate after epoch 15: [0.0024]
+[2024-09-11 06:39:54] Epoch 16/100, Training Loss: 0.3312, Training Accuracy: 88.66%
+[2024-09-11 06:39:59] Epoch 16/100, Validation Loss: 0.2737, Validation Accuracy: 90.41%
+[2024-09-11 06:39:59] Learning rate after epoch 16: [0.0024]
+[2024-09-11 06:40:28] Epoch 17/100, Training Loss: 0.3228, Training Accuracy: 89.00%
+[2024-09-11 06:40:34] Epoch 17/100, Validation Loss: 0.2789, Validation Accuracy: 90.66%
+[2024-09-11 06:40:34] Learning rate after epoch 17: [0.0024]
+[2024-09-11 06:41:02] Epoch 18/100, Training Loss: 0.3145, Training Accuracy: 89.33%
+[2024-09-11 06:41:08] Epoch 18/100, Validation Loss: 0.2631, Validation Accuracy: 91.09%
+[2024-09-11 06:41:08] Learning rate after epoch 18: [0.0024]
+[2024-09-11 06:41:36] Epoch 19/100, Training Loss: 0.3061, Training Accuracy: 89.40%
+[2024-09-11 06:41:42] Epoch 19/100, Validation Loss: 0.2623, Validation Accuracy: 91.01%
+[2024-09-11 06:41:42] Learning rate after epoch 19: [0.0024]
+[2024-09-11 06:42:10] Epoch 20/100, Training Loss: 0.3053, Training Accuracy: 89.69%
+[2024-09-11 06:42:15] Epoch 20/100, Validation Loss: 0.2632, Validation Accuracy: 90.90%
+[2024-09-11 06:42:15] Learning rate after epoch 20: [0.0024]
+[2024-09-11 06:42:43] Epoch 21/100, Training Loss: 0.2981, Training Accuracy: 89.81%
+[2024-09-11 06:42:48] Epoch 21/100, Validation Loss: 0.2493, Validation Accuracy: 90.98%
+[2024-09-11 06:42:48] Learning rate after epoch 21: [0.0024]
+[2024-09-11 06:43:16] Epoch 22/100, Training Loss: 0.2961, Training Accuracy: 89.92%
+[2024-09-11 06:43:22] Epoch 22/100, Validation Loss: 0.2532, Validation Accuracy: 91.84%
+[2024-09-11 06:43:22] Learning rate after epoch 22: [0.0024]
+[2024-09-11 06:43:48] Epoch 23/100, Training Loss: 0.2969, Training Accuracy: 89.91%
+[2024-09-11 06:43:53] Epoch 23/100, Validation Loss: 0.2499, Validation Accuracy: 91.25%
+[2024-09-11 06:43:53] Learning rate after epoch 23: [0.0024]
+[2024-09-11 06:44:22] Epoch 24/100, Training Loss: 0.2900, Training Accuracy: 90.01%
+[2024-09-11 06:44:27] Epoch 24/100, Validation Loss: 0.2450, Validation Accuracy: 91.82%
+[2024-09-11 06:44:27] Learning rate after epoch 24: [0.0024]
+[2024-09-11 06:44:58] Epoch 25/100, Training Loss: 0.2864, Training Accuracy: 90.17%
+[2024-09-11 06:45:03] Epoch 25/100, Validation Loss: 0.2593, Validation Accuracy: 90.85%
+[2024-09-11 06:45:03] Learning rate after epoch 25: [0.0024]
+[2024-09-11 06:45:29] Epoch 26/100, Training Loss: 0.2823, Training Accuracy: 90.37%
+[2024-09-11 06:45:35] Epoch 26/100, Validation Loss: 0.2317, Validation Accuracy: 92.44%
+[2024-09-11 06:45:35] Learning rate after epoch 26: [0.0024]
+[2024-09-11 06:46:02] Epoch 27/100, Training Loss: 0.2848, Training Accuracy: 90.25%
+[2024-09-11 06:46:07] Epoch 27/100, Validation Loss: 0.2385, Validation Accuracy: 92.06%
+[2024-09-11 06:46:07] Learning rate after epoch 27: [0.0024]
+[2024-09-11 06:46:36] Epoch 28/100, Training Loss: 0.2825, Training Accuracy: 90.18%
+[2024-09-11 06:46:41] Epoch 28/100, Validation Loss: 0.2337, Validation Accuracy: 91.93%
+[2024-09-11 06:46:41] Learning rate after epoch 28: [0.0024]
+[2024-09-11 06:47:10] Epoch 29/100, Training Loss: 0.2752, Training Accuracy: 90.45%
+[2024-09-11 06:47:15] Epoch 29/100, Validation Loss: 0.2365, Validation Accuracy: 92.06%
+[2024-09-11 06:47:15] Learning rate after epoch 29: [0.0024]
+[2024-09-11 06:47:42] Epoch 30/100, Training Loss: 0.2734, Training Accuracy: 90.48%
+[2024-09-11 06:47:47] Epoch 30/100, Validation Loss: 0.2568, Validation Accuracy: 90.98%
+[2024-09-11 06:47:47] Learning rate after epoch 30: [0.00023999999999999998]
+[2024-09-11 06:48:16] Epoch 31/100, Training Loss: 0.2548, Training Accuracy: 91.24%
+[2024-09-11 06:48:22] Epoch 31/100, Validation Loss: 0.2226, Validation Accuracy: 92.01%
+[2024-09-11 06:48:22] Learning rate after epoch 31: [0.00023999999999999998]
+[2024-09-11 06:48:49] Epoch 32/100, Training Loss: 0.2375, Training Accuracy: 91.75%
+[2024-09-11 06:48:55] Epoch 32/100, Validation Loss: 0.2212, Validation Accuracy: 91.95%
+[2024-09-11 06:48:55] Learning rate after epoch 32: [0.00023999999999999998]
+[2024-09-11 06:49:24] Epoch 33/100, Training Loss: 0.2341, Training Accuracy: 92.00%
+[2024-09-11 06:49:30] Epoch 33/100, Validation Loss: 0.2192, Validation Accuracy: 92.20%
+[2024-09-11 06:49:30] Learning rate after epoch 33: [0.00023999999999999998]
+[2024-09-11 06:49:59] Epoch 34/100, Training Loss: 0.2279, Training Accuracy: 92.13%
+[2024-09-11 06:50:04] Epoch 34/100, Validation Loss: 0.2197, Validation Accuracy: 92.33%
+[2024-09-11 06:50:04] Learning rate after epoch 34: [0.00023999999999999998]
+[2024-09-11 06:50:32] Epoch 35/100, Training Loss: 0.2236, Training Accuracy: 92.31%
+[2024-09-11 06:50:37] Epoch 35/100, Validation Loss: 0.2172, Validation Accuracy: 92.17%
+[2024-09-11 06:50:37] Learning rate after epoch 35: [0.00023999999999999998]
+[2024-09-11 06:51:06] Epoch 36/100, Training Loss: 0.2219, Training Accuracy: 92.42%
+[2024-09-11 06:51:11] Epoch 36/100, Validation Loss: 0.2138, Validation Accuracy: 92.33%
+[2024-09-11 06:51:11] Learning rate after epoch 36: [0.00023999999999999998]
+[2024-09-11 06:51:39] Epoch 37/100, Training Loss: 0.2216, Training Accuracy: 92.39%
+[2024-09-11 06:51:45] Epoch 37/100, Validation Loss: 0.2133, Validation Accuracy: 92.57%
+[2024-09-11 06:51:45] Learning rate after epoch 37: [0.00023999999999999998]
+[2024-09-11 06:52:12] Epoch 38/100, Training Loss: 0.2189, Training Accuracy: 92.35%
+[2024-09-11 06:52:18] Epoch 38/100, Validation Loss: 0.2120, Validation Accuracy: 92.25%
+[2024-09-11 06:52:18] Learning rate after epoch 38: [0.00023999999999999998]
+[2024-09-11 06:52:45] Epoch 39/100, Training Loss: 0.2149, Training Accuracy: 92.50%
+[2024-09-11 06:52:51] Epoch 39/100, Validation Loss: 0.2095, Validation Accuracy: 92.57%
+[2024-09-11 06:52:51] Learning rate after epoch 39: [0.00023999999999999998]
+[2024-09-11 06:53:18] Epoch 40/100, Training Loss: 0.2150, Training Accuracy: 92.45%
+[2024-09-11 06:53:23] Epoch 40/100, Validation Loss: 0.2119, Validation Accuracy: 92.55%
+[2024-09-11 06:53:23] Learning rate after epoch 40: [0.00023999999999999998]
+[2024-09-11 06:53:51] Epoch 41/100, Training Loss: 0.2167, Training Accuracy: 92.53%
+[2024-09-11 06:53:56] Epoch 41/100, Validation Loss: 0.2111, Validation Accuracy: 92.57%
+[2024-09-11 06:53:56] Learning rate after epoch 41: [0.00023999999999999998]
+[2024-09-11 06:54:24] Epoch 42/100, Training Loss: 0.2112, Training Accuracy: 92.75%
+[2024-09-11 06:54:30] Epoch 42/100, Validation Loss: 0.2092, Validation Accuracy: 92.63%
+[2024-09-11 06:54:30] Learning rate after epoch 42: [0.00023999999999999998]
+[2024-09-11 06:54:57] Epoch 43/100, Training Loss: 0.2144, Training Accuracy: 92.53%
+[2024-09-11 06:55:02] Epoch 43/100, Validation Loss: 0.2081, Validation Accuracy: 92.71%
+[2024-09-11 06:55:02] Learning rate after epoch 43: [0.00023999999999999998]
+[2024-09-11 06:55:30] Epoch 44/100, Training Loss: 0.2151, Training Accuracy: 92.46%
+[2024-09-11 06:55:36] Epoch 44/100, Validation Loss: 0.2076, Validation Accuracy: 92.57%
+[2024-09-11 06:55:36] Learning rate after epoch 44: [0.00023999999999999998]
+[2024-09-11 06:56:03] Epoch 45/100, Training Loss: 0.2117, Training Accuracy: 92.71%
+[2024-09-11 06:56:08] Epoch 45/100, Validation Loss: 0.2086, Validation Accuracy: 92.57%
+[2024-09-11 06:56:08] Learning rate after epoch 45: [0.00023999999999999998]
+[2024-09-11 06:56:35] Epoch 46/100, Training Loss: 0.2140, Training Accuracy: 92.56%
+[2024-09-11 06:56:41] Epoch 46/100, Validation Loss: 0.2085, Validation Accuracy: 92.87%
+[2024-09-11 06:56:41] Learning rate after epoch 46: [0.00023999999999999998]
+[2024-09-11 06:57:08] Epoch 47/100, Training Loss: 0.2096, Training Accuracy: 92.78%
+[2024-09-11 06:57:13] Epoch 47/100, Validation Loss: 0.2072, Validation Accuracy: 92.87%
+[2024-09-11 06:57:13] Learning rate after epoch 47: [0.00023999999999999998]
+[2024-09-11 06:57:41] Epoch 48/100, Training Loss: 0.2054, Training Accuracy: 92.87%
+[2024-09-11 06:57:47] Epoch 48/100, Validation Loss: 0.2075, Validation Accuracy: 92.74%
+[2024-09-11 06:57:47] Learning rate after epoch 48: [0.00023999999999999998]
+[2024-09-11 06:57:47] Training complete.
+[2024-09-11 07:10:33] 
+
+New training session
+
+
+[2024-09-11 07:10:33] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+[2024-09-11 07:11:26] 
+
+New training session
+
+
+[2024-09-11 07:11:26] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+[2024-09-11 07:13:58] 
+
+New training session
+
+
+[2024-09-11 07:13:58] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+[2024-09-11 07:14:35] Epoch 1/100, Training Loss: 1.0285, Training Accuracy: 64.30%
+[2024-09-11 07:14:41] Epoch 1/100, Validation Loss: 0.5948, Validation Accuracy: 79.72%
+[2024-09-11 07:14:41] Learning rate after epoch 1: [0.0024]
+[2024-09-11 07:15:11] Epoch 2/100, Training Loss: 0.6181, Training Accuracy: 79.11%
+[2024-09-11 07:15:16] Epoch 2/100, Validation Loss: 0.4819, Validation Accuracy: 82.91%
+[2024-09-11 07:15:16] Learning rate after epoch 2: [0.0024]
+[2024-09-11 07:15:47] Epoch 3/100, Training Loss: 0.5214, Training Accuracy: 82.24%
+[2024-09-11 07:15:52] Epoch 3/100, Validation Loss: 0.4289, Validation Accuracy: 85.23%
+[2024-09-11 07:15:52] Learning rate after epoch 3: [0.0024]
+[2024-09-11 07:16:22] Epoch 4/100, Training Loss: 0.4732, Training Accuracy: 84.05%
+[2024-09-11 07:16:27] Epoch 4/100, Validation Loss: 0.3945, Validation Accuracy: 86.90%
+[2024-09-11 07:16:27] Learning rate after epoch 4: [0.0024]
+[2024-09-11 07:16:59] Epoch 5/100, Training Loss: 0.4307, Training Accuracy: 85.28%
+[2024-09-11 07:17:04] Epoch 5/100, Validation Loss: 0.3953, Validation Accuracy: 86.71%
+[2024-09-11 07:17:04] Learning rate after epoch 5: [0.0024]
+[2024-09-11 07:17:34] Epoch 6/100, Training Loss: 0.4073, Training Accuracy: 86.18%
+[2024-09-11 07:17:39] Epoch 6/100, Validation Loss: 0.3618, Validation Accuracy: 87.63%
+[2024-09-11 07:17:39] Learning rate after epoch 6: [0.0024]
+[2024-09-11 07:18:08] Epoch 7/100, Training Loss: 0.3860, Training Accuracy: 86.92%
+[2024-09-11 07:18:13] Epoch 7/100, Validation Loss: 0.3356, Validation Accuracy: 88.47%
+[2024-09-11 07:18:13] Learning rate after epoch 7: [0.0024]
+[2024-09-11 07:18:42] Epoch 8/100, Training Loss: 0.3684, Training Accuracy: 87.64%
+[2024-09-11 07:18:46] Epoch 8/100, Validation Loss: 0.3050, Validation Accuracy: 89.79%
+[2024-09-11 07:18:46] Learning rate after epoch 8: [0.0024]
+[2024-09-11 07:19:17] Epoch 9/100, Training Loss: 0.3546, Training Accuracy: 88.01%
+[2024-09-11 07:19:22] Epoch 9/100, Validation Loss: 0.3064, Validation Accuracy: 89.44%
+[2024-09-11 07:19:22] Learning rate after epoch 9: [0.0024]
+[2024-09-11 07:19:50] Epoch 10/100, Training Loss: 0.3434, Training Accuracy: 88.39%
+[2024-09-11 07:19:54] Epoch 10/100, Validation Loss: 0.3075, Validation Accuracy: 89.71%
+[2024-09-11 07:19:54] Learning rate after epoch 10: [0.0024]
+[2024-09-11 07:20:22] Epoch 11/100, Training Loss: 0.3316, Training Accuracy: 88.63%
+[2024-09-11 07:20:27] Epoch 11/100, Validation Loss: 0.2905, Validation Accuracy: 90.12%
+[2024-09-11 07:20:27] Learning rate after epoch 11: [0.0024]
+[2024-09-11 07:20:57] Epoch 12/100, Training Loss: 0.3223, Training Accuracy: 89.01%
+[2024-09-11 07:21:01] Epoch 12/100, Validation Loss: 0.2794, Validation Accuracy: 91.25%
+[2024-09-11 07:21:01] Learning rate after epoch 12: [0.0024]
+[2024-09-11 07:21:29] Epoch 13/100, Training Loss: 0.3171, Training Accuracy: 89.28%
+[2024-09-11 07:21:33] Epoch 13/100, Validation Loss: 0.2812, Validation Accuracy: 90.85%
+[2024-09-11 07:21:33] Learning rate after epoch 13: [0.0024]
+[2024-09-11 07:21:59] Epoch 14/100, Training Loss: 0.3067, Training Accuracy: 89.74%
+[2024-09-11 07:22:04] Epoch 14/100, Validation Loss: 0.2512, Validation Accuracy: 91.55%
+[2024-09-11 07:22:04] Learning rate after epoch 14: [0.0024]
+[2024-09-11 07:22:30] Epoch 15/100, Training Loss: 0.2958, Training Accuracy: 89.83%
+[2024-09-11 07:22:34] Epoch 15/100, Validation Loss: 0.2747, Validation Accuracy: 90.98%
+[2024-09-11 07:22:34] Learning rate after epoch 15: [0.0024]
+[2024-09-11 07:23:00] Epoch 16/100, Training Loss: 0.2886, Training Accuracy: 90.12%
+[2024-09-11 07:23:04] Epoch 16/100, Validation Loss: 0.2586, Validation Accuracy: 91.49%
+[2024-09-11 07:23:04] Learning rate after epoch 16: [0.0024]
+[2024-09-11 07:23:31] Epoch 17/100, Training Loss: 0.2827, Training Accuracy: 90.40%
+[2024-09-11 07:23:35] Epoch 17/100, Validation Loss: 0.2434, Validation Accuracy: 91.63%
+[2024-09-11 07:23:35] Learning rate after epoch 17: [0.0024]
+[2024-09-11 07:24:05] Epoch 18/100, Training Loss: 0.2749, Training Accuracy: 90.59%
+[2024-09-11 07:24:10] Epoch 18/100, Validation Loss: 0.2425, Validation Accuracy: 91.87%
+[2024-09-11 07:24:10] Learning rate after epoch 18: [0.0024]
+[2024-09-11 07:24:36] Epoch 19/100, Training Loss: 0.2683, Training Accuracy: 90.78%
+[2024-09-11 07:24:41] Epoch 19/100, Validation Loss: 0.2349, Validation Accuracy: 92.17%
+[2024-09-11 07:24:41] Learning rate after epoch 19: [0.0024]
+[2024-09-11 07:25:09] Epoch 20/100, Training Loss: 0.2648, Training Accuracy: 90.89%
+[2024-09-11 07:25:13] Epoch 20/100, Validation Loss: 0.2303, Validation Accuracy: 92.03%
+[2024-09-11 07:25:13] Learning rate after epoch 20: [0.0024]
+[2024-09-11 07:25:40] Epoch 21/100, Training Loss: 0.2631, Training Accuracy: 91.02%
+[2024-09-11 07:25:44] Epoch 21/100, Validation Loss: 0.2310, Validation Accuracy: 92.30%
+[2024-09-11 07:25:44] Learning rate after epoch 21: [0.0024]
+[2024-09-11 07:26:12] Epoch 22/100, Training Loss: 0.2583, Training Accuracy: 91.20%
+[2024-09-11 07:26:16] Epoch 22/100, Validation Loss: 0.2278, Validation Accuracy: 92.44%
+[2024-09-11 07:26:16] Learning rate after epoch 22: [0.0024]
+[2024-09-11 07:26:42] Epoch 23/100, Training Loss: 0.2544, Training Accuracy: 91.35%
+[2024-09-11 07:26:47] Epoch 23/100, Validation Loss: 0.2305, Validation Accuracy: 91.57%
+[2024-09-11 07:26:47] Learning rate after epoch 23: [0.0024]
+[2024-09-11 07:27:15] Epoch 24/100, Training Loss: 0.2523, Training Accuracy: 91.27%
+[2024-09-11 07:27:19] Epoch 24/100, Validation Loss: 0.2367, Validation Accuracy: 91.95%
+[2024-09-11 07:27:19] Learning rate after epoch 24: [0.0024]
+[2024-09-11 07:27:46] Epoch 25/100, Training Loss: 0.2463, Training Accuracy: 91.64%
+[2024-09-11 07:27:50] Epoch 25/100, Validation Loss: 0.2286, Validation Accuracy: 91.87%
+[2024-09-11 07:27:50] Learning rate after epoch 25: [0.0024]
+[2024-09-11 07:28:18] Epoch 26/100, Training Loss: 0.2440, Training Accuracy: 91.67%
+[2024-09-11 07:28:22] Epoch 26/100, Validation Loss: 0.2128, Validation Accuracy: 92.95%
+[2024-09-11 07:28:22] Learning rate after epoch 26: [0.0024]
+[2024-09-11 07:28:52] Epoch 27/100, Training Loss: 0.2406, Training Accuracy: 91.75%
+[2024-09-11 07:28:57] Epoch 27/100, Validation Loss: 0.2194, Validation Accuracy: 92.33%
+[2024-09-11 07:28:57] Learning rate after epoch 27: [0.0024]
+[2024-09-11 07:29:26] Epoch 28/100, Training Loss: 0.2410, Training Accuracy: 91.59%
+[2024-09-11 07:29:31] Epoch 28/100, Validation Loss: 0.2109, Validation Accuracy: 92.90%
+[2024-09-11 07:29:31] Learning rate after epoch 28: [0.0024]
+[2024-09-11 07:29:59] Epoch 29/100, Training Loss: 0.2356, Training Accuracy: 91.82%
+[2024-09-11 07:30:03] Epoch 29/100, Validation Loss: 0.2055, Validation Accuracy: 93.01%
+[2024-09-11 07:30:03] Learning rate after epoch 29: [0.0024]
+[2024-09-11 07:30:30] Epoch 30/100, Training Loss: 0.2301, Training Accuracy: 92.12%
+[2024-09-11 07:30:34] Epoch 30/100, Validation Loss: 0.2146, Validation Accuracy: 93.06%
+[2024-09-11 07:30:34] Learning rate after epoch 30: [0.0024]
+[2024-09-11 07:31:03] Epoch 31/100, Training Loss: 0.2330, Training Accuracy: 92.09%
+[2024-09-11 07:31:08] Epoch 31/100, Validation Loss: 0.2060, Validation Accuracy: 93.14%
+[2024-09-11 07:31:08] Learning rate after epoch 31: [0.0024]
+[2024-09-11 07:31:36] Epoch 32/100, Training Loss: 0.2280, Training Accuracy: 92.13%
+[2024-09-11 07:31:40] Epoch 32/100, Validation Loss: 0.2162, Validation Accuracy: 92.79%
+[2024-09-11 07:31:40] Learning rate after epoch 32: [0.0024]
+[2024-09-11 07:32:08] Epoch 33/100, Training Loss: 0.2276, Training Accuracy: 91.98%
+[2024-09-11 07:32:12] Epoch 33/100, Validation Loss: 0.2030, Validation Accuracy: 93.19%
+[2024-09-11 07:32:12] Learning rate after epoch 33: [0.0024]
+[2024-09-11 07:32:40] Epoch 34/100, Training Loss: 0.2253, Training Accuracy: 92.23%
+[2024-09-11 07:32:45] Epoch 34/100, Validation Loss: 0.2173, Validation Accuracy: 92.90%
+[2024-09-11 07:32:45] Learning rate after epoch 34: [0.0024]
+[2024-09-11 07:33:11] Epoch 35/100, Training Loss: 0.2201, Training Accuracy: 92.39%
+[2024-09-11 07:33:16] Epoch 35/100, Validation Loss: 0.1999, Validation Accuracy: 92.98%
+[2024-09-11 07:33:16] Learning rate after epoch 35: [0.0024]
+[2024-09-11 07:33:43] Epoch 36/100, Training Loss: 0.2197, Training Accuracy: 92.43%
+[2024-09-11 07:33:48] Epoch 36/100, Validation Loss: 0.1997, Validation Accuracy: 93.09%
+[2024-09-11 07:33:48] Learning rate after epoch 36: [0.0024]
+[2024-09-11 07:34:16] Epoch 37/100, Training Loss: 0.2170, Training Accuracy: 92.41%
+[2024-09-11 07:34:21] Epoch 37/100, Validation Loss: 0.2087, Validation Accuracy: 92.87%
+[2024-09-11 07:34:21] Learning rate after epoch 37: [0.0024]
+[2024-09-11 07:34:49] Epoch 38/100, Training Loss: 0.2168, Training Accuracy: 92.65%
+[2024-09-11 07:34:54] Epoch 38/100, Validation Loss: 0.2029, Validation Accuracy: 93.63%
+[2024-09-11 07:34:54] Learning rate after epoch 38: [0.0024]
+[2024-09-11 07:35:16] 
+
+New training session
+
+
+[2024-09-11 07:35:16] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+[2024-09-11 07:35:25] Epoch 39/100, Training Loss: 0.2183, Training Accuracy: 92.59%
+[2024-09-11 07:35:30] Epoch 39/100, Validation Loss: 0.1996, Validation Accuracy: 93.30%
+[2024-09-11 07:35:30] Learning rate after epoch 39: [0.0024]
+[2024-09-11 07:35:57] Epoch 40/100, Training Loss: 0.2176, Training Accuracy: 92.60%
+[2024-09-11 07:36:02] Epoch 40/100, Validation Loss: 0.2034, Validation Accuracy: 93.19%
+[2024-09-11 07:36:02] Learning rate after epoch 40: [0.0024]
+[2024-09-11 07:36:02] Training complete.
+[2024-09-11 07:36:45] 
+
+New training session
+
+
+[2024-09-11 07:36:45] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+[2024-09-11 07:37:19] Epoch 1/2, Training Loss: 1.1715, Training Accuracy: 58.84%
+[2024-09-11 07:37:24] Epoch 1/2, Validation Loss: 0.5970, Validation Accuracy: 79.64%
+[2024-09-11 07:37:24] Learning rate after epoch 1: [0.0024]
+[2024-09-11 07:37:54] Epoch 2/2, Training Loss: 0.6054, Training Accuracy: 79.47%
+[2024-09-11 07:37:59] Epoch 2/2, Validation Loss: 0.4884, Validation Accuracy: 83.99%
+[2024-09-11 07:37:59] Learning rate after epoch 2: [0.0024]
+[2024-09-11 07:37:59] Training complete.
+[2024-09-11 07:39:17] 
+
+New training session
+
+
+[2024-09-11 07:39:17] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+[2024-09-11 07:39:53] Epoch 1/100, Training Loss: 1.1208, Training Accuracy: 60.84%
+[2024-09-11 07:39:58] Epoch 1/100, Validation Loss: 0.5984, Validation Accuracy: 80.39%
+[2024-09-11 07:39:58] Learning rate after epoch 1: [0.0024]
+[2024-09-11 07:40:26] 
+
+New training session
+
+
+[2024-09-11 07:40:26] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+[2024-09-11 07:40:33] Epoch 2/100, Training Loss: 0.6064, Training Accuracy: 79.48%
+[2024-09-11 07:40:41] Epoch 2/100, Validation Loss: 0.4416, Validation Accuracy: 85.61%
+[2024-09-11 07:40:41] Learning rate after epoch 2: [0.0024]
+[2024-09-11 07:41:25] Epoch 1/2, Training Loss: 1.0973, Training Accuracy: 61.82%
+[2024-09-11 07:41:32] Epoch 1/2, Validation Loss: 0.6011, Validation Accuracy: 79.48%
+[2024-09-11 07:41:32] Learning rate after epoch 1: [0.0024]
+[2024-09-11 07:41:50] Epoch 3/100, Training Loss: 0.5000, Training Accuracy: 82.95%
+[2024-09-11 07:41:57] Epoch 3/100, Validation Loss: 0.3903, Validation Accuracy: 86.98%
+[2024-09-11 07:41:57] Learning rate after epoch 3: [0.0024]
+[2024-09-11 07:42:35] Epoch 2/2, Training Loss: 0.6172, Training Accuracy: 79.09%
+[2024-09-11 07:42:43] Epoch 2/2, Validation Loss: 0.5067, Validation Accuracy: 83.12%
+[2024-09-11 07:42:43] Learning rate after epoch 2: [0.0024]
+[2024-09-11 07:42:43] Training complete.
+[2024-09-11 07:42:53] Epoch 4/100, Training Loss: 0.4442, Training Accuracy: 85.03%
+[2024-09-11 07:42:58] Epoch 4/100, Validation Loss: 0.3527, Validation Accuracy: 88.09%
+[2024-09-11 07:42:58] Learning rate after epoch 4: [0.0024]
+[2024-09-11 07:43:26] Epoch 5/100, Training Loss: 0.4136, Training Accuracy: 85.90%
+[2024-09-11 07:43:31] Epoch 5/100, Validation Loss: 0.3515, Validation Accuracy: 88.52%
+[2024-09-11 07:43:31] Learning rate after epoch 5: [0.0024]
+[2024-09-11 07:44:00] Epoch 6/100, Training Loss: 0.3892, Training Accuracy: 86.82%
+[2024-09-11 07:44:05] Epoch 6/100, Validation Loss: 0.3319, Validation Accuracy: 89.12%
+[2024-09-11 07:44:05] Learning rate after epoch 6: [0.0024]
+[2024-09-11 07:44:35] Epoch 7/100, Training Loss: 0.3780, Training Accuracy: 87.26%
+[2024-09-11 07:44:39] Epoch 7/100, Validation Loss: 0.3424, Validation Accuracy: 88.50%
+[2024-09-11 07:44:39] Learning rate after epoch 7: [0.0024]
+[2024-09-11 07:45:11] Epoch 8/100, Training Loss: 0.3637, Training Accuracy: 87.78%
+[2024-09-11 07:45:16] Epoch 8/100, Validation Loss: 0.3148, Validation Accuracy: 88.63%
+[2024-09-11 07:45:16] Learning rate after epoch 8: [0.0024]
+[2024-09-11 07:45:46] Epoch 9/100, Training Loss: 0.3567, Training Accuracy: 87.81%
+[2024-09-11 07:45:50] Epoch 9/100, Validation Loss: 0.2913, Validation Accuracy: 90.47%
+[2024-09-11 07:45:50] Learning rate after epoch 9: [0.0024]
+[2024-09-11 07:46:19] Epoch 10/100, Training Loss: 0.3456, Training Accuracy: 88.23%
+[2024-09-11 07:46:23] Epoch 10/100, Validation Loss: 0.2904, Validation Accuracy: 90.17%
+[2024-09-11 07:46:23] Learning rate after epoch 10: [0.0024]
+[2024-09-11 07:46:52] Epoch 11/100, Training Loss: 0.3336, Training Accuracy: 88.72%
+[2024-09-11 07:46:57] Epoch 11/100, Validation Loss: 0.2764, Validation Accuracy: 90.71%
+[2024-09-11 07:46:57] Learning rate after epoch 11: [0.0024]
+[2024-09-11 07:47:28] Epoch 12/100, Training Loss: 0.3288, Training Accuracy: 88.83%
+[2024-09-11 07:47:32] Epoch 12/100, Validation Loss: 0.2908, Validation Accuracy: 89.98%
+[2024-09-11 07:47:32] Learning rate after epoch 12: [0.0024]
+[2024-09-11 07:47:48] 
+
+New training session
+
+
+[2024-09-11 07:47:48] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+[2024-09-11 07:48:15] Epoch 13/100, Training Loss: 0.3180, Training Accuracy: 89.26%
+[2024-09-11 07:48:24] Epoch 13/100, Validation Loss: 0.2664, Validation Accuracy: 91.57%
+[2024-09-11 07:48:24] Learning rate after epoch 13: [0.0024]
+[2024-09-11 07:48:48] Epoch 1/2, Training Loss: 1.3018, Training Accuracy: 53.68%
+[2024-09-11 07:48:55] Epoch 1/2, Validation Loss: 0.8066, Validation Accuracy: 72.86%
+[2024-09-11 07:48:55] Learning rate after epoch 1: [0.0024]
+[2024-09-11 07:49:24] Epoch 14/100, Training Loss: 0.3162, Training Accuracy: 89.09%
+[2024-09-11 10:23:01] 
+
+New training session
+
+
+[2024-09-11 10:23:01] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+[2024-09-11 10:23:35] Epoch 1/100, Training Loss: 1.1177, Training Accuracy: 60.82%
+[2024-09-11 10:23:39] Epoch 1/100, Validation Loss: 0.6090, Validation Accuracy: 79.96%
+[2024-09-11 10:23:39] Learning rate after epoch 1: [0.0024]
+[2024-09-11 10:24:13] Epoch 2/100, Training Loss: 0.6211, Training Accuracy: 79.05%
+[2024-09-11 10:24:18] Epoch 2/100, Validation Loss: 0.4974, Validation Accuracy: 84.26%
+[2024-09-11 10:24:18] Learning rate after epoch 2: [0.0024]
+[2024-09-11 10:24:52] Epoch 3/100, Training Loss: 0.5267, Training Accuracy: 82.30%
+[2024-09-11 10:24:56] Epoch 3/100, Validation Loss: 0.4091, Validation Accuracy: 86.82%
+[2024-09-11 10:24:56] Learning rate after epoch 3: [0.0024]
+[2024-09-11 10:25:26] 
+
+New training session
+
+
+[2024-09-11 10:25:26] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+[2024-09-11 10:25:33] Epoch 4/100, Training Loss: 0.4774, Training Accuracy: 83.99%
+[2024-09-11 10:25:42] Epoch 4/100, Validation Loss: 0.4056, Validation Accuracy: 86.50%
+[2024-09-11 10:25:42] Learning rate after epoch 4: [0.0024]
+[2024-09-11 10:26:22] Epoch 1/100, Training Loss: 1.0557, Training Accuracy: 63.10%
+[2024-09-11 10:26:30] Epoch 1/100, Validation Loss: 0.5925, Validation Accuracy: 80.56%
+[2024-09-11 10:26:30] Learning rate after epoch 1: [0.0024]
+[2024-09-11 10:26:53] Epoch 5/100, Training Loss: 0.4497, Training Accuracy: 84.67%
+[2024-09-11 10:27:03] Epoch 5/100, Validation Loss: 0.3868, Validation Accuracy: 87.55%
+[2024-09-11 10:27:03] Learning rate after epoch 5: [0.0024]
+[2024-09-11 10:27:40] Epoch 2/100, Training Loss: 0.5872, Training Accuracy: 80.17%
+[2024-09-11 10:27:47] Epoch 2/100, Validation Loss: 0.4274, Validation Accuracy: 85.80%
+[2024-09-11 10:27:47] Learning rate after epoch 2: [0.0024]
+[2024-09-11 10:28:07] Epoch 6/100, Training Loss: 0.4358, Training Accuracy: 85.22%
+[2024-09-11 10:28:15] Epoch 6/100, Validation Loss: 0.3734, Validation Accuracy: 87.42%
+[2024-09-11 10:28:15] Learning rate after epoch 6: [0.0024]
+[2024-09-11 10:28:45] Epoch 3/100, Training Loss: 0.4981, Training Accuracy: 83.27%
+[2024-09-11 10:28:53] Epoch 3/100, Validation Loss: 0.3985, Validation Accuracy: 87.09%
+[2024-09-11 10:28:53] Learning rate after epoch 3: [0.0024]
+[2024-09-11 10:29:25] Epoch 7/100, Training Loss: 0.4133, Training Accuracy: 86.02%
+[2024-09-11 10:29:29] Epoch 7/100, Validation Loss: 0.3621, Validation Accuracy: 87.93%
+[2024-09-11 10:29:29] Learning rate after epoch 7: [0.0024]
+[2024-09-11 10:29:58] Epoch 8/100, Training Loss: 0.3929, Training Accuracy: 86.74%
+[2024-09-11 10:30:02] Epoch 8/100, Validation Loss: 0.3526, Validation Accuracy: 88.47%
+[2024-09-11 10:30:02] Learning rate after epoch 8: [0.0024]
+[2024-09-11 10:30:31] Epoch 9/100, Training Loss: 0.3773, Training Accuracy: 87.15%
+[2024-09-11 10:30:36] Epoch 9/100, Validation Loss: 0.3206, Validation Accuracy: 89.41%
+[2024-09-11 10:30:36] Learning rate after epoch 9: [0.0024]
+[2024-09-11 10:31:04] Epoch 10/100, Training Loss: 0.3697, Training Accuracy: 87.26%
+[2024-09-11 10:31:08] Epoch 10/100, Validation Loss: 0.3120, Validation Accuracy: 89.74%
+[2024-09-11 10:31:08] Learning rate after epoch 10: [0.0024]
+[2024-09-11 10:31:36] Epoch 11/100, Training Loss: 0.3581, Training Accuracy: 87.85%
+[2024-09-11 10:31:41] Epoch 11/100, Validation Loss: 0.3150, Validation Accuracy: 89.63%
+[2024-09-11 10:31:41] Learning rate after epoch 11: [0.0024]
+[2024-09-11 10:32:11] Epoch 12/100, Training Loss: 0.3519, Training Accuracy: 88.08%
+[2024-09-11 10:32:15] Epoch 12/100, Validation Loss: 0.3282, Validation Accuracy: 89.17%
+[2024-09-11 10:32:15] Learning rate after epoch 12: [0.0024]
+[2024-09-11 10:32:44] Epoch 13/100, Training Loss: 0.3440, Training Accuracy: 88.37%
+[2024-09-11 10:32:48] Epoch 13/100, Validation Loss: 0.2988, Validation Accuracy: 89.82%
+[2024-09-11 10:32:48] Learning rate after epoch 13: [0.0024]
+[2024-09-11 10:33:16] Epoch 14/100, Training Loss: 0.3396, Training Accuracy: 88.53%
+[2024-09-11 10:33:20] Epoch 14/100, Validation Loss: 0.2933, Validation Accuracy: 90.22%
+[2024-09-11 10:33:20] Learning rate after epoch 14: [0.0024]
+[2024-09-11 10:33:46] Epoch 15/100, Training Loss: 0.3331, Training Accuracy: 88.80%
+[2024-09-11 10:33:50] Epoch 15/100, Validation Loss: 0.3110, Validation Accuracy: 89.79%
+[2024-09-11 10:33:50] Learning rate after epoch 15: [0.0024]
+[2024-09-11 10:34:19] Epoch 16/100, Training Loss: 0.3246, Training Accuracy: 88.89%
+[2024-09-11 10:34:23] Epoch 16/100, Validation Loss: 0.2833, Validation Accuracy: 90.36%
+[2024-09-11 10:34:23] Learning rate after epoch 16: [0.0024]
+[2024-09-11 10:34:49] Epoch 17/100, Training Loss: 0.3225, Training Accuracy: 88.84%
+[2024-09-11 10:34:53] Epoch 17/100, Validation Loss: 0.2873, Validation Accuracy: 90.44%
+[2024-09-11 10:34:53] Learning rate after epoch 17: [0.0024]
+[2024-09-11 10:35:21] Epoch 18/100, Training Loss: 0.3132, Training Accuracy: 89.28%
+[2024-09-11 10:35:25] Epoch 18/100, Validation Loss: 0.2922, Validation Accuracy: 90.14%
+[2024-09-11 10:35:25] Learning rate after epoch 18: [0.0024]
+[2024-09-11 10:35:53] Epoch 19/100, Training Loss: 0.3095, Training Accuracy: 89.44%
+[2024-09-11 10:35:57] Epoch 19/100, Validation Loss: 0.2785, Validation Accuracy: 90.93%
+[2024-09-11 10:35:57] Learning rate after epoch 19: [0.0024]
+[2024-09-11 10:36:26] Epoch 20/100, Training Loss: 0.3083, Training Accuracy: 89.57%
+[2024-09-11 10:36:30] Epoch 20/100, Validation Loss: 0.2667, Validation Accuracy: 91.25%
+[2024-09-11 10:36:30] Learning rate after epoch 20: [0.0024]
+[2024-09-11 10:36:59] Epoch 21/100, Training Loss: 0.3049, Training Accuracy: 89.75%
+[2024-09-11 10:37:03] Epoch 21/100, Validation Loss: 0.2713, Validation Accuracy: 90.85%
+[2024-09-11 10:37:03] Learning rate after epoch 21: [0.0024]
+[2024-09-11 10:37:28] Epoch 22/100, Training Loss: 0.3055, Training Accuracy: 89.49%
+[2024-09-11 10:37:32] Epoch 22/100, Validation Loss: 0.2755, Validation Accuracy: 90.85%
+[2024-09-11 10:37:32] Learning rate after epoch 22: [0.0024]
+[2024-09-11 10:37:59] Epoch 23/100, Training Loss: 0.2964, Training Accuracy: 90.16%
+[2024-09-11 10:38:03] Epoch 23/100, Validation Loss: 0.2621, Validation Accuracy: 90.95%
+[2024-09-11 10:38:03] Learning rate after epoch 23: [0.0024]
+[2024-09-11 10:38:30] Epoch 24/100, Training Loss: 0.2897, Training Accuracy: 90.06%
+[2024-09-11 10:38:35] Epoch 24/100, Validation Loss: 0.2664, Validation Accuracy: 90.87%
+[2024-09-11 10:38:35] Learning rate after epoch 24: [0.0024]
+[2024-09-11 10:39:03] Epoch 25/100, Training Loss: 0.2966, Training Accuracy: 89.81%
+[2024-09-11 10:39:07] Epoch 25/100, Validation Loss: 0.2739, Validation Accuracy: 90.58%
+[2024-09-11 10:39:07] Learning rate after epoch 25: [0.0024]
+[2024-09-11 10:39:34] Epoch 26/100, Training Loss: 0.2897, Training Accuracy: 90.06%
+[2024-09-11 10:39:38] Epoch 26/100, Validation Loss: 0.2747, Validation Accuracy: 90.68%
+[2024-09-11 10:39:38] Learning rate after epoch 26: [0.0024]
+[2024-09-11 10:40:07] Epoch 27/100, Training Loss: 0.2956, Training Accuracy: 89.85%
+[2024-09-11 10:40:11] Epoch 27/100, Validation Loss: 0.2536, Validation Accuracy: 91.60%
+[2024-09-11 10:40:11] Learning rate after epoch 27: [0.0024]
+[2024-09-11 10:40:37] Epoch 28/100, Training Loss: 0.2895, Training Accuracy: 90.19%
+[2024-09-11 10:40:41] Epoch 28/100, Validation Loss: 0.2465, Validation Accuracy: 91.55%
+[2024-09-11 10:40:41] Learning rate after epoch 28: [0.0024]
+[2024-09-11 10:41:08] Epoch 29/100, Training Loss: 0.2866, Training Accuracy: 90.35%
+[2024-09-11 10:41:12] Epoch 29/100, Validation Loss: 0.2382, Validation Accuracy: 92.03%
+[2024-09-11 10:41:12] Learning rate after epoch 29: [0.0024]
+[2024-09-11 10:41:37] Epoch 30/100, Training Loss: 0.2810, Training Accuracy: 90.29%
+[2024-09-11 10:41:41] Epoch 30/100, Validation Loss: 0.2421, Validation Accuracy: 92.09%
+[2024-09-11 10:41:41] Learning rate after epoch 30: [0.0024]
+[2024-09-11 10:42:09] Epoch 31/100, Training Loss: 0.2821, Training Accuracy: 90.32%
+[2024-09-11 10:42:13] Epoch 31/100, Validation Loss: 0.2406, Validation Accuracy: 92.14%
+[2024-09-11 10:42:13] Learning rate after epoch 31: [0.0024]
+[2024-09-11 10:42:39] Epoch 32/100, Training Loss: 0.2775, Training Accuracy: 90.67%
+[2024-09-11 10:42:43] Epoch 32/100, Validation Loss: 0.2491, Validation Accuracy: 91.22%
+[2024-09-11 10:42:43] Learning rate after epoch 32: [0.0024]
+[2024-09-11 10:43:10] Epoch 33/100, Training Loss: 0.2754, Training Accuracy: 90.63%
+[2024-09-11 10:43:14] Epoch 33/100, Validation Loss: 0.2221, Validation Accuracy: 92.33%
+[2024-09-11 10:43:14] Learning rate after epoch 33: [0.0024]
+[2024-09-11 10:43:40] Epoch 34/100, Training Loss: 0.2737, Training Accuracy: 90.51%
+[2024-09-11 10:43:44] Epoch 34/100, Validation Loss: 0.2232, Validation Accuracy: 92.47%
+[2024-09-11 10:43:44] Learning rate after epoch 34: [0.0024]
+[2024-09-11 10:44:10] Epoch 35/100, Training Loss: 0.2715, Training Accuracy: 90.59%
+[2024-09-11 10:44:14] Epoch 35/100, Validation Loss: 0.2340, Validation Accuracy: 92.17%
+[2024-09-11 10:44:14] Learning rate after epoch 35: [0.0024]
+[2024-09-11 10:44:41] Epoch 36/100, Training Loss: 0.2708, Training Accuracy: 91.03%
+[2024-09-11 10:44:45] Epoch 36/100, Validation Loss: 0.2338, Validation Accuracy: 92.30%
+[2024-09-11 10:44:45] Learning rate after epoch 36: [0.0024]
+[2024-09-11 10:45:13] Epoch 37/100, Training Loss: 0.2668, Training Accuracy: 90.94%
+[2024-09-11 10:45:17] Epoch 37/100, Validation Loss: 0.2600, Validation Accuracy: 91.06%
+[2024-09-11 10:45:17] Learning rate after epoch 37: [0.00023999999999999998]
+[2024-09-11 10:45:45] Epoch 38/100, Training Loss: 0.2317, Training Accuracy: 92.07%
+[2024-09-11 10:45:49] Epoch 38/100, Validation Loss: 0.2028, Validation Accuracy: 93.33%
+[2024-09-11 10:45:49] Learning rate after epoch 38: [0.00023999999999999998]
+[2024-09-11 10:46:15] Epoch 39/100, Training Loss: 0.2218, Training Accuracy: 92.36%
+[2024-09-11 10:46:20] Epoch 39/100, Validation Loss: 0.1984, Validation Accuracy: 93.09%
+[2024-09-11 10:46:20] Learning rate after epoch 39: [0.00023999999999999998]
+[2024-09-11 10:46:49] Epoch 40/100, Training Loss: 0.2188, Training Accuracy: 92.52%
+[2024-09-11 10:46:53] Epoch 40/100, Validation Loss: 0.1993, Validation Accuracy: 93.11%
+[2024-09-11 10:46:53] Learning rate after epoch 40: [0.00023999999999999998]
+[2024-09-11 10:47:22] Epoch 41/100, Training Loss: 0.2142, Training Accuracy: 92.62%
+[2024-09-11 10:47:27] Epoch 41/100, Validation Loss: 0.1953, Validation Accuracy: 93.30%
+[2024-09-11 10:47:27] Learning rate after epoch 41: [0.00023999999999999998]
+[2024-09-11 10:47:52] Epoch 42/100, Training Loss: 0.2155, Training Accuracy: 92.50%
+[2024-09-11 10:47:56] Epoch 42/100, Validation Loss: 0.1938, Validation Accuracy: 93.38%
+[2024-09-11 10:47:56] Learning rate after epoch 42: [0.00023999999999999998]
+[2024-09-11 10:48:22] Epoch 43/100, Training Loss: 0.2157, Training Accuracy: 92.53%
+[2024-09-11 10:48:25] Epoch 43/100, Validation Loss: 0.1937, Validation Accuracy: 93.36%
+[2024-09-11 10:48:25] Learning rate after epoch 43: [0.00023999999999999998]
+[2024-09-11 10:48:52] Epoch 44/100, Training Loss: 0.2130, Training Accuracy: 92.61%
+[2024-09-11 10:48:56] Epoch 44/100, Validation Loss: 0.1953, Validation Accuracy: 93.11%
+[2024-09-11 10:48:56] Learning rate after epoch 44: [0.00023999999999999998]
+[2024-09-11 10:49:23] Epoch 45/100, Training Loss: 0.2143, Training Accuracy: 92.56%
+[2024-09-11 10:49:27] Epoch 45/100, Validation Loss: 0.1935, Validation Accuracy: 93.30%
+[2024-09-11 10:49:27] Learning rate after epoch 45: [0.00023999999999999998]
+[2024-09-11 10:49:53] Epoch 46/100, Training Loss: 0.2126, Training Accuracy: 92.65%
+[2024-09-11 10:49:57] Epoch 46/100, Validation Loss: 0.1959, Validation Accuracy: 93.30%
+[2024-09-11 10:49:57] Learning rate after epoch 46: [0.00023999999999999998]
+[2024-09-11 10:50:25] Epoch 47/100, Training Loss: 0.2087, Training Accuracy: 92.69%
+[2024-09-11 10:50:29] Epoch 47/100, Validation Loss: 0.1917, Validation Accuracy: 93.19%
+[2024-09-11 10:50:29] Learning rate after epoch 47: [0.00023999999999999998]
+[2024-09-11 10:50:56] Epoch 48/100, Training Loss: 0.2099, Training Accuracy: 92.79%
+[2024-09-11 10:51:00] Epoch 48/100, Validation Loss: 0.1910, Validation Accuracy: 93.30%
+[2024-09-11 10:51:00] Learning rate after epoch 48: [0.00023999999999999998]
+[2024-09-11 10:51:27] Epoch 49/100, Training Loss: 0.2104, Training Accuracy: 92.67%
+[2024-09-11 10:51:31] Epoch 49/100, Validation Loss: 0.1910, Validation Accuracy: 93.22%
+[2024-09-11 10:51:31] Learning rate after epoch 49: [0.00023999999999999998]
+[2024-09-11 10:51:56] Epoch 50/100, Training Loss: 0.2111, Training Accuracy: 92.72%
+[2024-09-11 10:52:00] Epoch 50/100, Validation Loss: 0.1947, Validation Accuracy: 93.14%
+[2024-09-11 10:52:00] Learning rate after epoch 50: [0.00023999999999999998]
+[2024-09-11 10:52:28] Epoch 51/100, Training Loss: 0.2090, Training Accuracy: 92.70%
+[2024-09-11 10:52:31] Epoch 51/100, Validation Loss: 0.1917, Validation Accuracy: 93.36%
+[2024-09-11 10:52:31] Learning rate after epoch 51: [0.00023999999999999998]
+[2024-09-11 10:52:59] Epoch 52/100, Training Loss: 0.2093, Training Accuracy: 92.76%
+[2024-09-11 10:53:03] Epoch 52/100, Validation Loss: 0.1912, Validation Accuracy: 93.25%
+[2024-09-11 10:53:03] Learning rate after epoch 52: [0.00023999999999999998]
+[2024-09-11 10:53:29] Epoch 53/100, Training Loss: 0.2059, Training Accuracy: 92.94%
+[2024-09-11 10:53:33] Epoch 53/100, Validation Loss: 0.1920, Validation Accuracy: 93.30%
+[2024-09-11 10:53:33] Learning rate after epoch 53: [2.4e-05]
+[2024-09-11 10:53:59] Epoch 54/100, Training Loss: 0.2031, Training Accuracy: 92.77%
+[2024-09-11 10:54:04] Epoch 54/100, Validation Loss: 0.1908, Validation Accuracy: 93.38%
+[2024-09-11 10:54:04] Learning rate after epoch 54: [2.4e-05]
+[2024-09-11 10:54:30] Epoch 55/100, Training Loss: 0.2011, Training Accuracy: 92.91%
+[2024-09-11 10:54:34] Epoch 55/100, Validation Loss: 0.1903, Validation Accuracy: 93.33%
+[2024-09-11 10:54:34] Learning rate after epoch 55: [2.4e-05]
+[2024-09-11 10:55:02] Epoch 56/100, Training Loss: 0.2008, Training Accuracy: 92.97%
+[2024-09-11 10:55:06] Epoch 56/100, Validation Loss: 0.1893, Validation Accuracy: 93.33%
+[2024-09-11 10:55:06] Learning rate after epoch 56: [2.4e-05]
+[2024-09-11 10:55:34] Epoch 57/100, Training Loss: 0.2015, Training Accuracy: 93.05%
+[2024-09-11 10:55:38] Epoch 57/100, Validation Loss: 0.1888, Validation Accuracy: 93.44%
+[2024-09-11 10:55:38] Learning rate after epoch 57: [2.4e-05]
+[2024-09-11 10:56:03] Epoch 58/100, Training Loss: 0.1999, Training Accuracy: 93.05%
+[2024-09-11 10:56:07] Epoch 58/100, Validation Loss: 0.1892, Validation Accuracy: 93.44%
+[2024-09-11 10:56:07] Learning rate after epoch 58: [2.4e-05]
+[2024-09-11 10:56:36] Epoch 59/100, Training Loss: 0.1986, Training Accuracy: 93.13%
+[2024-09-11 10:56:40] Epoch 59/100, Validation Loss: 0.1899, Validation Accuracy: 93.38%
+[2024-09-11 10:56:40] Learning rate after epoch 59: [2.4e-05]
+[2024-09-11 10:57:07] Epoch 60/100, Training Loss: 0.1963, Training Accuracy: 93.30%
+[2024-09-11 10:57:11] Epoch 60/100, Validation Loss: 0.1893, Validation Accuracy: 93.36%
+[2024-09-11 10:57:11] Learning rate after epoch 60: [2.4e-05]
+[2024-09-11 10:57:39] Epoch 61/100, Training Loss: 0.2000, Training Accuracy: 93.09%
+[2024-09-11 10:57:43] Epoch 61/100, Validation Loss: 0.1901, Validation Accuracy: 93.36%
+[2024-09-11 10:57:43] Learning rate after epoch 61: [2.4000000000000003e-06]
+[2024-09-11 10:58:11] Epoch 62/100, Training Loss: 0.2013, Training Accuracy: 93.03%
+[2024-09-11 10:58:15] Epoch 62/100, Validation Loss: 0.1900, Validation Accuracy: 93.36%
+[2024-09-11 10:58:15] Learning rate after epoch 62: [2.4000000000000003e-06]
+[2024-09-11 10:58:15] Training complete.
+[2024-09-11 12:12:04] 
+
+New training session
+
+
+[2024-09-11 12:12:04] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+[2024-09-11 12:12:40] Epoch 1/100, Training Loss: 1.2619, Training Accuracy: 55.15%
+[2024-09-11 12:12:45] Epoch 1/100, Validation Loss: 0.7420, Validation Accuracy: 74.67%
+[2024-09-11 12:12:45] Learning rate after epoch 1: [0.0024]
+[2024-09-11 12:13:17] Epoch 2/100, Training Loss: 0.6938, Training Accuracy: 76.36%
+[2024-09-11 12:13:22] Epoch 2/100, Validation Loss: 0.5407, Validation Accuracy: 82.15%
+[2024-09-11 12:13:22] Learning rate after epoch 2: [0.0024]
+[2024-09-11 12:13:53] Epoch 3/100, Training Loss: 0.5781, Training Accuracy: 80.47%
+[2024-09-11 12:13:57] Epoch 3/100, Validation Loss: 0.4285, Validation Accuracy: 85.58%
+[2024-09-11 12:13:57] Learning rate after epoch 3: [0.0024]
+[2024-09-11 12:14:28] Epoch 4/100, Training Loss: 0.4954, Training Accuracy: 83.43%
+[2024-09-11 12:14:33] Epoch 4/100, Validation Loss: 0.3891, Validation Accuracy: 86.34%
+[2024-09-11 12:14:33] Learning rate after epoch 4: [0.0024]
+[2024-09-11 12:15:03] Epoch 5/100, Training Loss: 0.4501, Training Accuracy: 84.58%
+[2024-09-11 12:15:07] Epoch 5/100, Validation Loss: 0.3615, Validation Accuracy: 88.12%
+[2024-09-11 12:15:07] Learning rate after epoch 5: [0.0024]
+[2024-09-11 12:15:36] Epoch 6/100, Training Loss: 0.4223, Training Accuracy: 85.76%
+[2024-09-11 12:15:41] Epoch 6/100, Validation Loss: 0.3642, Validation Accuracy: 87.85%
+[2024-09-11 12:15:41] Learning rate after epoch 6: [0.0024]
+[2024-09-11 12:16:11] Epoch 7/100, Training Loss: 0.4036, Training Accuracy: 86.51%
+[2024-09-11 12:16:15] Epoch 7/100, Validation Loss: 0.3252, Validation Accuracy: 89.41%
+[2024-09-11 12:16:15] Learning rate after epoch 7: [0.0024]
+[2024-09-11 12:16:45] Epoch 8/100, Training Loss: 0.3846, Training Accuracy: 87.12%
+[2024-09-11 12:16:49] Epoch 8/100, Validation Loss: 0.3243, Validation Accuracy: 89.39%
+[2024-09-11 12:16:49] Learning rate after epoch 8: [0.0024]
+[2024-09-11 12:17:19] Epoch 9/100, Training Loss: 0.3728, Training Accuracy: 87.42%
+[2024-09-11 12:17:23] Epoch 9/100, Validation Loss: 0.3471, Validation Accuracy: 88.31%
+[2024-09-11 12:17:23] Learning rate after epoch 9: [0.0024]
+[2024-09-11 12:17:50] Epoch 10/100, Training Loss: 0.3824, Training Accuracy: 87.00%
+[2024-09-11 12:17:54] Epoch 10/100, Validation Loss: 0.3321, Validation Accuracy: 88.93%
+[2024-09-11 12:17:54] Learning rate after epoch 10: [0.0024]
+[2024-09-11 12:18:21] Epoch 11/100, Training Loss: 0.3718, Training Accuracy: 87.47%
+[2024-09-11 12:18:26] Epoch 11/100, Validation Loss: 0.2798, Validation Accuracy: 90.66%
+[2024-09-11 12:18:26] Learning rate after epoch 11: [0.0024]
+[2024-09-11 12:18:55] Epoch 12/100, Training Loss: 0.3767, Training Accuracy: 87.34%
+[2024-09-11 12:19:00] Epoch 12/100, Validation Loss: 0.2868, Validation Accuracy: 90.39%
+[2024-09-11 12:19:00] Learning rate after epoch 12: [0.0024]
+[2024-09-11 12:19:30] Epoch 13/100, Training Loss: 0.3627, Training Accuracy: 87.58%
+[2024-09-11 12:19:34] Epoch 13/100, Validation Loss: 0.2739, Validation Accuracy: 90.85%
+[2024-09-11 12:19:34] Learning rate after epoch 13: [0.0024]
+[2024-09-11 12:20:02] Epoch 14/100, Training Loss: 0.3310, Training Accuracy: 88.79%
+[2024-09-11 12:20:06] Epoch 14/100, Validation Loss: 0.2661, Validation Accuracy: 91.09%
+[2024-09-11 12:20:06] Learning rate after epoch 14: [0.0024]
+[2024-09-11 12:20:33] Epoch 15/100, Training Loss: 0.3194, Training Accuracy: 89.35%
+[2024-09-11 12:20:37] Epoch 15/100, Validation Loss: 0.2680, Validation Accuracy: 90.79%
+[2024-09-11 12:20:37] Learning rate after epoch 15: [0.0024]
+[2024-09-11 12:21:03] Epoch 16/100, Training Loss: 0.3306, Training Accuracy: 88.73%
+[2024-09-11 12:21:07] Epoch 16/100, Validation Loss: 0.2767, Validation Accuracy: 90.39%
+[2024-09-11 12:21:07] Learning rate after epoch 16: [0.0024]
+[2024-09-11 12:21:35] Epoch 17/100, Training Loss: 0.3170, Training Accuracy: 89.31%
+[2024-09-11 12:21:39] Epoch 17/100, Validation Loss: 0.2736, Validation Accuracy: 91.20%
+[2024-09-11 12:21:39] Learning rate after epoch 17: [0.0024]
+[2024-09-11 12:22:06] Epoch 18/100, Training Loss: 0.3228, Training Accuracy: 89.02%
+[2024-09-11 12:22:10] Epoch 18/100, Validation Loss: 0.2578, Validation Accuracy: 91.17%
+[2024-09-11 12:22:10] Learning rate after epoch 18: [0.0024]
+[2024-09-11 12:22:38] Epoch 19/100, Training Loss: 0.3302, Training Accuracy: 88.97%
+[2024-09-11 12:22:42] Epoch 19/100, Validation Loss: 0.2681, Validation Accuracy: 90.74%
+[2024-09-11 12:22:42] Learning rate after epoch 19: [0.0024]
+[2024-09-11 12:23:11] Epoch 20/100, Training Loss: 0.3206, Training Accuracy: 89.12%
+[2024-09-11 12:23:15] Epoch 20/100, Validation Loss: 0.2541, Validation Accuracy: 91.49%
+[2024-09-11 12:23:15] Learning rate after epoch 20: [0.0024]
+[2024-09-11 12:23:47] Epoch 21/100, Training Loss: 0.3023, Training Accuracy: 89.50%
+[2024-09-11 12:23:51] Epoch 21/100, Validation Loss: 0.2428, Validation Accuracy: 91.52%
+[2024-09-11 12:23:51] Learning rate after epoch 21: [0.0024]
+[2024-09-11 12:24:19] Epoch 22/100, Training Loss: 0.2937, Training Accuracy: 90.10%
+[2024-09-11 12:24:23] Epoch 22/100, Validation Loss: 0.2375, Validation Accuracy: 92.06%
+[2024-09-11 12:24:23] Learning rate after epoch 22: [0.0024]
+[2024-09-11 12:24:52] Epoch 23/100, Training Loss: 0.2937, Training Accuracy: 90.08%
+[2024-09-11 12:24:56] Epoch 23/100, Validation Loss: 0.2296, Validation Accuracy: 92.03%
+[2024-09-11 12:24:56] Learning rate after epoch 23: [0.0024]
+[2024-09-11 12:25:22] Epoch 24/100, Training Loss: 0.2858, Training Accuracy: 90.40%
+[2024-09-11 12:25:26] Epoch 24/100, Validation Loss: 0.2506, Validation Accuracy: 91.82%
+[2024-09-11 12:25:26] Learning rate after epoch 24: [0.0024]
+[2024-09-11 12:25:53] Epoch 25/100, Training Loss: 0.3799, Training Accuracy: 87.42%
+[2024-09-11 12:25:57] Epoch 25/100, Validation Loss: 0.3392, Validation Accuracy: 88.71%
+[2024-09-11 12:25:57] Learning rate after epoch 25: [0.0024]
+[2024-09-11 12:26:25] Epoch 26/100, Training Loss: 0.3913, Training Accuracy: 86.88%
+[2024-09-11 12:26:29] Epoch 26/100, Validation Loss: 0.3702, Validation Accuracy: 88.04%
+[2024-09-11 12:26:29] Learning rate after epoch 26: [0.0024]
+[2024-09-11 12:26:55] Epoch 27/100, Training Loss: 0.3721, Training Accuracy: 87.61%
+[2024-09-11 12:26:59] Epoch 27/100, Validation Loss: 0.3227, Validation Accuracy: 89.50%
+[2024-09-11 12:26:59] Learning rate after epoch 27: [0.00023999999999999998]
+[2024-09-11 12:27:26] Epoch 28/100, Training Loss: 0.3352, Training Accuracy: 89.00%
+[2024-09-11 12:27:30] Epoch 28/100, Validation Loss: 0.3076, Validation Accuracy: 90.04%
+[2024-09-11 12:27:30] Learning rate after epoch 28: [0.00023999999999999998]
+[2024-09-11 12:27:30] Training complete.
+[2024-09-11 13:23:13] 
+
+New training session
+
+
+[2024-09-11 13:23:13] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=26, out_features=127, bias=True)
+  (mamba_layers): ModuleList(
+    (0-2): 3 x Mamba(
+      (in_proj): Linear(in_features=127, out_features=1016, bias=False)
+      (conv1d): Conv1d(508, 508, kernel_size=(4,), stride=(1,), padding=(3,), groups=508)
+      (act): SiLU()
+      (x_proj): Linear(in_features=508, out_features=40, bias=False)
+      (dt_proj): Linear(in_features=8, out_features=508, bias=True)
+      (out_proj): Linear(in_features=508, out_features=127, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0-2): 3 x RMSNorm((127,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=127, out_features=10, bias=True)
+  (dropout): Dropout(p=0.08001050559305041, inplace=False)
+)
+[2024-09-11 13:25:59] 
+
+New training session
+
+
+[2024-09-11 13:25:59] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=64, bias=True)
+  (mamba_layers): ModuleList(
+    (0-1): 2 x Mamba(
+      (in_proj): Linear(in_features=64, out_features=256, bias=False)
+      (conv1d): Conv1d(128, 128, kernel_size=(8,), stride=(1,), padding=(7,), groups=128)
+      (act): SiLU()
+      (x_proj): Linear(in_features=128, out_features=68, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=128, bias=True)
+      (out_proj): Linear(in_features=128, out_features=64, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0-1): 2 x RMSNorm((64,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=64, out_features=10, bias=True)
+  (dropout): Dropout(p=0.45431782796041287, inplace=False)
+)
+[2024-09-11 13:27:28] 
+
+New training session
+
+
+[2024-09-11 13:27:28] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=64, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=64, out_features=512, bias=False)
+      (conv1d): Conv1d(256, 256, kernel_size=(8,), stride=(1,), padding=(7,), groups=256)
+      (act): SiLU()
+      (x_proj): Linear(in_features=256, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=256, bias=True)
+      (out_proj): Linear(in_features=256, out_features=64, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((64,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=64, out_features=10, bias=True)
+  (dropout): Dropout(p=0.2965736867476366, inplace=False)
+)
+[2024-09-11 13:31:26] 
+
+New training session
+
+
+[2024-09-11 13:31:26] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=26, out_features=127, bias=True)
+  (mamba_layers): ModuleList(
+    (0-2): 3 x Mamba(
+      (in_proj): Linear(in_features=127, out_features=1524, bias=False)
+      (conv1d): Conv1d(762, 762, kernel_size=(8,), stride=(1,), padding=(7,), groups=762)
+      (act): SiLU()
+      (x_proj): Linear(in_features=762, out_features=520, bias=False)
+      (dt_proj): Linear(in_features=8, out_features=762, bias=True)
+      (out_proj): Linear(in_features=762, out_features=127, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0-2): 3 x RMSNorm((127,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=127, out_features=10, bias=True)
+  (dropout): Dropout(p=0.7571670967386237, inplace=False)
+)
+[2024-09-11 13:32:54] 
+
+New training session
+
+
+[2024-09-11 13:32:54] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=26, out_features=127, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=127, out_features=1016, bias=False)
+      (conv1d): Conv1d(508, 508, kernel_size=(128,), stride=(1,), padding=(127,), groups=508)
+      (act): SiLU()
+      (x_proj): Linear(in_features=508, out_features=520, bias=False)
+      (dt_proj): Linear(in_features=8, out_features=508, bias=True)
+      (out_proj): Linear(in_features=508, out_features=127, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((127,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=127, out_features=10, bias=True)
+  (dropout): Dropout(p=0.3381526769779578, inplace=False)
+)
+[2024-09-11 13:34:16] 
+
+New training session
+
+
+[2024-09-11 13:34:16] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=26, out_features=33, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=33, out_features=396, bias=False)
+      (conv1d): Conv1d(198, 198, kernel_size=(128,), stride=(1,), padding=(127,), groups=198)
+      (act): SiLU()
+      (x_proj): Linear(in_features=198, out_features=35, bias=False)
+      (dt_proj): Linear(in_features=3, out_features=198, bias=True)
+      (out_proj): Linear(in_features=198, out_features=33, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((33,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=33, out_features=10, bias=True)
+  (dropout): Dropout(p=0.059301007754973246, inplace=False)
+)
+[2024-09-11 13:35:44] 
+
+New training session
+
+
+[2024-09-11 13:35:44] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=26, out_features=127, bias=True)
+  (mamba_layers): ModuleList(
+    (0-2): 3 x Mamba(
+      (in_proj): Linear(in_features=127, out_features=1524, bias=False)
+      (conv1d): Conv1d(762, 762, kernel_size=(128,), stride=(1,), padding=(127,), groups=762)
+      (act): SiLU()
+      (x_proj): Linear(in_features=762, out_features=72, bias=False)
+      (dt_proj): Linear(in_features=8, out_features=762, bias=True)
+      (out_proj): Linear(in_features=762, out_features=127, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0-2): 3 x RMSNorm((127,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=127, out_features=10, bias=True)
+  (dropout): Dropout(p=0.31813523080303646, inplace=False)
+)
+[2024-09-11 13:37:13] 
+
+New training session
+
+
+[2024-09-11 13:37:13] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=26, out_features=64, bias=True)
+  (mamba_layers): ModuleList(
+    (0-3): 4 x Mamba(
+      (in_proj): Linear(in_features=64, out_features=512, bias=False)
+      (conv1d): Conv1d(256, 256, kernel_size=(128,), stride=(1,), padding=(127,), groups=256)
+      (act): SiLU()
+      (x_proj): Linear(in_features=256, out_features=68, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=256, bias=True)
+      (out_proj): Linear(in_features=256, out_features=64, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0-3): 4 x RMSNorm((64,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=64, out_features=10, bias=True)
+  (dropout): Dropout(p=0.6065054748773999, inplace=False)
+)
+[2024-09-11 13:39:51] 
+
+New training session
+
+
+[2024-09-11 13:39:51] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=78, out_features=64, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=64, out_features=512, bias=False)
+      (conv1d): Conv1d(256, 256, kernel_size=(4,), stride=(1,), padding=(3,), groups=256)
+      (act): SiLU()
+      (x_proj): Linear(in_features=256, out_features=516, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=256, bias=True)
+      (out_proj): Linear(in_features=256, out_features=64, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((64,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=64, out_features=10, bias=True)
+  (dropout): Dropout(p=0.6315832131160587, inplace=False)
+)
+[2024-09-11 13:42:07] Epoch 1/1, Training Loss: 1.9403, Training Accuracy: 29.28%
+[2024-09-11 13:42:22] Epoch 1/1, Validation Loss: 1.0247, Validation Accuracy: 65.78%
+[2024-09-11 14:02:06] 
+
+New training session
+
+
+[2024-09-11 14:02:06] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)
+[2024-09-11 14:03:47] 
+
+New training session
+
+
+[2024-09-11 14:03:47] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=52, bias=True)
+  (mamba_layers): ModuleList(
+    (0): Mamba(
+      (in_proj): Linear(in_features=52, out_features=208, bias=False)
+      (conv1d): Conv1d(104, 104, kernel_size=(4,), stride=(1,), padding=(3,), groups=104)
+      (act): SiLU()
+      (x_proj): Linear(in_features=104, out_features=36, bias=False)
+      (dt_proj): Linear(in_features=4, out_features=104, bias=True)
+      (out_proj): Linear(in_features=104, out_features=52, bias=False)
+    )
+  )
+  (layer_norms): ModuleList(
+    (0): RMSNorm((52,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=52, out_features=10, bias=True)
+  (dropout): Dropout(p=0.1, inplace=False)
+)

@@ -1,166 +1,45 @@
 import torch
-from utils import log_to_file, EarlyStopping
-from tqdm import tqdm
-import matplotlib.pyplot as plt
+from torch.utils.data import DataLoader
+import torch.optim as optim
+import torch.nn as nn
+from torch_optimizer import Lookahead
+from config import dataset, data_loader, model as model_config, optimizer as optimizer_config, scheduler as scheduler_config, training
 
-def trainig_loop(model, num_epochs, train_loader, val_loader, criterion, optimizer, scheduler,save_best_model=True):
-    # Initialize the early stopping object
-    early_stopping = EarlyStopping(patience=5 , min_delta=0.001)
+# Import custom modules
+from model import KeywordSpottingModel_with_cls
+from data_loader import load_speech_commands_dataset, TFDatasetAdapter, load_bg_noise_dataset
+from utils import set_memory_GB, print_model_size, log_to_file, plot_learning_curves
+from augmentations import add_time_shift_and_align, add_silence
+from train_utils import trainig_loop
 
-    # Training loop
-    num_epochs = num_epochs
+# Load datasets
+train_ds, val_ds, test_ds, silence_ds , info = load_speech_commands_dataset()
+bg_noise_ds = load_bg_noise_dataset()
 
-    train_accuracies = []
-    val_accuracies = []
-    train_losses = []
-    val_losses = []
+# Initialize datasets with configurations
+pytorch_train_dataset = TFDatasetAdapter(train_ds, bg_noise_ds, **dataset, augmentation=[lambda x: add_time_shift_and_align(x)])
+pytorch_val_dataset = TFDatasetAdapter(val_ds, None, **dataset, augmentation=None)
 
-    # Log new training session
-    log_to_file("\n\nNew training session\n\n")
-    # Log the model architecture
-    log_to_file(str(model))
+# Create DataLoaders
+train_loader = DataLoader(pytorch_train_dataset, **data_loader, shuffle=True)
+val_loader = DataLoader(pytorch_val_dataset, **data_loader, shuffle=False)
 
+# Initialize model
+model = KeywordSpottingModel_with_cls(**model_config).to("cuda")
 
-    for epoch in range(num_epochs):
-        model.train()
-        running_loss = 0.0
-        correct_train = 0
-        total_train = 0
+# Loss function
+criterion = nn.CrossEntropyLoss().to("cuda")
 
-        for audio, labels in tqdm(train_loader):
-            audio, labels = audio.to("cuda"), labels.to("cuda")
+# Optimizer
+base_optimizer = optim.Adam(model.parameters(), lr=optimizer_config['lr'], weight_decay=optimizer_config['weight_decay'])
+optimizer = Lookahead(base_optimizer, **optimizer_config['lookahead'])
 
-            # Forward pass
-            outputs = model(audio)
-            loss = criterion(outputs, labels)
+# Scheduler
+scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, **scheduler_config['reduce_lr_on_plateau'])
 
-            # Backward pass and optimization
-            optimizer.zero_grad()
-            loss.backward()
-            optimizer.step()
+# Training loop
+num_epochs = training['num_epochs']
+train_accuracies, val_accuracies, train_losses, val_losses = trainig_loop(model, num_epochs, train_loader, val_loader, criterion, optimizer, scheduler)
 
-            running_loss += loss.item()
-
-            # Calculate training accuracy
-            _, predicted = torch.max(outputs, 1)
-            total_train += labels.size(0)
-            correct_train += (predicted == labels).sum().item()
-
-        train_accuracy = 100 * correct_train / total_train
-        train_loss = running_loss / len(train_loader)
-        print(f'Epoch {epoch+1}/{num_epochs}, Training Loss: {train_loss}, Training Accuracy: {train_accuracy}%')
-
-        train_accuracies.append(train_accuracy)
-        train_losses.append(train_loss)
-
-        # Log training metrics
-        log_to_file(f'Epoch {epoch+1}/{num_epochs}, Training Loss: {train_loss:.4f}, Training Accuracy: {train_accuracy:.2f}%')
-
-        # # Step the scheduler
-        # scheduler.step()
-
-        # Validation
-        model.eval()
-        correct_val = 0
-        total_val = 0
-        val_loss = 0.0
-
-        with torch.no_grad():
-            for audio, labels in val_loader:
-                audio, labels = audio.to("cuda"), labels.to("cuda")
-                outputs = model(audio)
-                loss = criterion(outputs, labels)
-                val_loss += loss.item()
-
-                _, predicted = torch.max(outputs, 1)
-                total_val += labels.size(0)
-                correct_val += (predicted == labels).sum().item()
-
-        val_accuracy = 100 * correct_val / total_val
-        val_loss_avg = val_loss / len(val_loader)
-        print(f'Validation Loss: {val_loss_avg}, Validation Accuracy: {val_accuracy}%')
-        # Log validation metrics
-        log_to_file(f'Epoch {epoch+1}/{num_epochs}, Validation Loss: {val_loss_avg:.4f}, Validation Accuracy: {val_accuracy:.2f}%')
-
-        val_accuracies.append(val_accuracy)
-        val_losses.append(val_loss_avg)
-        
-        # Step the scheduler based on validation loss
-        scheduler.step(val_loss_avg)
-        print(f'Learning rate after epoch {epoch+1}: {scheduler.get_last_lr()}')
-        log_to_file(f'Learning rate after epoch {epoch+1}: {scheduler.get_last_lr()}')
-        
-        
-        # Check early stopping condition
-        if early_stopping.step(val_loss_avg):
-            print(f"Stopping training at epoch {epoch+1} due to early stopping")
-            break
-
-        # Save best model
-        
-        if save_best_model and val_loss_avg == min(val_losses):
-            torch.save(model.state_dict(), 'best_model.pth')
-            print("Best model saved")
-
-
-    log_to_file("Training complete.")
-
-    return train_accuracies, val_accuracies, train_losses, val_losses
-
-
-def train_one_epoch(model, train_loader, criterion, optimizer):
-    model.train()
-    running_loss = 0.0
-    correct_train = 0
-    total_train = 0
-
-    for audio, labels in tqdm(train_loader):
-        audio, labels = audio.to("cuda"), labels.to("cuda")
-
-        # Forward pass
-        outputs = model(audio)
-        loss = criterion(outputs, labels)
-
-        # Backward pass and optimization
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-
-        running_loss += loss.item()
-
-        # Calculate training accuracy
-        _, predicted = torch.max(outputs, 1)
-        total_train += labels.size(0)
-        correct_train += (predicted == labels).sum().item()
-
-    train_accuracy = 100 * correct_train / total_train
-    train_loss = running_loss / len(train_loader)
-    print(f'Training Loss: {train_loss}, Training Accuracy: {train_accuracy}%')
-
-    return train_accuracy, train_loss
-
-
-def learning_rate_finder_plot(model, train_loader, criterion, optimizer):
-
-    max_epochs = 10
-
-    lr_finder = torch.optim.lr_scheduler.LambdaLR(optimizer, lr_lambda=lambda epoch: 10**epoch)
-    lrs = []
-    losses = []
-
-    for epoch in range(max_epochs):
-        # Train for one epoch
-        _, train_loss = train_one_epoch(model, train_loader, criterion, optimizer)
-        
-        # Record the learning rate and the corresponding loss
-        lrs.append(optimizer.param_groups[0]['lr'])
-        losses.append(train_loss)
-        
-        # Step the learning rate
-        lr_finder.step()
-
-    plt.plot(lrs, losses)
-    plt.xscale('log')
-    plt.xlabel("Learning Rate")
-    plt.ylabel("Loss")
-    plt.show()
+# Plot results
+plot_learning_curves(train_accuracies, val_accuracies, train_losses, val_losses, save_to_file=True)

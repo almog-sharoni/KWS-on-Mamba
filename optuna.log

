@@ -304,3 +304,45 @@ Starting training with hyperparameters: {'d_state': 100, 'd_conv': 60, 'expand':
 [2024-08-23 20:54:09] 
 
 Starting training with hyperparameters: {'d_state': 94, 'd_conv': 46, 'expand': 3, 'batch_size': 126, 'dropout_rate': 0.3793330466374393, 'lr': 0.0006567416882476834}
+[2024-09-11 14:31:45] 
+
+Starting training with hyperparameters: {'d_state': 2, 'd_conv': 56, 'expand': 2, 'batch_size': 128, 'dropout_rate': 0.05707982295882242, 'n_mfcc': 13, 'n_fft': 690, 'hop_length': 427, 'n_mels': 60, 'noise_level': 0.5535832742056884, 'lr': 3.2663425830955874e-05, 'weight_decay': 0.02498782257061257}
+[2024-09-11 14:35:22] 
+
+Starting training with hyperparameters: {'d_state': 97, 'd_conv': 60, 'expand': 2, 'batch_size': 58, 'dropout_rate': 0.06413243996732321, 'n_mfcc': 36, 'n_fft': 532, 'hop_length': 284, 'n_mels': 82, 'noise_level': 0.5941986550103232, 'lr': 0.0009173964857330587, 'weight_decay': 0.0002996710650007505}
+[2024-09-11 14:46:12] 
+
+Starting training with hyperparameters: {'d_state': 26, 'd_conv': 24, 'expand': 4, 'batch_size': 108, 'dropout_rate': 0.35613530153247497, 'num_mamba_layers': 1, 'n_mfcc': 33, 'n_fft': 374, 'hop_length': 334, 'n_mels': 90, 'noise_level': 0.7918473297587714, 'lr': 0.0006308435946422954, 'weight_decay': 1.5229522220181382e-05}
+[2024-09-11 16:02:19] 
+
+Starting training with hyperparameters: {'d_state': 6, 'd_conv': 58, 'expand': 2, 'batch_size': 14, 'dropout_rate': 0.37794962031687657, 'num_mamba_layers': 2, 'n_mfcc': 31, 'n_fft': 730, 'hop_length': 628, 'n_mels': 84, 'noise_level': 0.24521650742020296, 'lr': 0.00201808443673645, 'weight_decay': 0.00022255185926136636}
+[2024-09-11 17:27:56] 
+
+Starting training with hyperparameters: {'d_state': 92, 'd_conv': 54, 'expand': 4, 'batch_size': 111, 'dropout_rate': 0.2109843773474248, 'num_mamba_layers': 4, 'n_mfcc': 39, 'n_fft': 223, 'hop_length': 349, 'n_mels': 95, 'noise_level': 0.3994427847418872, 'lr': 1.1516142380890076e-05, 'weight_decay': 9.0232705144417e-05}
+[2024-09-11 19:12:28] 
+
+Starting training with hyperparameters: {'d_state': 60, 'd_conv': 51, 'expand': 3, 'batch_size': 29, 'dropout_rate': 0.20579742377594923, 'num_mamba_layers': 3, 'n_mfcc': 18, 'n_fft': 223, 'hop_length': 339, 'n_mels': 66, 'noise_level': 0.6781646066344226, 'lr': 0.002525566225907922, 'weight_decay': 0.007074896973289784}
+[2024-09-11 19:57:56] 
+
+Starting training with hyperparameters: {'d_state': 125, 'd_conv': 20, 'expand': 3, 'batch_size': 12, 'dropout_rate': 0.24325567872483295, 'num_mamba_layers': 1, 'n_mfcc': 35, 'n_fft': 223, 'hop_length': 101, 'n_mels': 36, 'noise_level': 0.6253425984309695, 'lr': 0.003139614545274051, 'weight_decay': 0.00018251817288360555}
+[2024-09-11 20:25:47] 
+
+Starting training with hyperparameters: {'d_state': 17, 'd_conv': 26, 'expand': 4, 'batch_size': 52, 'dropout_rate': 0.12122275190535071, 'num_mamba_layers': 3, 'n_mfcc': 30, 'n_fft': 289, 'hop_length': 514, 'n_mels': 24, 'noise_level': 0.477565208059929, 'lr': 1.1595463393263164e-05, 'weight_decay': 0.021578842298975057}
+[2024-09-12 06:20:12] 
+
+Starting training with hyperparameters: {'d_state': 50, 'd_conv': 50, 'expand': 4, 'batch_size': 13, 'dropout_rate': 0.4826505589065356, 'num_mamba_layers': 4, 'n_mfcc': 25, 'n_fft': 530, 'hop_length': 352, 'n_mels': 73, 'noise_level': 0.2914175006129413, 'lr': 4.420479257975124e-05, 'weight_decay': 0.0010371546323050082}
+[2024-09-12 08:01:40] 
+
+Starting training with hyperparameters: {'d_state': 27, 'd_conv': 26, 'expand': 2, 'batch_size': 82, 'dropout_rate': 0.12687168504360508, 'num_mamba_layers': 2, 'n_mfcc': 39, 'n_fft': 781, 'hop_length': 537, 'n_mels': 77, 'noise_level': 0.641072180405637, 'lr': 0.002486832263565976, 'weight_decay': 0.07129756873669044}
+[2024-09-12 08:38:09] 
+
+Starting training with hyperparameters: {'d_state': 40, 'd_conv': 18, 'expand': 3, 'batch_size': 36, 'dropout_rate': 0.5628254652418762, 'num_mamba_layers': 1, 'n_mfcc': 17, 'n_fft': 642, 'hop_length': 564, 'n_mels': 39, 'noise_level': 0.4184660818023974, 'lr': 1.2952436958220992e-05, 'weight_decay': 7.769545727571341e-05}
+[2024-09-12 12:28:37] 
+
+Starting training with hyperparameters: {'d_state': 50, 'd_conv': 2, 'expand': 2, 'batch_size': 53, 'dropout_rate': 0.3225482703196732, 'num_mamba_layers': 1, 'n_mfcc': 13, 'n_fft': 507, 'hop_length': 182, 'n_mels': 36, 'noise_level': 0.6911439702988927, 'lr': 0.003321772598400648, 'weight_decay': 2.4357479154353572e-06}
+[2024-09-12 12:39:38] 
+
+Starting training with hyperparameters: {'d_state': 30, 'd_conv': 9, 'expand': 4, 'batch_size': 52, 'dropout_rate': 0.43488689768568184, 'num_mamba_layers': 2, 'n_mfcc': 24, 'n_fft': 324, 'hop_length': 199, 'n_mels': 24, 'noise_level': 0.10064039194562079, 'lr': 0.0020479167013737463, 'weight_decay': 4.477276762962096e-06}
+[2024-09-12 12:48:25] 
+
+Starting training with hyperparameters: {'d_state': 23, 'd_conv': 5, 'expand': 4, 'batch_size': 13, 'dropout_rate': 0.6465135462586504, 'num_mamba_layers': 2, 'n_mfcc': 23, 'n_fft': 388, 'hop_length': 216, 'n_mels': 62, 'noise_level': 0.6107235364231854, 'lr': 0.0003090172888497087, 'weight_decay': 9.451363521663277e-06}
