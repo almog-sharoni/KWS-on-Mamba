@@ -147,6 +147,9 @@ def plot_learning_curves(train_accuracies, val_accuracies, train_losses, val_los
   plt.yticks(yticks)
   plt.grid(True)
   plt.show()
+  if save_to_file:
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    plt.savefig(f'plots/learning_curves_acc{timestamp}.png')
   plt.clf()
 
   plt.plot(epochs, train_losses, 'r', label='Training Loss')
@@ -156,7 +159,7 @@ def plot_learning_curves(train_accuracies, val_accuracies, train_losses, val_los
   plt.grid(True)
   if save_to_file:
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    plt.savefig(f'plots/learning_curves_{timestamp}.png')
+    plt.savefig(f'plots/learning_curves_loss{timestamp}.png')
   plt.show()
   
 # Function to plot the distribution of labels in a dataset  
