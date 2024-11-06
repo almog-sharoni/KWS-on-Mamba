@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Docker Debug",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "/path/to/your/script.py", // Adjust this to the path inside your Docker container
+      "console": "integratedTerminal",
+      "justMyCode": false, // To debug external libraries if needed
+          "pathMappings": [
+        {
+          "localRoot": "${workspaceFolder}",
+          "remoteRoot": "/workspace" // Path to the code directory inside the container
+        }
+      ]
+    }
+  ]
+}
