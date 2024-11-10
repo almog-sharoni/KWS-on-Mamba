@@ -1,0 +1,109 @@
+[2024-11-06 12:54:14] 
+
+New training session
+
+
+[2024-11-06 12:54:14] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=51, bias=True)
+  (quant): QuantStub()
+  (dequant): DeQuantStub()
+  (layer_norms): ModuleList(
+    (0-1): 2 x RMSNorm((51,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=51, out_features=10, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+[2024-11-10 08:30:54] 
+
+New training session
+
+
+[2024-11-10 08:30:54] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=51, bias=True)
+  (quant): QuantStub()
+  (dequant): DeQuantStub()
+  (layer_norms): ModuleList(
+    (0-1): 2 x RMSNorm((51,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=51, out_features=10, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+[2024-11-10 08:31:43] 
+
+New training session
+
+
+[2024-11-10 08:31:43] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=51, bias=True)
+  (quant): QuantStub()
+  (dequant): DeQuantStub()
+  (layer_norms): ModuleList(
+    (0-1): 2 x RMSNorm((51,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=51, out_features=10, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+[2024-11-10 08:34:36] 
+
+New training session
+
+
+[2024-11-10 08:34:36] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=51, bias=True)
+  (quant): QuantStub()
+  (dequant): DeQuantStub()
+  (layer_norms): ModuleList(
+    (0-1): 2 x RMSNorm((51,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=51, out_features=10, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+[2024-11-10 08:34:55] 
+
+New training session
+
+
+[2024-11-10 08:34:55] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=51, bias=True)
+  (quant): QuantStub()
+  (dequant): DeQuantStub()
+  (layer_norms): ModuleList(
+    (0-1): 2 x RMSNorm((51,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=51, out_features=10, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+[2024-11-10 08:38:49] 
+
+New training session
+
+
+[2024-11-10 08:38:49] KeywordSpottingModel_with_cls(
+  (proj): Linear(in_features=39, out_features=51, bias=True)
+  (quant): QuantStub()
+  (dequant): DeQuantStub()
+  (layer_norms): ModuleList(
+    (0-1): 2 x RMSNorm((51,), eps=None, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=51, out_features=10, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)
+[2024-11-10 08:40:45] Epoch 1/100, Training Loss: 2.3032, Training Accuracy: 9.89%
+[2024-11-10 08:40:58] Epoch 1/100, Validation Loss: 2.3019, Validation Accuracy: 10.18%
+[2024-11-10 08:40:58] Learning rate after epoch 1: [0.0024]
+[2024-11-10 08:42:44] Epoch 2/100, Training Loss: 2.3027, Training Accuracy: 10.19%
+[2024-11-10 08:42:58] Epoch 2/100, Validation Loss: 2.3021, Validation Accuracy: 10.72%
+[2024-11-10 08:42:58] Learning rate after epoch 2: [0.0024]
+[2024-11-10 08:44:53] Epoch 3/100, Training Loss: 2.3026, Training Accuracy: 10.32%
+[2024-11-10 08:45:06] Epoch 3/100, Validation Loss: 2.3023, Validation Accuracy: 10.72%
+[2024-11-10 08:45:06] Learning rate after epoch 3: [0.0024]
+[2024-11-10 08:47:04] Epoch 4/100, Training Loss: 2.3026, Training Accuracy: 10.30%
+[2024-11-10 08:47:19] Epoch 4/100, Validation Loss: 2.3020, Validation Accuracy: 10.72%
+[2024-11-10 08:47:19] Learning rate after epoch 4: [0.0024]
+[2024-11-10 08:49:20] Epoch 5/100, Training Loss: 2.3026, Training Accuracy: 10.49%
+[2024-11-10 08:49:34] Epoch 5/100, Validation Loss: 2.3020, Validation Accuracy: 10.72%
+[2024-11-10 08:49:34] Learning rate after epoch 5: [0.00023999999999999998]
+[2024-11-10 08:51:35] Epoch 6/100, Training Loss: 2.3023, Training Accuracy: 10.49%
+[2024-11-10 08:51:48] Epoch 6/100, Validation Loss: 2.3020, Validation Accuracy: 10.72%
+[2024-11-10 08:51:48] Learning rate after epoch 6: [0.00023999999999999998]
+[2024-11-10 08:51:48] Training complete.
