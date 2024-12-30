@@ -1,7 +1,14 @@
 import torch
 import numpy as np
 import thop
-from mamba_ssm import Mamba
+# from mamba_ssm import Mamba
+import sys
+
+sys.path.append('mambaPy/mamba.py')
+# from mamba_simple import MambaQuantized as Mamba
+import mambapy
+from mambapy import mamba as Mamba
+
 from datetime import datetime
 from matplotlib import pyplot as plt
 from collections import Counter

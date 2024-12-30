@@ -1,10 +1,40 @@
 import torch.nn as nn
 import sys
 ## import Mamba from mamba/mamba_ssm/modules/mamba_simple.py
-sys.path.append('mamba/mamba_ssm/modules')
+sys.path.append('mambaPy/mamba.py')
 # from mamba_simple import MambaQuantized as Mamba
-from mamba_simple import Mamba
+# import mambapy
+from mambapy.mamba import MambaBlock as Mamba
+from mambapy.mamba import MambaConfig
 import torch
+
+# class MambaConfig:
+#     d_model: int # D
+#     n_layers: int
+#     dt_rank: Union[int, str] = 'auto'
+#     d_state: int = 16 # N in paper/comments
+#     expand_factor: int = 2 # E in paper/comments
+#     d_conv: int = 4
+
+#     dt_min: float = 0.001
+#     dt_max: float = 0.1
+#     dt_init: str = "random" # "random" or "constant"
+#     dt_scale: float = 1.0
+#     dt_init_floor = 1e-4
+
+#     rms_norm_eps: float = 1e-5
+#     base_std: float = 0.02
+
+#     bias: bool = False
+#     conv_bias: bool = True
+#     inner_layernorms: bool = False # apply layernorms to internal activations
+
+#     mup: bool = False
+#     mup_base_width: float = 128 # width=d_model
+
+#     pscan: bool = True # use parallel scan mode or sequential mode when training
+#     use_cuda: bool = False # use official CUDA implementation when training (not compatible with (b)float16)
+
 
 # Define model architecture
 class KeywordSpottingModel(nn.Module):
@@ -16,8 +46,10 @@ class KeywordSpottingModel(nn.Module):
         self.mamba_layers = nn.ModuleList()
         self.layer_norms = nn.ModuleList()
 
+        mamba_config = MambaConfig(d_model=d_model, n_layers=1, d_state=d_state, expand_factor=expand, d_conv=d_conv)
+
         for _ in range(num_mamba_layers):
-            self.mamba_layers.append(Mamba(d_model=d_model, d_state=d_state, d_conv=d_conv, expand=expand))
+            self.mamba_layers.append(Mamba(mamba_config))
             self.layer_norms.append(nn.modules.normalization.RMSNorm(d_model))
 
         self.fc = nn.Linear(d_model, len(label_names))  # Output layer

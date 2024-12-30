@@ -3,7 +3,7 @@ from src.utils.utils import log_to_file, EarlyStopping
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 
-def trainig_loop(model, num_epochs, train_loader, val_loader, criterion, optimizer, scheduler,save_best_model=True):
+def trainig_loop(model, num_epochs, train_loader, val_loader, criterion, optimizer, scheduler,save_best_model=True,device="cpu"):
     # Initialize the early stopping object
     early_stopping = EarlyStopping(patience=5 , min_delta=0.00001)
 
@@ -28,7 +28,7 @@ def trainig_loop(model, num_epochs, train_loader, val_loader, criterion, optimiz
         total_train = 0
 
         for audio, labels in tqdm(train_loader):
-            audio, labels = audio.to("cuda"), labels.to("cuda")
+            audio, labels = audio.to('mps'), labels.to('mps')
 
             # Forward pass
             outputs = model(audio)
@@ -67,7 +67,7 @@ def trainig_loop(model, num_epochs, train_loader, val_loader, criterion, optimiz
 
         with torch.no_grad():
             for audio, labels in val_loader:
-                audio, labels = audio.to("cuda"), labels.to("cuda")
+                audio, labels = audio.to("mps"), labels.to("mps")
                 outputs = model(audio)
                 loss = criterion(outputs, labels)
                 val_loss += loss.item()
