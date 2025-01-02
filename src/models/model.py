@@ -1,7 +1,8 @@
 import torch.nn as nn
 import sys
 ## import Mamba from mamba/mamba_ssm/modules/mamba_simple.py
-sys.path.append('mambaPy/mamba.py')
+## import Mamba from mamba/mamba_ssm/modules/mamba_simple.py
+sys.path.append('/Users/lmwgsrwny/Documents/KWS-on-Mamba/mambaPy/mamba.py')
 # from mamba_simple import MambaQuantized as Mamba
 # import mambapy
 from mambapy.mamba import MambaBlock as Mamba
@@ -85,16 +86,18 @@ class KeywordSpottingModel_with_cls(nn.Module):
         self.cls_token = nn.Parameter(torch.zeros(1, 1, d_model))
         
         # Quantization stubs
-        self.quant = torch.quantization.QuantStub()  # Quantize the input
-        self.dequant = torch.quantization.DeQuantStub()  # Dequantize output if needed
+        # self.quant = torch.quantization.QuantStub()  # Quantize the input
+        # self.dequant = torch.quantization.DeQuantStub()  # Dequantize output if needed
         
         # Stack multiple Mamba layers with RMSNorm layer
         self.mamba_layers = nn.ModuleList()
         self.layer_norms = nn.ModuleList()
 
+        mamba_config = MambaConfig(d_model=d_model, n_layers=1, d_state=d_state, expand_factor=expand, d_conv=d_conv)
+
         for _ in range(num_mamba_layers):
-            self.mamba_layers.append(Mamba(d_model=d_model, d_state=d_state, d_conv=d_conv, expand=expand))
-            self.layer_norms.append(nn.modules.normalization.RMSNorm(d_model))
+            self.mamba_layers.append(Mamba(mamba_config))
+            self.layer_norms.append(nn.LayerNorm(normalized_shape=d_model, eps=1e-5))
 
         # Output layer
         self.fc = nn.Linear(d_model, len(label_names))  

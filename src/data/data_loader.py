@@ -69,8 +69,7 @@ class TFDatasetAdapter(Dataset):
 
     def __getitem__(self, idx):
         audio, label = self.data[idx]
-        audio = audio
-
+        audio = audio.numpy().astype(np.float32)
         # Normalize the audio tensor
         audio = audio / np.max(np.abs(audio))
 

@@ -11,11 +11,12 @@ dataset = {
 
 data_loader = {
     'batch_size': configs['batch_size'],  # Use from configs
-    'num_workers': 4,
-    'prefetch_factor': 2
+    'num_workers': 0,
+    # 'prefetch_factor': 2
 }
 # input_dim=n_mfcc*3, 
 # d_model= (16000 // hop_length) + 1 + 1  ,
+# __init__(self, input_dim, d_model, d_state, d_conv, expand, label_names, num_mamba_layers=1):
 model = {
 
     'input_dim': configs['n_mfcc'] * 3,  # Use from configs
@@ -23,9 +24,10 @@ model = {
     'd_state': configs['d_state'],  # Use from configs
     'd_conv': configs['d_conv'],    # Use from configs
     'expand': configs['expand'],    # Use from configs
+    'label_names': ['down', 'go', 'left', 'no', 'off', 'on', 'right', 'stop', 'up', 'yes'],
     'num_mamba_layers': configs['num_mamba_layers'],  # Use from configs
-    'dropout_rate': configs['dropout_rate'],  # Use from configs
-    'label_names': ['down', 'go', 'left', 'no', 'off', 'on', 'right', 'stop', 'up', 'yes']
+    # 'dropout_rate': configs['dropout_rate'],  # Use from configs
+
     # 'label_names': ['down', 'go', 'left', 'no', 'off', 'on', 'right', 'stop', 'up', 'yes','silence','unknown']
 }
 
